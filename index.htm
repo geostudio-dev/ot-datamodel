@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ordenamiento Territorial</title>
+<link href="css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+const guid_look = new Map([['E6C89732-FBDC-4908-A018-978309A979AA', 'EA1.htm'],
+['50CF5310-405B-4549-8525-ED226D393B25', 'EA3.htm'],
+['1310A63C-E292-47DD-85F3-A7A2710BBF4B', 'EA4.htm'],
+['9D100664-D258-41B6-9F0B-0F29F388777A', 'EA5.htm'],
+['1310A63C-E292-47DD-85F3-A7A2710BBF4B', 'EA1/EA6.htm'],
+['50FE27BF-1C34-40B8-939D-B7B818F57C1C', 'EA1/EA7.htm'],
+['7E614E02-4A87-4F11-A4A7-9C5A60DB32F0', 'EA1/EA1/EA8.htm'],
+['50FE27BF-1C34-40B8-939D-B7B818F57C1C', 'EA1/EA1/EA10.htm'],
+['36728F53-973D-4AB6-86D8-4394EB90B18F', 'EA1/EA1/EA11.htm'],
+['80944BD0-2271-4CBE-8CCF-F1CE32504DB5', 'EA1/EA1/EA12.htm'],
+['AB226873-8E56-4CF9-99A8-27850F96CBAC', 'EA1/EA1/EA13.htm'],
+['247EE670-2051-40D0-98F3-ABBE83F15168', 'EA1/EA1/EA14.htm'],
+['5828537C-7AFD-4743-97FF-F337E4809ED7', 'EA1/EA1/EA15.htm'],
+['D224C764-A583-4DB1-B711-6D2B2019A815', 'EA1/EA1/EA16.htm'],
+['8F194175-7057-4D6B-A13E-F02B09F56EA8', 'EA1/EA1/EA17.htm'],
+['A8465EB0-C468-4D9F-90B8-B159717889B0', 'EA1/EA1/EA18.htm'],
+['3031D42C-C606-40FE-9A17-9E94CCB5BB63', 'EA1/EA1/EA19.htm'],
+['ACAAE4EB-06DD-49C3-BE42-8483B615AD08', 'EA1/EA1/EA20.htm'],
+['5C1309B4-807F-4E76-9786-B57E6C81C64D', 'EA2/EA21.htm'],
+['9D100664-D258-41B6-9F0B-0F29F388777A', 'EA2/EA23.htm'],
+['FFF96C2C-7EA5-4BD3-84FC-6C05DBD91FD9', 'EA2/EA24.htm'],
+]);
+
+		function switchProjectProperties()
+		{
+			if (document.getElementById("proj00").style.display == "none")
+			{
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			}
+			else
+			{
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+		}
+
+		function switchAdvancedProperties()
+		{
+
+			if (document.getElementById("adv00").style.display == "none")
+			{
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			}
+			else
+			{
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+
+		function initPage()
+        {
+			const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const guidlink = urlParams.get('guid');
+
+            if (guidlink != null)
+            {
+                var link = guidlink.toUpperCase();
+                var pageredir = guid_look.get(link);
+
+                if (pageredir != null)
+				{
+                    window.location.replace("EARoot/" + pageredir);
+                    return;
+                }
+            }
+
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++)
+			{
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Ordenamiento Territorial </h1>
+			<img class="header_image" src="images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p></p>
+		</div>
+		
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="images/4.png" alt="Package"/> <a href="./EARoot/EA1/EA6.htm">Zonificación</a></li>
+<li><img src="images/4.png" alt="Package"/> <a href="./EARoot/EA2/EA23.htm">Spatial References</a></li>
+<li><img src="images/175.png" alt="Diagram"/> <a href="./EARoot/EA1.htm">Ordenamiento Territorial - Workspace</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell">	
+						<div class="welcome_message">
+						<h2>Welcome to your model</h2>
+						<p>To get started navigate through the model via the index on the left</p> 
+						</div>
+						<div class="PageBody">
+	<div class="diagram_image"> 
+<img src="./EARoot/EA2.png" usemap="#EA2" border="0" />
+
+<MAP NAME="EA2">
+<area shape="rect" coords="305,100,450,190" href="./EARoot/EA2/EA21.htm" target="_self">
+<area shape="rect" coords="10,10,155,100" href="./EARoot/EA1/EA6.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Ordenamiento Territorial - Workspace : ArcGIS diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">13/10/2023 9:27:42 a. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">20/10/2023 4:14:14 a. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="./images//plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Juan David Linares Santana</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="./images//plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{E6C89732-FBDC-4908-A018-978309A979AA}</td>
+		</tr>
+	</table>
+	
+</div>
+
+
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+
+</div>
+</body>
+</html>
