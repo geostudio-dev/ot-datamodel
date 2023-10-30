@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "cubertura_uso_suelo", "EARoot/EA2/EA1/EA55.htm", "175.png", "15", "0", "", "Logical diagram0","{36D10F1A-645B-4950-A9DE-02053E83E69D}");
+tocTab[tocTab.length] = new Array("0.2.1:2", "", "«Polygon» corine_land_cover", "EARoot/EA2/EA1/EA58.htm", "5.png", "E63", "0", "", "Class0","{9556D79C-1C43-4c48-8D9C-09CC4A5E93EF}");
+tocTab[tocTab.length] = new Array("0.2.1:3", "", "«Polygon» lulc_change", "EARoot/EA2/EA1/EA59.htm", "5.png", "E64", "0", "", "Class0","{9B0D53F2-E118-47ba-B732-5F9BC95C0580}");

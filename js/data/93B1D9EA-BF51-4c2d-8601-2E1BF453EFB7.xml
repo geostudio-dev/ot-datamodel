@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.8:1", "", "Spatial References", "EARoot/EA8/EA244.htm", "175.png", "8", "0", "", "Logical diagram0","{0AAA0F1E-6A75-49d0-BA21-91C7B6270AF1}");
+tocTab[tocTab.length] = new Array("0.8:2", "", "«SpatialReference» Spatial Reference UTM", "EARoot/EA8/EA247.htm", "5.png", "E19", "0", "", "Class0","{37D9F714-76AF-4db8-99CB-9D5E7EE8C14C}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.3:1", "", "hidrografia", "EARoot/EA2/EA3/EA64.htm", "175.png", "22", "0", "", "Logical diagram0","{3B441C65-A291-4427-93B1-C600948819DB}");
+tocTab[tocTab.length] = new Array("0.2.3:2", "", "«Polyline» canales_riego", "EARoot/EA2/EA3/EA67.htm", "5.png", "E75", "0", "", "Class0","{4B935E75-CF3B-40bd-9F51-7923CF3EC043}");
+tocTab[tocTab.length] = new Array("0.2.3:3", "", "«Polygon» cuerpos_agua", "EARoot/EA2/EA3/EA68.htm", "5.png", "E73", "0", "", "Class0","{91CE7BC1-B038-4e06-B7C2-51A7D6F8C74F}");
+tocTab[tocTab.length] = new Array("0.2.3:4", "", "«Polyline» rios", "EARoot/EA2/EA3/EA69.htm", "5.png", "E76", "0", "", "Class0","{2CCC3DA5-9A78-401d-89B5-62FCFA01B130}");

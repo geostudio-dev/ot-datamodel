@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.2.4:1", "", "limites", "EARoot/EA2/EA4/EA70.htm", "175.png", "16", "0", "", "Logical diagram0","{2E839DC8-AC37-45a3-986D-BAE1BF8798D1}");
+tocTab[tocTab.length] = new Array("0.2.4:2", "", "«Polygon» barrios", "EARoot/EA2/EA4/EA73.htm", "5.png", "E78", "0", "", "Class0","{50BC2E8D-93AF-4e00-812F-4BE2445EE1B9}");
+tocTab[tocTab.length] = new Array("0.2.4:3", "", "«Polygon» distritos", "EARoot/EA2/EA4/EA74.htm", "5.png", "E77", "0", "", "Class0","{A2C62DAD-595D-4fd2-9FF5-BE78360F7F24}");
+tocTab[tocTab.length] = new Array("0.2.4:4", "", "«Polyline» linea_frontera", "EARoot/EA2/EA4/EA75.htm", "5.png", "E56", "0", "", "Class0","{6A2B92C5-730C-462c-A3BA-6BF0C5210946}");
+tocTab[tocTab.length] = new Array("0.2.4:5", "", "«Polygon» municipios", "EARoot/EA2/EA4/EA76.htm", "5.png", "E58", "0", "", "Class0","{E3A4582D-0B42-48df-B2EE-384194B10075}");
+tocTab[tocTab.length] = new Array("0.2.4:6", "", "«Polygon» perimetro_urbano", "EARoot/EA2/EA4/EA77.htm", "5.png", "E79", "0", "", "Class0","{3F817EE1-698B-41e1-A406-A674BD8C74CD}");
+tocTab[tocTab.length] = new Array("0.2.4:7", "", "«Polygon» provincias", "EARoot/EA2/EA4/EA78.htm", "5.png", "E59", "0", "", "Class0","{A9259DD7-C0FD-4767-BAAB-89B4294E3D06}");
+tocTab[tocTab.length] = new Array("0.2.4:8", "", "«Polygon» regiones", "EARoot/EA2/EA4/EA79.htm", "5.png", "E57", "0", "", "Class0","{16101A12-8F3D-4d2d-922E-6BD19EEBA205}");
+tocTab[tocTab.length] = new Array("0.2.4:9", "", "«Polygon» secciones", "EARoot/EA2/EA4/EA80.htm", "5.png", "E55", "0", "", "Class0","{BBA36757-9BE0-4176-BE33-53D207645A9F}");

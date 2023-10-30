@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "agroforestal", "EARoot/EA1/EA1/EA19.htm", "175.png", "41", "0", "", "Logical diagram0","{24C4CECB-7120-415c-B11D-3721C4270BD5}");
+tocTab[tocTab.length] = new Array("0.1.1:2", "", "«Polygon» aridez", "EARoot/EA1/EA1/EA22.htm", "5.png", "E169", "0", "", "Class0","{07845635-9232-4c75-B78D-C7FC26C9BAB3}");
+tocTab[tocTab.length] = new Array("0.1.1:3", "", "«Polygon» capacidad_productiva", "EARoot/EA1/EA1/EA23.htm", "5.png", "E171", "0", "", "Class0","{635AE8B0-8470-4c61-AFFE-C69175D517A2}");
+tocTab[tocTab.length] = new Array("0.1.1:4", "", "«Polygon» uso_vocacion_concflicto", "EARoot/EA1/EA1/EA24.htm", "5.png", "E170", "0", "", "Class0","{AE7353D6-F06B-4fe6-9089-312BCC01EAC0}");

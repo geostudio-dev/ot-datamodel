@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.2.7:1", "", "transporte", "EARoot/EA2/EA7/EA89.htm", "175.png", "18", "0", "", "Logical diagram0","{EF77F5A6-02A4-47b6-BFAD-3B1530D2DD6A}");
+tocTab[tocTab.length] = new Array("0.2.7:2", "", "«Polyline» ferreas", "EARoot/EA2/EA7/EA92.htm", "5.png", "E82", "0", "", "Class0","{CA5BD3A6-C761-448e-94BE-7A464E2CD114}");
+tocTab[tocTab.length] = new Array("0.2.7:3", "", "«Multipoint» puentes", "EARoot/EA2/EA7/EA93.htm", "5.png", "E81", "0", "", "Class0","{56496819-EF61-415f-94FE-6F594CD08737}");
+tocTab[tocTab.length] = new Array("0.2.7:4", "", "«Multipoint» puertos", "EARoot/EA2/EA7/EA94.htm", "5.png", "E80", "0", "", "Class0","{D5C3838F-9BCB-49a4-A3D0-50EFFBA382E2}");
+tocTab[tocTab.length] = new Array("0.2.7:5", "", "«Polyline» vias", "EARoot/EA2/EA7/EA95.htm", "5.png", "E61", "0", "", "Class0","{5E60EEE0-072B-48fe-B5AB-9AE5CAC1B3A9}");
