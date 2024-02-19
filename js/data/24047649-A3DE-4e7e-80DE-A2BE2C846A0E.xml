@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1:1", "", "Ambiente", "EARoot/EA1/EA12.htm", "175.png", "10", "0", "", "Logical diagram0","{B968342D-4CC4-47ad-8A7B-456B488CC4E9}");
-tocTab[tocTab.length] = new Array("0.1.1", "1", "«FeatureDataset» agroforestal", "EARoot/EA1/EA1/EA21.htm", "4.png", "", "", "{0D62A94D-285A-4edb-8F2E-D614260C811D}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "«FeatureDataset» areas_protegidas", "EARoot/EA1/EA2/EA27.htm", "4.png", "", "", "{60A36815-188A-484e-B30B-AFD3A31B8452}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3", "1", "«FeatureDataset» paisaje", "EARoot/EA1/EA3/EA34.htm", "4.png", "", "", "{8FE7A350-F960-4f13-922B-2A1CE9CC7924}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4", "1", "«FeatureDataset» sistema_hidrico", "EARoot/EA1/EA4/EA39.htm", "4.png", "", "", "{8EFF8C66-DFE2-415d-BFBD-85948675AD7F}", "Package");

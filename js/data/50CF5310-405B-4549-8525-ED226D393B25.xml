@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0:1", "", "Ordenamiento Territorial - Workspace", "EARoot/EA1.htm", "175.png", "1", "0", "", "Logical diagram0","{E6C89732-FBDC-4908-A018-978309A979AA}");
-tocTab[tocTab.length] = new Array("0.1", "1", "«FeatureDataset» Zonificación", "EARoot/EA1/EA6.htm", "4.png", "", "", "{1310A63C-E292-47dd-85F3-A7A2710BBF4B}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "Spatial References", "EARoot/EA2/EA23.htm", "4.png", "", "", "{9D100664-D258-41b6-9F0B-0F29F388777A}", "Package");

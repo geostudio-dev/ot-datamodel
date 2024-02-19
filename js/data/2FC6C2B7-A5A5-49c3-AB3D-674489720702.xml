@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.2.5.1:1", "", "Summary diagram: Names", "EARoot/EA3/EA2/EA5/EA1/EA524.htm", "175.png", "83", "0", "", "Logical diagram0","{2F63F390-9547-447e-BD77-5CBB04AA5864}");
+tocTab[tocTab.length] = new Array("0.3.2.5.1:2", "", "«Enumeration» IETF-RFC3066-Code", "EARoot/EA3/EA2/EA5/EA1/EA527.htm", "247.png", "E198", "0", "", "Class0","{009D79A2-CA8F-4eb8-BFBC-115EACFEA760}");
+tocTab[tocTab.length] = new Array("0.3.2.5.1:3", "", "«PrimitiveType» LocalizableGenericName", "EARoot/EA3/EA2/EA5/EA1/EA528.htm", "5.png", "E199", "0", "", "Class0","{23A62944-8384-4c53-8147-1C92D2E697AE}");
+tocTab[tocTab.length] = new Array("0.3.2.5.1:4", "", "«PrimitiveType» LocalizableScopedName", "EARoot/EA3/EA2/EA5/EA1/EA529.htm", "5.png", "E200", "0", "", "Class0","{CA4319AE-4100-41ee-BA12-B8919005C8F8}");
+tocTab[tocTab.length] = new Array("0.3.2.5.1:5", "", "«PrimitiveType» LocalizedGenericName", "EARoot/EA3/EA2/EA5/EA1/EA530.htm", "5.png", "E201", "0", "", "Class0","{333AE391-EA3D-4f39-AF64-2E310C9C00A2}");
+tocTab[tocTab.length] = new Array("0.3.2.5.1:6", "", "«PrimitiveType» LocalizedScopedName", "EARoot/EA3/EA2/EA5/EA1/EA531.htm", "5.png", "E202", "0", "", "Class0","{DB9E3976-63A2-4d85-8267-E98C8CA3158C}");

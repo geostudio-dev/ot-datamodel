@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Context Diagram: stringOrNilReason</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Context Diagram: stringOrNilReason </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA722.htm">ISO TC211</a> / <a href="../EA5370.htm">ISO 19136 GML</a> / <a href="EA5447.htm">basicTypes</a> / <a href="EA5439.htm">Context Diagram: stringOrNilReason</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5389.htm">Context Diagram: booleanList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5391.htm">Context Diagram: booleanOrNilReason</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5393.htm">Context Diagram: booleanOrNilReasonList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5395.htm">Context Diagram: Code</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5397.htm">Context Diagram: CodeList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5399.htm">Context Diagram: CodeOrNilReasonList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5401.htm">Context Diagram: Coordinates</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5403.htm">Context Diagram: doubleList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5405.htm">Context Diagram: doubleOrNilReason</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5407.htm">Context Diagram: doubleOrNilReasonList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5409.htm">Context Diagram: integerList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5411.htm">Context Diagram: integerOrNilReason</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5413.htm">Context Diagram: integerOrNilReasonList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5415.htm">Context Diagram: MeasureList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5417.htm">Context Diagram: MeasureOrNilReason</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5419.htm">Context Diagram: MeasureOrNilReasonList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5421.htm">Context Diagram: NameList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5423.htm">Context Diagram: NameOrNilReason</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5425.htm">Context Diagram: NameOrNilReasonList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5427.htm">Context Diagram: NCNameList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5429.htm">Context Diagram: NilReason</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5431.htm">Context Diagram: NilReasonEnumeration</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5433.htm">Context Diagram: PositiveInteger</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5435.htm">Context Diagram: QNameList</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5437.htm">Context Diagram: Sign</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5439.htm">Context Diagram: stringOrNilReason</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5441.htm">Context Diagram: URI</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5443.htm">Figure D.41 ? Simple Types</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5445.htm">Figure D.42 ? Lists</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5449.htm">booleanList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5450.htm">booleanOrNilReason</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5451.htm">booleanOrNilReasonList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5452.htm">Code</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5453.htm">CodeList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5454.htm">CodeOrNilReasonList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5455.htm">Coordinates</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5456.htm">doubleList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5457.htm">doubleOrNilReason</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5458.htm">doubleOrNilReasonList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5459.htm">integerList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5460.htm">integerOrNilReason</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5461.htm">integerOrNilReasonList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5462.htm">MeasureList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5463.htm">MeasureOrNilReason</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5464.htm">MeasureOrNilReasonList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5465.htm">NameList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5466.htm">NameOrNilReason</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5467.htm">NameOrNilReasonList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5468.htm">NCNameList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5469.htm">NilReason</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5470.htm">NilReasonEnumeration</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5471.htm">PositiveInteger</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5472.htm">QNameList</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5474.htm">stringOrNilReason</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5475.htm">URI</a></li>
+<li><img src="../../../../../images/247.png" alt="Class"/> <a href="EA5473.htm">Sign</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA5440.png" usemap="#EA5440" border="0" />
+
+<MAP NAME="EA5440">
+<area shape="rect" coords="243,162,507,399" href="../../EA7/EA1/EA3/EA5/EA1866.htm" target="_self">
+<area shape="rect" coords="10,10,144,92" href="EA5474.htm" target="_self">
+<area shape="rect" coords="342,29,478,114" href="EA5469.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Context Diagram: stringOrNilReason : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:17:05 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">21/10/2010 10:02:32 a. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">friisan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{741CDD47-CFC2-4ae5-878F-CDACFF194F8B}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

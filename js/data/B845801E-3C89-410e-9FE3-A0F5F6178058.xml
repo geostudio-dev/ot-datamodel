@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.3.24.2.5:1", "", "Fig 30: Context Diagram: LBS_UserProfileService", "EARoot/EA3/EA3/EA24/EA2/EA5/EA4320.htm", "175.png", "1310", "0", "", "Logical diagram0","{9CC381F7-0D86-4965-B65B-59EC42219C88}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.5:2", "", "Fig 31: Context Diagram: LBS_LocationTriggerControl", "EARoot/EA3/EA3/EA24/EA2/EA5/EA4322.htm", "175.png", "1311", "0", "", "Logical diagram0","{14F2401D-5595-47c5-B739-0359900094F4}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.5:3", "", "Main", "EARoot/EA3/EA3/EA24/EA2/EA5/EA4324.htm", "175.png", "1309", "0", "", "Logical diagram0","{86C735CE-887A-4362-B1F0-90148127BBBE}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.5:4", "", "«type» LBS_LocationTriggerControl", "EARoot/EA3/EA3/EA24/EA2/EA5/EA4327.htm", "5.png", "E1401", "0", "", "Class0","{CCBAEDB9-CBF6-4a1a-A08B-D8208DB916F0}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.5:5", "", "«type» LBS_UserProfileService", "EARoot/EA3/EA3/EA24/EA2/EA5/EA4328.htm", "5.png", "E1402", "0", "", "Class0","{80E252A8-3372-49ba-8D87-ADF801552158}");

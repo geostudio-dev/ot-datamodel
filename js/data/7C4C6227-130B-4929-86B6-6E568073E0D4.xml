@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.2.3.1:1", "", "plan_regulador_ciudad_colonial", "EARoot/EA2/EA3/EA1/EA149.htm", "175.png", "2196", "0", "", "Logical diagram0","{8F28F25C-D5A4-4e1c-A840-178D78C5A51C}");
+tocTab[tocTab.length] = new Array("0.2.3.1:2", "", "«FeatureType» ambito_ciudad_colonial", "EARoot/EA2/EA3/EA1/EA152.htm", "5.png", "E2835", "0", "", "Class0","{7F97ACA9-05EF-48a7-B56C-73E2A5DEE80F}");
+tocTab[tocTab.length] = new Array("0.2.3.1:3", "", "«FeatureType» clasifica_inmuebles", "EARoot/EA2/EA3/EA1/EA153.htm", "5.png", "E2840", "0", "", "Class0","{7E0E96D4-C7EB-4f9e-BBD8-FE8C1EDFAA3F}");
+tocTab[tocTab.length] = new Array("0.2.3.1:4", "", "«FeatureType» tratamientos", "EARoot/EA2/EA3/EA1/EA154.htm", "5.png", "E2841", "0", "", "Class0","{7DFD0E33-A83A-451b-8556-AE66954393BB}");
+tocTab[tocTab.length] = new Array("0.2.3.1:5", "", "«FeatureType» usos", "EARoot/EA2/EA3/EA1/EA155.htm", "5.png", "E2838", "0", "", "Class0","{C93BE8AB-94E3-4620-9A62-88FE572133B2}");
+tocTab[tocTab.length] = new Array("0.2.3.1:6", "", "«FeatureType» zona_amortiguamiento", "EARoot/EA2/EA3/EA1/EA156.htm", "5.png", "E2833", "0", "", "Class0","{91B9F63B-5C8B-4a5d-83FD-2C42504A33A9}");
+tocTab[tocTab.length] = new Array("0.2.3.1:7", "", "«FeatureType» zonificacion", "EARoot/EA2/EA3/EA1/EA157.htm", "5.png", "E2839", "0", "", "Class0","{C29DEC9B-526C-48c3-B7DF-45793272349F}");

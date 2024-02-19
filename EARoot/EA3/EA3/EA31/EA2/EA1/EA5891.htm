@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fig 03 LCML_LandCoverClassStructure</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fig 03 LCML_LandCoverClassStructure </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.htm">Model</a> / <a href="../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../EA722.htm">ISO TC211</a> / <a href="../../EA5834.htm">ISO 19144 Classification</a> / <a href="../EA5878.htm">ISO 19144-2 LCML</a> / <a href="EA5895.htm">LC_LandCoverClassStructure</a> / <a href="EA5891.htm">Fig 03 LCML_LandCoverClassStructure</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5889.htm">Fig 02 LCML_HighLevelStructure</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5891.htm">Fig 03 LCML_LandCoverClassStructure</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5893.htm">Fig 04 LCML_LandCoverElementsSubtypes</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5902.htm">LC_ClassCharacteristic</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5903.htm">LC_Element</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5904.htm">LC_ElementPresenceType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5905.htm">LC_ElementRelationInSameStratum</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5906.htm">LC_ElementRelationship</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5907.htm">LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5908.htm">LC_InterStrataRelationship</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5909.htm">LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5910.htm">LC_LandCoverClassificationSystem</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5911.htm">LC_LandCoverClassificationSystemMetaLanguage</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5912.htm">LC_LandCoverDescriptor</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5913.htm">LC_OnTopType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5914.htm">LC_SequentialTemporalRelationshipType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5915.htm">LC_Stratum</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5916.htm">LC_StratumPresenceType</a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA5901.htm"></a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA5899.htm"></a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA5898.htm"></a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA5900.htm"></a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA5892.png" usemap="#EA5892" border="0" />
+
+<MAP NAME="EA5892">
+<area shape="rect" coords="291,665,500,736" href="EA5896.htm" target="_self">
+<area shape="rect" coords="10,846,588,904" href="EA5897.htm" target="_self">
+<area shape="rect" coords="541,660,636,823" href="EA5913.htm" target="_self">
+<area shape="rect" coords="471,229,805,300" href="EA5898.htm" target="_self">
+<area shape="rect" coords="472,322,806,377" href="EA5899.htm" target="_self">
+<area shape="rect" coords="291,586,636,644" href="EA5900.htm" target="_self">
+<area shape="rect" coords="471,392,805,434" href="EA5917.htm" target="_self">
+<area shape="rect" coords="398,59,810,160" href="EA5908.htm" target="_self">
+<area shape="rect" coords="410,449,754,564" href="EA5905.htm" target="_self">
+<area shape="rect" coords="10,644,216,742" href="EA5904.htm" target="_self">
+<area shape="rect" coords="10,559,216,630" href="EA5916.htm" target="_self">
+<area shape="rect" coords="10,755,216,830" href="EA5914.htm" target="_self">
+<area shape="rect" coords="10,456,334,496" href="EA5903.htm" target="_self">
+<area shape="rect" coords="10,234,334,293" href="EA5915.htm" target="_self">
+<area shape="rect" coords="10,109,334,190" href="EA5907.htm" target="_self">
+<area shape="rect" coords="10,10,334,50" href="EA5912.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fig 03 LCML_LandCoverClassStructure : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">18/02/2010 2:00:45 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">9/05/2011 4:08:58 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">AdiGregorio,CDOBrien</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{88B1ED77-C5B5-4c0b-B4B7-EB3662274FC7}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">The metaobject structure establishes the rules for the aggregation of occurrences of LC_Element, into the metaobject LC_LandCover, that when instantiated produces a class in a Land Cover Classification System. Occurences of LC_Element may be combined in layers the &lt;i&gt;stratumComposition&lt;/i&gt; relationship between LC_Element and LC_Stratum. The relationship of the LC_Elements within a layer are given by the &lt;i&gt;inSameStrataRelationship&lt;/i&gt;. Several types of relationships including a &lt;i&gt;sequentialTemporalRelationship&lt;/i&gt;, a &lt;i&gt;conditional&lt;/i&gt; relationship and an &lt;i&gt;exclusive&lt;/i&gt; (XOR) relationship may be described by the LC_ElementRelationInSameStratum association class. There may be any number of strata. The relationship between the strata are given by the &lt;i&gt;interStrataRelationship&lt;/i&gt;. Several types of relationships including a &lt;i&gt;conditional&lt;/i&gt; relationship and an &lt;i&gt;onTop&lt;/i&gt; relationship may be described. Elements in a stratum may be built upon the same baseline or they may be indicated to be on top of another stratum. &lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

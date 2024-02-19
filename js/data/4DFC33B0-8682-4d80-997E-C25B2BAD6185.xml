@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2.1.1:1", "", "escenarios", "EARoot/EA2/EA1/EA1/EA89.htm", "175.png", "2182", "0", "", "Logical diagram0","{01DFFAD3-3ABC-4612-8936-BE3BC5D85977}");
+tocTab[tocTab.length] = new Array("0.2.1.1:2", "", "«FeatureType» escenario_ideal", "EARoot/EA2/EA1/EA1/EA92.htm", "5.png", "E2807", "0", "", "Class0","{4B1A1D2E-5516-46f1-A6AB-2FF3529876D1}");
+tocTab[tocTab.length] = new Array("0.2.1.1:3", "", "«FeatureType» escenario_tendencial", "EARoot/EA2/EA1/EA1/EA93.htm", "5.png", "E2806", "0", "", "Class0","{CC3F5606-B990-4ca0-82A6-BDC7365E342D}");

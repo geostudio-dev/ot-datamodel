@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.3.3.35.9:1", "", "Figure 49: Linear Segmentation classes", "EARoot/EA3/EA3/EA35/EA9/EA6823.htm", "175.png", "2019", "0", "", "Logical diagram0","{BA3644FF-5EC8-4f58-8F7F-AE2616E71E18}");
+tocTab[tocTab.length] = new Array("0.3.3.35.9:2", "", "Figure 50: Context Diagram: LS_SegmentableFeature", "EARoot/EA3/EA3/EA35/EA9/EA6825.htm", "175.png", "2020", "0", "", "Logical diagram0","{B24285D2-61C2-419d-813B-2FB9F8826F01}");
+tocTab[tocTab.length] = new Array("0.3.3.35.9:3", "", "Figure 51: Context Diagram: LS_LinearSegmentSet", "EARoot/EA3/EA3/EA35/EA9/EA6827.htm", "175.png", "2021", "0", "", "Logical diagram0","{4E18DD53-5266-423f-A5CF-D766ACCFC978}");
+tocTab[tocTab.length] = new Array("0.3.3.35.9:4", "", "Figure 52: Context Diagram: LS_LinearSegment", "EARoot/EA3/EA3/EA35/EA9/EA6829.htm", "175.png", "2022", "0", "", "Logical diagram0","{0024D180-B68B-4b05-ADB3-FD045B4D74C4}");
+tocTab[tocTab.length] = new Array("0.3.3.35.9:5", "", "«type» LS_LinearSegment", "EARoot/EA3/EA3/EA35/EA9/EA6832.htm", "5.png", "E2396", "0", "", "Class0","{A8D468E1-071B-4ba1-A8F9-84E510AA5886}");
+tocTab[tocTab.length] = new Array("0.3.3.35.9:6", "", "«type» LS_LinearSegmentSet", "EARoot/EA3/EA3/EA35/EA9/EA6833.htm", "5.png", "E2397", "0", "", "Class0","{51130A73-EE8E-41b6-BF49-704ADBC08E0E}");
+tocTab[tocTab.length] = new Array("0.3.3.35.9:7", "", "«Feature» LS_SegmentableFeature", "EARoot/EA3/EA3/EA35/EA9/EA6834.htm", "5.png", "E2398", "0", "", "Class0","{FF885041-26C1-47af-AEC6-87A32AE4F398}");

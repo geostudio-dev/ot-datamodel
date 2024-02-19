@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.5:1", "", "Categorical Timeseries Observation - Domain Range", "EARoot/EA3/EA4/EA2/EA5/EA7395.htm", "175.png", "2133", "0", "", "Logical diagram0","{2E814A5F-5FD6-4c30-BF70-5709DF114A47}");
+tocTab[tocTab.length] = new Array("0.3.4.2.5:2", "", "«FeatureType» CategoricalTimeseriesDomainRangeObservation", "EARoot/EA3/EA4/EA2/EA5/EA7398.htm", "5.png", "E2688", "0", "", "Class0","{8B1FB17E-2DE9-4276-A7C5-4E77BC4E04C1}");

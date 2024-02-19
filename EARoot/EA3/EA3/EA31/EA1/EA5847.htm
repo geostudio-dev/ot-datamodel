@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fig 10 Classification Data Set Content Elements</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fig 10 Classification Data Set Content Elements </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA722.htm">ISO TC211</a> / <a href="../EA5834.htm">ISO 19144 Classification</a> / <a href="EA5857.htm">ISO 19144-1 Classification Systems</a> / <a href="EA5847.htm">Fig 10 Classification Data Set Content Elements</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5837.htm">Fig 04 Elements of a Coverage</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5839.htm">Fig 05 Elements of a Discrete Coverage</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5841.htm">Fig 06 Discrete Surface Coverage</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5843.htm">Fig 07 Discrete Surface Coverage Types</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5845.htm">Fig 08 Relationship of legend class to feature type</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5847.htm">Fig 10 Classification Data Set Content Elements</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5849.htm">Fig 11 Classification Register Schema</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5851.htm">Fig 12 Classification Register</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5853.htm">Fig 13 Classifier Registered Item</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA5855.htm">Fig 14 Classifier Item Class</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5858.htm">CL_ClassificationCollection</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5859.htm">CL_ClassificationLegendClass</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5860.htm">CL_ClassificationLegendClass</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5861.htm">CL_ClassificationLegendItem</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5862.htm">CL_ClassificationLegendItem</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5863.htm">CL_ClassificationRegister</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5864.htm">CL_ClassificationRegister</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5865.htm">CL_ClassificationRuleClass</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5866.htm">CL_ClassificationRuleClass</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5867.htm">CL_ClassificationRuleItem</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5868.htm">CL_ClassificationRuleItem</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5869.htm">CL_ClassifiedSurface</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5870.htm">CL_DataSet</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5871.htm">CL_FeatureTypeReference</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5872.htm">CL_LegendClass</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA5873.htm">CL_TessellationGeometry</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA5848.png" usemap="#EA5848" border="0" />
+
+<MAP NAME="EA5848">
+<area shape="rect" coords="120,386,284,458" href="../../EA18/EA1/EA2/EA3632.htm" target="_self">
+<area shape="rect" coords="421,259,620,313" href="../../EA15/EA1/EA3151.htm" target="_self">
+<area shape="rect" coords="421,126,620,180" href="../../EA13/EA2/EA2614.htm" target="_self">
+<area shape="rect" coords="111,226,284,254" href="EA5858.htm" target="_self">
+<area shape="rect" coords="109,126,282,155" href="EA5870.htm" target="_self">
+<area shape="rect" coords="10,10,159,67" href="../../EA13/EA1/EA2598.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fig 10 Classification Data Set Content Elements : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">19/02/2010 10:21:41 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">19/02/2010 10:42:48 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">CDOBrien</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{1A94AE9A-6BB2-41b4-9411-75B617E50964}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

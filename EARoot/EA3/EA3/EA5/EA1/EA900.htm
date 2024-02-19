@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Behaviour Diagrams</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Behaviour Diagrams </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA722.htm">ISO TC211</a> / <a href="../EA892.htm">ISO 19101-2:2008 Imagery Reference</a> / <a href="EA900.htm">Behaviour Diagrams</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/183.png" alt="Diagram"/> <a href="EA898.htm">Figure 2 — Image state diagram with modifications for geographic imagery</a></li>
+<li><img src="../../../../../images/6.png" alt="Actor"/> <a href="EA902.htm">Analyst</a></li>
+<li><img src="../../../../../images/6.png" alt="Actor"/> <a href="EA907.htm">Customer</a></li>
+<li><img src="../../../../../images/6.png" alt="Actor"/> <a href="EA918.htm">Planner</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA901.htm">Acquisition</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA903.htm">Apply</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA904.htm">Archive</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA909.htm">Film</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA914.htm">Model</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA919.htm">Planning</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA920.htm">Process</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA921.htm">Sensor</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA923.htm">Tasking</a></li>
+<li><img src="../../../../../images/20.png" alt="State"/> <a href="EA911.htm">Geographic Imagery Scene</a></li>
+<li><img src="../../../../../images/20.png" alt="State"/> <a href="EA916.htm">Picture Original</a></li>
+<li><img src="../../../../../images/20.png" alt="State"/> <a href="EA917.htm">Picture Portrayal</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA905.htm">Computer Model</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA906.htm">Computer Model</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA908.htm">Display</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA910.htm">Film</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA912.htm">Hardcopy</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA913.htm">Hardcopy</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA915.htm">Other information, including geographic</a></li>
+<li><img src="../../../../../images/97.png" alt="StateNode"/> <a href="EA922.htm">Sensor</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Behaviour Diagrams  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">1/04/2010 2:03:19 p. m.</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">1/04/2010 2:03:19 p. m.</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">jrherrin</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{818794F8-B804-4285-8629-9CC0E782F49E}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.3.13.10:1", "", "Context Diagram: MD_PortrayalCatalogueReference", "EARoot/EA3/EA3/EA13/EA10/EA2894.htm", "175.png", "833", "0", "", "Logical diagram0","{A1CB91AD-5791-4a9e-9731-68DFEC73AFC8}");
+tocTab[tocTab.length] = new Array("0.3.3.13.10:2", "", "Fig A.11 : Portrayal catalog information", "EARoot/EA3/EA3/EA13/EA10/EA2896.htm", "175.png", "831", "0", "", "Logical diagram0","{3A316F84-C23D-43e3-9D48-B2D85FC6F9F2}");
+tocTab[tocTab.length] = new Array("0.3.3.13.10:3", "", "Main", "EARoot/EA3/EA3/EA13/EA10/EA2898.htm", "175.png", "832", "0", "", "Logical diagram0","{8165AD81-9E4E-4836-87CA-D83ACA50D1BF}");
+tocTab[tocTab.length] = new Array("0.3.3.13.10:4", "", "MD_PortrayalCatalogueReference", "EARoot/EA3/EA3/EA13/EA10/EA2901.htm", "5.png", "E994", "0", "", "Class0","{6266D62C-A7EF-492f-ACC8-63D223B27D34}");

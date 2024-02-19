@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.2:1", "", "Figure 8: Data quality result", "EARoot/EA3/EA3/EA38/EA1/EA2/EA2/EA7198.htm", "175.png", "2093", "0", "", "Logical diagram0","{0DF18729-A541-492f-8052-1DF78FDB1FA0}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.2:2", "", "DQ_ConformanceResult", "EARoot/EA3/EA3/EA38/EA1/EA2/EA2/EA7201.htm", "5.png", "E2577", "0", "", "Class0","{2394C3A6-B767-4a52-8762-248DC8D577CA}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.2:3", "", "DQ_DescriptiveResult", "EARoot/EA3/EA3/EA38/EA1/EA2/EA2/EA7202.htm", "5.png", "E2578", "0", "", "Class0","{0D092B5F-4482-4225-9E9C-1C63F4CD7C83}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.2:4", "", "DQ_QuantitativeResult", "EARoot/EA3/EA3/EA38/EA1/EA2/EA2/EA7203.htm", "5.png", "E2579", "0", "", "Class0","{E5B1B365-C8D9-44e1-A400-EA230426858A}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.2:5", "", "DQ_Result", "EARoot/EA3/EA3/EA38/EA1/EA2/EA2/EA7204.htm", "5.png", "E2580", "0", "", "Class0","{2E7375DD-9DA0-483a-A022-D3F99F403A54}");

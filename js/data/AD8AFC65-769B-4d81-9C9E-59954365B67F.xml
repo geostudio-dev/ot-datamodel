@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.2.2:1", "", "sistema_equipamientos", "EARoot/EA2/EA2/EA2/EA115.htm", "175.png", "2189", "0", "", "Logical diagram0","{FDAAD6FF-D87A-49a8-AF10-CE33D4DDBDC5}");
+tocTab[tocTab.length] = new Array("0.2.2.2:2", "", "«CodeList» clase_equip", "EARoot/EA2/EA2/EA2/EA118.htm", "5.png", "E2846", "0", "", "Class0","{CACA7E14-78EA-493e-B5F6-F72B9BE603E8}");
+tocTab[tocTab.length] = new Array("0.2.2.2:3", "", "«Enumeration» Enumeration1", "EARoot/EA2/EA2/EA2/EA119.htm", "247.png", "E2847", "0", "", "Enumeration0","{B96EA4E1-0D27-4639-B51D-AED2146B5E41}");
+tocTab[tocTab.length] = new Array("0.2.2.2:4", "", "«FeatureType» equipamientos", "EARoot/EA2/EA2/EA2/EA120.htm", "5.png", "E2845", "0", "", "Class0","{83369EEC-7FE5-4346-B484-8D74D683C482}");

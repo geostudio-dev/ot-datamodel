@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.3.3.5.4.2:1", "", "Context Diagram: IG_FusionRules", "EARoot/EA3/EA3/EA5/EA4/EA2/EA989.htm", "175.png", "182", "0", "", "Logical diagram0","{97A52E58-1F93-4e89-8F29-E76ED8821FC2}");
+tocTab[tocTab.length] = new Array("0.3.3.5.4.2:2", "", "Context Diagram: IG_InferenceRules", "EARoot/EA3/EA3/EA5/EA4/EA2/EA991.htm", "175.png", "183", "0", "", "Logical diagram0","{EE15397A-0F48-410b-B820-F4C1D49B62C1}");
+tocTab[tocTab.length] = new Array("0.3.3.5.4.2:3", "", "Context Diagram: IG_KnowledgeBase", "EARoot/EA3/EA3/EA5/EA4/EA2/EA993.htm", "175.png", "180", "0", "", "Logical diagram0","{78C2A12C-3EE5-4642-8566-8B718210F88C}");
+tocTab[tocTab.length] = new Array("0.3.3.5.4.2:4", "", "Context Diagram: IG_OrganisingPrinciple", "EARoot/EA3/EA3/EA5/EA4/EA2/EA995.htm", "175.png", "181", "0", "", "Logical diagram0","{AC0C1A56-310F-49be-B857-2BA1B41728AE}");
+tocTab[tocTab.length] = new Array("0.3.3.5.4.2:5", "", "Figure 14 - IG_KnowledgeBase", "EARoot/EA3/EA3/EA5/EA4/EA2/EA997.htm", "175.png", "179", "0", "", "Logical diagram0","{DB2DD8AA-A989-4179-8855-65BAE9CC9A4A}");
+tocTab[tocTab.length] = new Array("0.3.3.5.4.2:6", "", "IG_KnowledgeBase", "EARoot/EA3/EA3/EA5/EA4/EA2/EA1000.htm", "5.png", "E449", "0", "", "Class0","{1039472C-1D70-4cb7-8CB6-8510F876FB14}");
+tocTab[tocTab.length] = new Array("0.3.3.5.4.2:7", "", "«codelist» IG_OrganisingPrinciple", "EARoot/EA3/EA3/EA5/EA4/EA2/EA1001.htm", "5.png", "E450", "0", "", "Class0","{EC1EC857-23DA-4ff6-AE5F-FD5E71EA3FE5}");

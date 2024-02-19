@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Units of Measure</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Units of Measure </h1>
+			<!-- <img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../../index.htm">Model</a> / <a href="../../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../../EA722.htm">ISO TC211</a> / <a href="../../../EA1515.htm">ISO 19103:2005 Schema Language</a> / <a href="../../EA1531.htm">Basic Types</a> / <a href="../EA1541.htm">Derived</a> / <a href="EA1597.htm">Units of Measure</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1543.htm">Context Diagram: Angle</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1545.htm">Context Diagram: AngularVelocity</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1547.htm">Context Diagram: Area</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1549.htm">Context Diagram: Currency</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1551.htm">Context Diagram: Distance</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1553.htm">Context Diagram: Length</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1555.htm">Context Diagram: Measure</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1557.htm">Context Diagram: MeasureType</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1559.htm">Context Diagram: Scale</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1561.htm">Context Diagram: StandardUnits</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1563.htm">Context Diagram: SubUnitsPerUnit</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1565.htm">Context Diagram: Time</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1567.htm">Context Diagram: UnitOfMeasure</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1569.htm">Context Diagram: UnitsList</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1571.htm">Context Diagram: UomAngle</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1573.htm">Context Diagram: UomArea</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1575.htm">Context Diagram: UomCurrency</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1577.htm">Context Diagram: UomLength</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1579.htm">Context Diagram: UomScale</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1581.htm">Context Diagram: UomTime</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1583.htm">Context Diagram: UomVelocity</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1585.htm">Context Diagram: UomVolume</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1587.htm">Context Diagram: UomWeight</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1589.htm">Context Diagram: Velocity</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1591.htm">Context Diagram: Volume</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1593.htm">Context Diagram: Weight</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA1595.htm">Main</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1598.htm">Angle</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1599.htm">AngularVelocity</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1600.htm">Area</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1601.htm">Currency</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1602.htm">Distance</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1603.htm">Length</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1604.htm">Measure</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1605.htm">MeasureType</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1606.htm">Scale</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1607.htm">StandardUnits</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1608.htm">SubUnitsPerUnit</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1609.htm">Time</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1610.htm">UnitOfMeasure</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1611.htm">UnitsList</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1612.htm">UomAngle</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1613.htm">UomAngularVelocity</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1614.htm">UomArea</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1615.htm">UomCurrency</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1616.htm">UomLength</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1617.htm">UomScale</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1618.htm">UomTime</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1619.htm">UomVelocity</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1620.htm">UomVolume</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1621.htm">UomWeight</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1622.htm">Velocity</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1623.htm">Volume</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA1624.htm">Weight</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Units of Measure  : Public  &lt;&lt;Leaf&gt;&gt; Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:15:50 p. m.</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/04/2008 12:15:51 p. m.</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{725FE4A9-C291-45ef-9D32-B761EC633EC7}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../../../../EA6/EA1/EA1034.htm">Context Diagram: Package Suppliers of Geometric primitive</a>, <a href="../../../../EA6/EA1/EA1028.htm">Context Diagram: Package Suppliers of Coordinate geometry</a>, <a href="../../../../EA6/EA1/EA1036.htm">Context Diagram: Package Suppliers of Geometry root</a>, <a href="../../../../EA6/EA1/EA1030.htm">Context Diagram: Package Suppliers of Geometric aggregates</a>, <a href="../../EA1517.htm">Basic Types Packages</a>, <a href="../EA1537.htm">Context Diagram: Package Suppliers of Units of Measure</a>, <a href="../EA1539.htm">Main</a>, <a href="../EA1535.htm">Context Diagram: Package Clients of Units of Measure</a>, <a href="../../EA3/EA1764.htm">Context Diagram: Package Clients of Numerics</a>, <a href="../../EA3/EA1766.htm">Context Diagram: Package Clients of Text</a>, <a href="../../../../EA9/EA1981.htm">Context Diagram: Package Suppliers of Temporal Reference System</a>, <a href="../../../../EA13/EA2548.htm">Fig 4: Metadata Packages</a>, <a href="../../../../EA13/EA2532.htm">Context Diagram: Package Suppliers of Identification information</a>, <a href="../../../../EA13/EA2526.htm">Context Diagram: Package Suppliers of Data quality information</a>, <a href="../../../../EA13/EA2546.htm">Context Diagram: Package Suppliers of Spatial representation information</a>, <a href="../../../../EA13/EA2544.htm">Context Diagram: Package Suppliers of Reference system information</a>, <a href="../../../../EA13/EA2524.htm">Context Diagram: Package Suppliers of Content information</a>, <a href="../../../../EA13/EA2530.htm">Context Diagram: Package Suppliers of Extent information</a>, <a href="../../../../EA14/EA3039.htm">Context Diagram: Package Suppliers of Positioning Service Model</a>, <a href="../../../../EA15/EA3136.htm">Figure 03 - Metadata Packages</a>, <a href="../../../../EA15/EA3128.htm">Context Diagram: Package Suppliers of Content information - Imagery</a>, <a href="../../../../EA15/EA3130.htm">Context Diagram: Package Suppliers of Data quality information - Imagery</a>, <a href="../../../../EA18/EA1/EA3534.htm">Context Diagram: Package Suppliers of Segmented Curve</a>, <a href="../../../../EA24/EA4179.htm">Context Diagram: Package Suppliers of Message Data Types</a>, <a href="../../../../EA25/EA2/EA4525.htm">Context Diagram: Package Suppliers of Navigation Service</a>, <a href="../../../../EA25/EA2/EA4523.htm">Context Diagram: Package Suppliers of Cost Function</a>, <a href="../../../../EA25/EA3/EA4663.htm">Context Diagram: Package Suppliers of Constraint and Advisory</a>, <a href="../../../../EA25/EA3/EA4669.htm">Context Diagram: Package Suppliers of Network Position</a>, <a href="../../../../EA25/EA3/EA4671.htm">Context Diagram: Package Suppliers of Route</a>, <a href="../../../../EA25/EA5/EA4862.htm">Main</a>, <a href="../../../../EA25/EA5/EA4860.htm">Context Diagram: Package Suppliers of Tracking Service</a>, <a href="../../../../EA25/EA5/EA4858.htm">Context Diagram: Package Suppliers of Point Estimates</a>, <a href="../../../../EA25/EA5/EA4856.htm">Context Diagram: Package Suppliers of Measured Coordinates</a>, <a href="../../../../EA25/EA5/EA4852.htm">Context Diagram: Package Suppliers of Linear Reference Systems</a>, <a href="../../../../EA26/EA5035.htm">Context Diagram: Package Suppliers of Multimodal Navigation Service</a>, <a href="../../../../EA26/EA5037.htm">Context Diagram: Package Suppliers of Multimodal Network</a>, <a href="../../../../EA26/EA5039.htm">Context Diagram: Package Suppliers of Multimodal Routing</a>, <a href="../../../../EA26/EA5033.htm">Context Diagram: Package Suppliers of Multimodal Cost Function</a>, <a href="../../../../EA29/EA5730.htm">Context Diagram: Package Suppliers of Geometry</a>, <a href="../../../../EA30/EA5760.htm">Context Diagram: Package Suppliers of Geometry Types</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA13/EA14/EA2982.htm">«Leaf» Extent information</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA26/EA2/EA5098.htm">«Leaf» Multimodal Cost Function</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA6/EA1/EA2/EA1245.htm">«Leaf» Geometric aggregates</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA24/EA3/EA4387.htm">«Leaf» Message Data Types</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA26/EA5/EA5181.htm">«Leaf» Multimodal Routing</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA3/EA2/EA4738.htm">«Leaf» Constraint and Advisory</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA11/EA3/EA2382.htm">Coordinate Systems</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA28/EA14/EA5598.htm">measures</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA5/EA1863.htm">«Leaf» Text</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA5/EA4/EA4933.htm">«Leaf» Measured Coordinates</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA15/EA4/EA3220.htm">«Leaf» Content information - Imagery</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA13/EA5/EA2757.htm">«Leaf» Data quality information</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA28/EA1/EA5447.htm">basicTypes</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA13/EA8/EA2859.htm">«Leaf» Reference system information</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA2/EA2/EA4624.htm">«Leaf» Navigation Service</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA13/EA3/EA2651.htm">«Leaf» Identification information</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA6/EA1/EA1/EA1158.htm">«Leaf» Coordinate geometry</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA10/EA1/EA2184.htm">«Leaf» Methodology for feature cataloguing</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA3/EA5/EA4785.htm">«Leaf» Network Position</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA5/EA5/EA4953.htm">«Leaf» Point Estimates</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA13/EA7/EA2835.htm">«Leaf» Spatial representation information</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA2/EA1/EA4571.htm">«Leaf» Cost Function</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA14/EA1/EA3079.htm">«Leaf» Positioning Service Model</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA28/EA12/EA5574.htm">geometryPrimitives</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA29/EA1/EA5748.htm">Geometry</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA11/EA4/EA2421.htm">Datums</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA18/EA1/EA7/EA3737.htm">«Leaf» Segmented Curve</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA30/EA1/EA5789.htm">Geometry Types</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA26/EA4/EA5165.htm">«Leaf» Multimodal Network</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA6/EA1/EA5/EA1374.htm">«Leaf» Geometry root</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA9/EA2/EA2107.htm">«Leaf» Temporal Reference System</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA5/EA2/EA4906.htm">«Leaf» Linear Reference Systems</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA28/EA18/EA5706.htm">valueObjects</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA6/EA1/EA4/EA1346.htm">«Leaf» Geometric primitive</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA5/EA6/EA5000.htm">«Leaf» Tracking Service</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA28/EA15/EA5608.htm">observation</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA26/EA3/EA5138.htm">«Leaf» Multimodal Navigation Service</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA13/EA9/EA2884.htm">«Leaf» Content information</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA28/EA17/EA5650.htm">units</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA11/EA1/EA2284.htm">Coordinate Operations</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA15/EA2/EA3182.htm">«Leaf» Data quality information - Imagery</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../../../EA25/EA3/EA6/EA4798.htm">«Leaf» Route</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA4/EA1845.htm">«Leaf» Numerics</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

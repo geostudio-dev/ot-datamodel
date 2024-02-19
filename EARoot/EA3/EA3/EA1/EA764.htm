@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sensor Data</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Sensor Data </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA158.htm">Foundation Schemas</a> / <a href="../EA722.htm">ISO TC211</a> / <a href="EA763.htm">ISO 19130:2010 Sensor Data</a> / <a href="./EA1/EA795.htm">Sensor Data</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA765.htm">SD_SensorModel (1)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA767.htm">Control Points (2)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA769.htm">SD_PhysicalSensorModel (9)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA771.htm">SD_Position (10)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA773.htm">SD_Attitude (11)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA775.htm">SD_Dynamics (12)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA777.htm">SD_PositionAndOrientation (13)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA779.htm">SD_SensorParameters (14)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA781.htm">SD_DetectorArray (15)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA783.htm">SD_SensorSystemAndOperation (16)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA785.htm">SD_OpticsOperation (17)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA787.htm">SD_Distortion (18)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA789.htm">SD_FittingFunction (19)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA791.htm">SD_TrueReplacementModel (22)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA1/EA793.htm">SD_CorrespondenceModel (23)</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA800.htm">SD_AngleAttitude</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA801.htm">SD_ArrayDimension</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA802.htm">SD_Attitude</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA803.htm">SD_AzimuthMeasure</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA804.htm">SD_Calibration</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA805.htm">SD_CorrespondenceModel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA806.htm">SD_DetectorArray</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA807.htm">SD_Distortion</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA808.htm">SD_DistortionPolynomial</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA809.htm">SD_DistortionTable</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA810.htm">SD_Dynamics</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA811.htm">SD_EarthMeasuredLocation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA812.htm">SD_FittingFunction</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA813.htm">SD_GCPRepository</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA814.htm">SD_GriddedGCPCollection</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA815.htm">SD_GSD</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA816.htm">SD_ImageGridGCPCollection</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA817.htm">SD_ImageIdentifiableGCP</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA818.htm">SD_LocationGCP</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA819.htm">SD_MatrixAttitude</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA820.htm">SD_Microwave</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA821.htm">SD_ObjectGridGCPCollection</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA822.htm">SD_OpticalSystem</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA823.htm">SD_Optics</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA824.htm">SD_OpticsOperation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA825.htm">SD_OrbitMeasuredLocation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA826.htm">SD_PhysicalSensorModel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA827.htm">SD_PlatformDynamics</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA828.htm">SD_PlatformParameters</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA829.htm">SD_Polynomial</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA830.htm">SD_PolynomialCoefficient</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA831.htm">SD_Position</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA832.htm">SD_PositionAndOrientation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA833.htm">SD_PushbroomOperation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA834.htm">SD_RationalPolynomial</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA835.htm">SD_RotationSequence</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA836.htm">SD_SAROperation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA837.htm">SD_SAROrientationCode</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA838.htm">SD_ScanAngleFunction</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA839.htm">SD_ScanAngleTime</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA840.htm">SD_Sensor</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA841.htm">SD_SensorModel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA842.htm">SD_SensorParameters</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA843.htm">SD_SensorSystemAndOperation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA844.htm">SD_ShapeCode</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA845.htm">SD_SurfaceCode</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA846.htm">SD_TRMAsGrid</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA847.htm">SD_TrueReplacementModel</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA848.htm">SD_Variable</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA1/EA849.htm">SD_WhiskbroomOperation</a></li>
+<li><img src="../../../../images/202.png" alt="Constraint"/> <a href="./EA1/EA796.htm"></a></li>
+<li><img src="../../../../images/202.png" alt="Constraint"/> <a href="./EA1/EA797.htm"></a></li>
+<li><img src="../../../../images/202.png" alt="Constraint"/> <a href="./EA1/EA798.htm"></a></li>
+<li><img src="../../../../images/202.png" alt="Constraint"/> <a href="./EA1/EA799.htm"></a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Sensor Data  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">2/07/2008 1:06:35 p. m.</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">22/04/2010 11:45:41 a. m.</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Charles</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{B760AA12-7B60-4d7f-A216-8FF43D744C39}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA761.htm">ISO19130</a></td>
+		</tr>
+	</table>
+	
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

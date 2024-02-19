@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.3.2:1", "", "GeoSciML package dependencies", "EARoot/EA3/EA2/EA201.htm", "176.png", "8", "0", "", "Package diagram0","{16954E62-127A-43a3-BFB5-036A2604D341}");
+tocTab[tocTab.length] = new Array("0.3.2.1", "1", "«Application Schema» GeoSciML-Core", "EARoot/EA3/EA2/EA1/EA220.htm", "4.png", "", "", "{72404A11-88F6-4aa4-8EBF-D0A11F783EC9}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.2", "1", "«Application Schema» Vocabulary", "EARoot/EA3/EA2/EA2/EA442.htm", "4.png", "", "", "{5B618D10-1D26-4f06-B650-67D2FF04254F}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.3", "1", "«Application Schema» GeologicTimescale", "EARoot/EA3/EA2/EA3/EA451.htm", "4.png", "", "", "{2F4A8CE1-70D3-4215-B622-75C01D3E9A27}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.4", "1", "«Application Schema» Borehole", "EARoot/EA3/EA2/EA4/EA506.htm", "4.png", "", "", "{4E8DB6D7-5A50-409c-A88A-5ADB08EA3554}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.5", "1", "«Application Schema» CGI_Utilities", "EARoot/EA3/EA2/EA5/EA521.htm", "4.png", "", "", "{54ED92F2-90CA-4e94-9473-CF82A78B2052}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.6", "1", "«Application Schema» Fossil", "EARoot/EA3/EA2/EA6/EA595.htm", "4.png", "", "", "{B378050D-098E-492e-A168-EEFE67107002}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.7", "1", "«Application Schema» LaboratoryAnalysis-Specimen", "EARoot/EA3/EA2/EA7/EA607.htm", "4.png", "", "", "{F8BA8C6F-A790-48fa-99F6-29634FCA99E3}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.8", "1", "«Application Schema» PhysicalProperties", "EARoot/EA3/EA2/EA8/EA695.htm", "4.png", "", "", "{7990099B-3A7A-466f-B4F9-3210AFBBB9C1}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.9", "1", "«Application Schema» TemporalReferenceSystem", "EARoot/EA3/EA2/EA9/EA718.htm", "4.png", "", "", "{34573A90-3037-420e-8396-85D6EC4F31CA}", "Package");

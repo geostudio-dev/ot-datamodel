@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Context diagram: OM_Observation</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Context diagram: OM_Observation </h1>
+			<!-- <img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../../index.htm">Model</a> / <a href="../../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../../EA722.htm">ISO TC211</a> / <a href="../../../EA6863.htm">ISO 19156 Observations and Measurements</a> / <a href="../../EA6865.htm">ISO 19156:2011 Observations and Measurements</a> / <a href="../EA6881.htm">Observation schema</a> / <a href="EA6901.htm">observation</a> / <a href="EA6895.htm">Context diagram: OM_Observation</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA6893.htm">Context diagram: NamedValue</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA6895.htm">Context diagram: OM_Observation</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA6897.htm">Context diagram: OM_Process</a></li>
+<li><img src="../../../../../../../images/175.png" alt="Diagram"/> <a href="EA6899.htm">Overview: Observation</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA6902.htm">NamedValue</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA6903.htm">ObservationContext</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA6904.htm">OM_Observation</a></li>
+<li><img src="../../../../../../../images/5.png" alt="Class"/> <a href="EA6905.htm">OM_Process</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA6896.png" usemap="#EA6896" border="0" />
+
+<MAP NAME="EA6896">
+<area shape="rect" coords="30,637,182,716" href="../../../../EA8/EA1/EA1967.htm" target="_self">
+<area shape="rect" coords="331,648,450,718" href="EA6903.htm" target="_self">
+<area shape="rect" coords="24,425,149,495" href="EA6902.htm" target="_self">
+<area shape="rect" coords="549,686,723,738" href="../../../../EA7/EA1/EA2/EA3/EA1750.htm" target="_self">
+<area shape="rect" coords="715,331,1007,536" href="../../../../EA13/EA2/EA2614.htm" target="_self">
+<area shape="rect" coords="32,50,129,131" href="../../../../EA15/EA5/EA3271.htm" target="_self">
+<area shape="rect" coords="290,195,387,250" href="../../../../EA15/EA5/EA3268.htm" target="_self">
+<area shape="rect" coords="576,59,673,140" href="../../../../EA15/EA5/EA3270.htm" target="_self">
+<area shape="rect" coords="556,243,653,298" href="EA6905.htm" target="_self">
+<area shape="rect" coords="104,256,194,326" href="../../EA6/EA7078.htm" target="_self">
+<area shape="rect" coords="282,377,579,580" href="EA6904.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Context diagram: OM_Observation : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">7/07/2008 2:46:34 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">29/11/2011 2:19:53 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Simon Cox</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{588A0F13-C6D2-4a22-8BAA-4BEA080B5539}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

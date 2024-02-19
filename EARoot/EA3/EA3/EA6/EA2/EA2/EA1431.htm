@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Context Diagram: TP_Face</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Context Diagram: TP_Face </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.htm">Model</a> / <a href="../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../EA722.htm">ISO TC211</a> / <a href="../../EA1015.htm">ISO 19107:2003 Spatial Schema</a> / <a href="../EA1397.htm">Topology</a> / <a href="EA1471.htm">Topological primitive</a> / <a href="EA1431.htm">Context Diagram: TP_Face</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1409.htm">Context Diagram: TP_Boundary</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1411.htm">Context Diagram: TP_ComplexBoundary</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1413.htm">Context Diagram: TP_DirectedEdge</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1415.htm">Context Diagram: TP_DirectedFace</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1417.htm">Context Diagram: TP_DirectedNode</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1419.htm">Context Diagram: TP_DirectedSolid</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1421.htm">Context Diagram: TP_DirectedTopo</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1423.htm">Context Diagram: TP_Edge</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1425.htm">Context Diagram: TP_EdgeBoundary</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1427.htm">Context Diagram: TP_Expression</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1429.htm">Context Diagram: TP_ExpressionTerm</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1431.htm">Context Diagram: TP_Face</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1433.htm">Context Diagram: TP_FaceBoundary</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1435.htm">Context Diagram: TP_Node</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1437.htm">Context Diagram: TP_Primitive</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1439.htm">Context Diagram: TP_PrimitiveBoundary</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1441.htm">Context Diagram: TP_Ring</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1443.htm">Context Diagram: TP_Shell</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1445.htm">Context Diagram: TP_Solid</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1447.htm">Context Diagram: TP_SolidBoundary</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1449.htm">Fig 35: boundary and coboundary  ops</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1451.htm">Fig 36: Main</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1453.htm">Fig 37: Boundary Data Types</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1455.htm">Fig 38: TP_Primitve Context Diagram</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1457.htm">Fig 39: TP_DirectedTopo subclasses</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1459.htm">Fig 40: Directed Topo</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1461.htm">Fig 41: Node Context Diagram</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1463.htm">Fig 42: Edge Context Diagram</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1465.htm">Fig 43: Face Context Diagram</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1467.htm">Fig 44: Solid Context Diagram</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA1469.htm">Fig 45:TP_Expression CD</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1482.htm">TP_Boundary</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1483.htm">TP_ComplexBoundary</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1484.htm">TP_DirectedEdge</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1485.htm">TP_DirectedFace</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1486.htm">TP_DirectedNode</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1487.htm">TP_DirectedSolid</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1488.htm">TP_DirectedTopo</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1489.htm">TP_Edge</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1490.htm">TP_EdgeBoundary</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1491.htm">TP_Expression</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1492.htm">TP_ExpressionTerm</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1493.htm">TP_Face</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1494.htm">TP_FaceBoundary</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1495.htm">TP_Node</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1496.htm">TP_Primitive</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1497.htm">TP_PrimitiveBoundary</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1498.htm">TP_Ring</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1499.htm">TP_Shell</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1500.htm">TP_Solid</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA1501.htm">TP_SolidBoundary</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1432.png" usemap="#EA1432" border="0" />
+
+<MAP NAME="EA1432">
+<area shape="rect" coords="294,10,402,56" href="EA1485.htm" target="_self">
+<area shape="rect" coords="84,348,192,394" href="EA1484.htm" target="_self">
+<area shape="rect" coords="298,154,362,206" href="EA1493.htm" target="_self">
+<area shape="rect" coords="10,22,118,68" href="EA1487.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Context Diagram: TP_Face : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:16:55 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">6/01/2011 3:13:31 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">friisan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{BA8BE8BE-79EB-430d-B83E-E9842D60B36C}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fig A.4 - Extension to data quality subclasses</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fig A.4 - Extension to data quality subclasses </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA722.htm">ISO TC211</a> / <a href="../EA3142.htm">ISO 19115-2:2009 Metadata - Imagery</a> / <a href="EA3182.htm">Data quality information - Imagery</a> / <a href="EA3180.htm">Fig A.4 - Extension to data quality subclasses</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3152.htm">Context Diagram: LE_Algorithm</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3154.htm">Context Diagram: LE_AlgorithmDescription</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3156.htm">Context Diagram: LE_AlgorithmHistory</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3158.htm">Context Diagram: LE_NominalResolution</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3160.htm">Context Diagram: LE_Processing</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3162.htm">Context Diagram: LE_ProcessStep</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3164.htm">Context Diagram: LE_ProcessStepReport</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3166.htm">Context Diagram: LE_Source</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3168.htm">Context Diagram: LE_SourceSensor</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3170.htm">Context Diagram: MX_DataFile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3172.htm">Context Diagram: QE_CoverageResult</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3174.htm">Context Diagram: QE_Usability</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3176.htm">Fig A.2 - Data quality result for a coverage</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3178.htm">Fig A.3 - Lineage information with imagery and gridded data extensions</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA3180.htm">Fig A.4 - Extension to data quality subclasses</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3187.htm">LE_Algorithm</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3188.htm">LE_NominalResolution</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3189.htm">LE_Processing</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3190.htm">LE_ProcessStep</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3191.htm">LE_ProcessStepReport</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3192.htm">LE_Source</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3193.htm">MX_DataFile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3194.htm">QE_CoverageResult</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA3195.htm">QE_Usability</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA3181.png" usemap="#EA3181" border="0" />
+
+<MAP NAME="EA3181">
+<area shape="rect" coords="5,360,169,400" href="../../EA13/EA5/EA2767.htm" target="_self">
+<area shape="rect" coords="5,275,160,320" href="../../EA13/EA5/EA2766.htm" target="_self">
+<area shape="rect" coords="45,150,197,205" href="../../EA13/EA5/EA2765.htm" target="_self">
+<area shape="rect" coords="258,385,428,421" href="../../EA13/EA5/EA2789.htm" target="_self">
+<area shape="rect" coords="665,155,771,191" href="EA3195.htm" target="_self">
+<area shape="rect" coords="70,5,587,43" href="../../EA13/EA5/EA2772.htm" target="_self">
+<area shape="rect" coords="367,656,550,692" href="../../EA13/EA5/EA2786.htm" target="_self">
+<area shape="rect" coords="367,601,550,637" href="../../EA13/EA5/EA2785.htm" target="_self">
+<area shape="rect" coords="367,546,550,582" href="../../EA13/EA5/EA2764.htm" target="_self">
+<area shape="rect" coords="45,640,221,676" href="../../EA13/EA5/EA2779.htm" target="_self">
+<area shape="rect" coords="35,585,230,621" href="../../EA13/EA5/EA2777.htm" target="_self">
+<area shape="rect" coords="30,535,240,571" href="../../EA13/EA5/EA2788.htm" target="_self">
+<area shape="rect" coords="650,430,858,468" href="../../EA13/EA5/EA2781.htm" target="_self">
+<area shape="rect" coords="565,220,718,272" href="../../EA13/EA5/EA2778.htm" target="_self">
+<area shape="rect" coords="650,310,858,350" href="../../EA13/EA5/EA2763.htm" target="_self">
+<area shape="rect" coords="258,335,428,371" href="../../EA13/EA5/EA2774.htm" target="_self">
+<area shape="rect" coords="258,285,428,321" href="../../EA13/EA5/EA2771.htm" target="_self">
+<area shape="rect" coords="258,235,428,271" href="../../EA13/EA5/EA2768.htm" target="_self">
+<area shape="rect" coords="445,460,603,512" href="../../EA13/EA5/EA2784.htm" target="_self">
+<area shape="rect" coords="85,450,299,502" href="../../EA13/EA5/EA2787.htm" target="_self">
+<area shape="rect" coords="278,120,494,172" href="../../EA13/EA5/EA2776.htm" target="_self">
+<area shape="rect" coords="650,370,858,410" href="../../EA13/EA5/EA2775.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fig A.4 - Extension to data quality subclasses : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:16:52 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">14/05/2010 2:32:32 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">friisan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{68D8831C-E9FB-41b8-AFCF-61D76D3B2B75}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

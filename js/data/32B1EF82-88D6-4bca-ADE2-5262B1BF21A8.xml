@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.3.3.6.2.1:1", "", "Context Diagram: TP_Complex", "EARoot/EA3/EA3/EA6/EA2/EA1/EA1402.htm", "175.png", "318", "0", "", "Logical diagram0","{67C85ED8-7565-4862-8B94-35175D23C93B}");
+tocTab[tocTab.length] = new Array("0.3.3.6.2.1:2", "", "Fig 46: Complex View", "EARoot/EA3/EA3/EA6/EA2/EA1/EA1404.htm", "175.png", "317", "0", "", "Logical diagram0","{8B48BD4D-8CF9-40b6-B970-3F502BCD761A}");
+tocTab[tocTab.length] = new Array("0.3.3.6.2.1:3", "", "«type» TP_Complex", "EARoot/EA3/EA3/EA6/EA2/EA1/EA1408.htm", "5.png", "E577", "0", "", "Class0","{68C9EEC2-474A-4f07-A829-C90692AEEE1F}");

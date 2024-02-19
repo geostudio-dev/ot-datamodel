@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Summary diagram : geometric values</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Summary diagram : geometric values </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA203.htm">GeoSciML</a> / <a href="../EA521.htm">CGI_Utilities</a> / <a href="EA560.htm">CGI_Value</a> / <a href="EA558.htm">Summary diagram : geometric values</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA532.htm">Context Diagram : CGI_GeometricDescriptionValue</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA534.htm">Context Diagram : CGI_LinearOrientation</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA536.htm">Context Diagram : CGI_NumericAgeRange</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA538.htm">Context Diagram : CGI_NumericRange</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA540.htm">Context Diagram : CGI_PlanarOrientation</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA542.htm">Context Diagram : CGI_Term</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA544.htm">Context Diagram : CGI_TermRange</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA546.htm">Context Diagram : CGI_Value</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA548.htm">Context Diagram : CGI_Vector</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA550.htm">Context Diagram : DescriptionPurpose</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA552.htm">Context Diagram : StratigraphicDateEstimate</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA554.htm">Summary diagram : age values</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA556.htm">Summary diagram : generic values</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA558.htm">Summary diagram : geometric values</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA574.htm">CGI_GeometricDescriptionValue</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA575.htm">CGI_LinearOrientation</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA576.htm">CGI_NumericAgeRange</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA577.htm">CGI_NumericRange</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA578.htm">CGI_PlanarOrientation</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA579.htm">CGI_Term</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA580.htm">CGI_TermRange</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA581.htm">CGI_Value</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA582.htm">CGI_Vector</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA583.htm">StratigraphicDateEstimate</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA584.htm">CodeListValue</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA585.htm">ConventionCode</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA586.htm">DescriptionPurpose</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA587.htm">DeterminationMethodTerm</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA588.htm">LinearDirectedCode</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA589.htm">PlanarPolarityCode</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA590.htm">ValueQualifierCode</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA559.png" usemap="#EA559" border="0" />
+
+<MAP NAME="EA559">
+<area shape="rect" coords="38,376,153,431" href="EA564.htm" target="_self">
+<area shape="rect" coords="452,251,589,304" href="EA572.htm" target="_self">
+<area shape="rect" coords="458,377,600,432" href="EA563.htm" target="_self">
+<area shape="rect" coords="517,483,663,553" href="EA587.htm" target="_self">
+<area shape="rect" coords="157,641,299,738" href="EA565.htm" target="_self">
+<area shape="rect" coords="334,479,493,571" href="EA588.htm" target="_self">
+<area shape="rect" coords="188,478,302,572" href="EA589.htm" target="_self">
+<area shape="rect" coords="15,477,159,565" href="EA585.htm" target="_self">
+<area shape="rect" coords="10,220,188,334" href="EA578.htm" target="_self">
+<area shape="rect" coords="75,79,342,185" href="EA574.htm" target="_self">
+<area shape="rect" coords="221,220,405,332" href="EA575.htm" target="_self">
+<area shape="rect" coords="218,366,412,446" href="EA582.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Summary diagram : geometric values : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">14/02/2008 5:58:27 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">15/12/2010 11:34:29 a. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">CGI Interoperability Working Group</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">3.0.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F5D1E3CB-F506-4374-9314-747036073F36}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

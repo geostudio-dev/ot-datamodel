@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Context Diagram: CS_AffineCS</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Context Diagram: CS_AffineCS </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA722.htm">ISO TC211</a> / <a href="../EA2242.htm">ISO 19111 Referencing by Coordinates</a> / <a href="EA2382.htm">Coordinate Systems</a> / <a href="EA2346.htm">Context Diagram: CS_AffineCS</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2346.htm">Context Diagram: CS_AffineCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2348.htm">Context Diagram: CS_AxisDirection</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2350.htm">Context Diagram: CS_CartesianCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2352.htm">Context Diagram: CS_CoordinateSystem</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2354.htm">Context Diagram: CS_CoordinateSystemAxis</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2356.htm">Context Diagram: CS_CylindricalCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2358.htm">Context Diagram: CS_EllipsoidalCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2360.htm">Context Diagram: CS_EngineeringCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2362.htm">Context Diagram: CS_GeodeticCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2364.htm">Context Diagram: CS_ImageCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2366.htm">Context Diagram: CS_LinearCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2368.htm">Context Diagram: CS_PolarCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2370.htm">Context Diagram: CS_RangeMeaning</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2372.htm">Context Diagram: CS_SphericalCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2374.htm">Context Diagram: CS_UserDefinedCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2376.htm">Context Diagram: CS_VerticalCS</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2378.htm">CRS Associations</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2380.htm">Main</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2383.htm">CS_AffineCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2384.htm">CS_AxisDirection</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2385.htm">CS_CartesianCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2386.htm">CS_CoordinateSystem</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2387.htm">CS_CoordinateSystemAxis</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2388.htm">CS_CylindricalCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2389.htm">CS_EllipsoidalCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2390.htm">CS_EngineeringCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2391.htm">CS_GeodeticCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2392.htm">CS_ImageCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2393.htm">CS_LinearCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2394.htm">CS_PolarCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2395.htm">CS_RangeMeaning</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2396.htm">CS_SphericalCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2397.htm">CS_UserDefinedCS</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2398.htm">CS_VerticalCS</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA2347.png" usemap="#EA2347" border="0" />
+
+<MAP NAME="EA2347">
+<area shape="rect" coords="33,100,117,152" href="EA2383.htm" target="_self">
+<area shape="rect" coords="10,10,140,54" href="EA2386.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Context Diagram: CS_AffineCS : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:17:04 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:17:04 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">friisan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{ADF3764C-45F7-4479-81B4-0980CD6842AE}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

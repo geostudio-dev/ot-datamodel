@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.16:1", "", "Context Diagram : MonitoringPoint", "EARoot/EA3/EA4/EA2/EA16/EA7477.htm", "175.png", "2150", "0", "", "Class diagram0","{564BA08C-C03E-4e6a-8D2A-B73A47C6DBC8}");
+tocTab[tocTab.length] = new Array("0.3.4.2.16:2", "", "Context diagram: MonitoringPointContext", "EARoot/EA3/EA4/EA2/EA16/EA7479.htm", "175.png", "2149", "0", "", "Logical diagram0","{613F9B8B-D8AE-4247-90BE-D977EBB65080}");
+tocTab[tocTab.length] = new Array("0.3.4.2.16:3", "", "«FeatureType» MonitoringPoint", "EARoot/EA3/EA4/EA2/EA16/EA7482.htm", "5.png", "E2726", "0", "", "Class0","{51581906-CBFA-45e0-929F-2C362CE5ED3F}");
+tocTab[tocTab.length] = new Array("0.3.4.2.16:4", "", "«DataType» TimeZone", "EARoot/EA3/EA4/EA2/EA16/EA7483.htm", "5.png", "E2727", "0", "", "Class0","{10DF1161-575E-4e83-827F-E7501450FFE4}");

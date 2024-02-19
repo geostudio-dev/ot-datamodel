@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.3:1", "", "Figure 9 Metaquality elements", "EARoot/EA3/EA3/EA38/EA1/EA2/EA3/EA7205.htm", "175.png", "2095", "0", "", "Logical diagram0","{F13CFC44-BD09-40c8-B537-24B862A762A1}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.3:2", "", "Figure 10: Metaquality descriptors", "EARoot/EA3/EA3/EA38/EA1/EA2/EA3/EA7207.htm", "175.png", "2094", "0", "", "Logical diagram0","{86900A1E-5FE9-482d-A507-34C9A0AC0C87}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.3:3", "", "DQ_Confidence", "EARoot/EA3/EA3/EA38/EA1/EA2/EA3/EA7210.htm", "5.png", "E2581", "0", "", "Class0","{BDB6B8EC-0985-4a1d-8E8D-DE591EE1D99A}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.3:4", "", "DQ_Homogeneity", "EARoot/EA3/EA3/EA38/EA1/EA2/EA3/EA7211.htm", "5.png", "E2582", "0", "", "Class0","{8E46F0E6-66B6-40f8-A9F5-FCBBE8A84301}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.3:5", "", "DQ_Metaquality", "EARoot/EA3/EA3/EA38/EA1/EA2/EA3/EA7212.htm", "5.png", "E2583", "0", "", "Class0","{74CE1203-DF0B-4c2e-BAD6-324E2946E80A}");
+tocTab[tocTab.length] = new Array("0.3.3.38.1.2.3:6", "", "DQ_Representativity", "EARoot/EA3/EA3/EA38/EA1/EA2/EA3/EA7213.htm", "5.png", "E2584", "0", "", "Class0","{B08662E2-C5C1-4b80-A7AD-C0DE35E7C2F4}");

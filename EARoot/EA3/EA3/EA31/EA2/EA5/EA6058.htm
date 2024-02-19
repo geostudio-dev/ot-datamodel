@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fig 23 LCML_ArtificialSurfaceCharacteristics</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fig 23 LCML_ArtificialSurfaceCharacteristics </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.htm">Model</a> / <a href="../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../EA722.htm">ISO TC211</a> / <a href="../../EA5834.htm">ISO 19144 Classification</a> / <a href="../EA5878.htm">ISO 19144-2 LCML</a> / <a href="EA6062.htm">LC_ElementCharacteristics</a> / <a href="EA6058.htm">Fig 23 LCML_ArtificialSurfaceCharacteristics</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6050.htm">Fig 19 LCML_ElementCharacteristics</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6052.htm">Fig 20 LCML_GrowthFormCharacteristics</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6054.htm">Fig 21 LCML_FloristicAspects</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6056.htm">Fig 22 LCML_CultivatedAndManagedVegetation</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6058.htm">Fig 23 LCML_ArtificialSurfaceCharacteristics</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6060.htm">Fig 24 LCML_WaterBodyAndAssociatedSurfaceCharacteristics</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6064.htm">LC_AllometricMeasurements</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6065.htm">LC_Aquaculture</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6066.htm">LC_AquacultureType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6067.htm">LC_ArtificialDamageType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6068.htm">LC_Artificiality</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6069.htm">LC_ArtificialityType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6070.htm">LC_ArtificialSurfaceCharacteristic</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6071.htm">LC_ArtificialSurfaceDamage</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6072.htm">LC_BurntStatus</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6073.htm">LC_ConstructionStatus</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6074.htm">LC_ConstructionStatusType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6075.htm">LC_CropFertilization</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6076.htm">LC_CropFertilizationType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6077.htm">LC_CropGrowingParameter</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6078.htm">LC_CropYield</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6079.htm">LC_CultivatedAndManagedVegetation</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6080.htm">LC_DeadStatus</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6081.htm">LC_EvenAge</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6082.htm">LC_FieldSize</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6083.htm">LC_FloristicAspects</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6084.htm">LC_ForestPlantation</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6085.htm">LC_Grazing</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6086.htm">LC_GrazingAnimalType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6087.htm">LC_GroupOfPlantSpecies</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6088.htm">LC_GroupOfPlantSpeciesType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6089.htm">LC_GrowthFormAge</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6090.htm">LC_GrowthFormCharacteristic</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6091.htm">LC_GrowthFormIllness</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6092.htm">LC_GrowthFormIllnessType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6093.htm">LC_IceCategory</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6094.htm">LC_IceType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6095.htm">LC_IrrigationType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6096.htm">LC_LandCoverElementCharacteristic</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6097.htm">LC_MechanicalErosionControl</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6098.htm">LC_MechanicalErosionControlType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6099.htm">LC_Mowing</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6100.htm">LC_NameAttributionCriteria</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6101.htm">LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6102.htm">LC_NaturalSurfaceCharacteristic</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6103.htm">LC_NutrientLevel</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6104.htm">LC_OrchardAndOtherPlantation</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6105.htm">LC_OverlapGrowingToReferenceCrop</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6106.htm">LC_PestControl</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6107.htm">LC_PestControlType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6108.htm">LC_Plantation</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6109.htm">LC_PlantSpreadingGeometry</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6110.htm">LC_PlantSpreadingGeometryType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6111.htm">LC_Ploughing</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6112.htm">LC_PloughingType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6113.htm">LC_SinglePlantSpecies</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6114.htm">LC_SinglePlantSpeciesType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6115.htm">LC_SnowCategory</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6116.htm">LC_SnowType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6117.htm">LC_SpeciesName</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6118.htm">LC_TreeAreaManagementPractices</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6119.htm">LC_TreeAreaManagementPracticesType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6120.htm">LC_UnevenAge</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6121.htm">LC_UrbanPark</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6122.htm">LC_Use</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6123.htm">LC_VegetationArtificiality</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6124.htm">LC_VegetationDamage</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6125.htm">LC_VegetationDamageType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6126.htm">LC_WaterAndAssociatedSurfaceCharacteristic</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6127.htm">LC_WaterChemistry</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6128.htm">LC_WaterSalinity</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6129.htm">LC_WaterSalinityType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6130.htm">LC_WaterStress</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA6131.htm">LC_WaterSupplyPeriod</a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA6063.htm"></a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA6059.png" usemap="#EA6059" border="0" />
+
+<MAP NAME="EA6059">
+<area shape="rect" coords="485,309,721,391" href="EA6067.htm" target="_self">
+<area shape="rect" coords="484,215,720,285" href="EA6071.htm" target="_self">
+<area shape="rect" coords="20,10,225,48" href="EA6096.htm" target="_self">
+<area shape="rect" coords="248,215,458,285" href="EA6122.htm" target="_self">
+<area shape="rect" coords="10,310,220,392" href="EA6074.htm" target="_self">
+<area shape="rect" coords="12,215,222,292" href="EA6073.htm" target="_self">
+<area shape="rect" coords="20,100,225,136" href="EA6070.htm" target="_self">
+<area shape="rect" coords="312,56,491,121" href="../EA3/EA5981.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fig 23 LCML_ArtificialSurfaceCharacteristics : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">23/07/2009 11:36:21 a. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">25/05/2011 8:58:39 a. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">CDOBrien</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{C3E3678D-05EE-47d1-97CA-2D99DFDAFFF9}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">The LC_ArtificialSurfaceCharacteristic component is a subtype of LC_LandCoverElementCharacteristic. The component LC_ArtificialSurfaceCharacteristic is related to the LC_ArtificialSurfaceElement metaobject by the relation &lt;i&gt;artificialSurfaceCharacteristic&lt;/i&gt;. It has two subtypes LC_ConstructionStatus and LC_ConstructionUse. The component LC_ArtificialSurfaceCharacteristic may be used to refine the metaobject LC_ArtificialSurfaceElement to permit the generation of a more specific land cover feature class in an LCCS. &lt;br/&gt;&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

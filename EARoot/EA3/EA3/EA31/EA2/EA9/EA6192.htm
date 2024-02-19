@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ex 6 Fig C11 RoofGarden</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Ex 6 Fig C11 RoofGarden </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.htm">Model</a> / <a href="../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../EA722.htm">ISO TC211</a> / <a href="../../EA5834.htm">ISO 19144 Classification</a> / <a href="../EA5878.htm">ISO 19144-2 LCML</a> / <a href="EA6212.htm">LCML_Examples</a> / <a href="EA6192.htm">Ex 6 Fig C11 RoofGarden</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6182.htm">Ex 1 Fig C02 TigerBush</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6184.htm">Ex 2 Fig C04 Savannah</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6186.htm">Ex 3 Fig C06 Herbs and Dwarf Shrubs</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6188.htm">Ex 4 Fig C08 BouldersWithMoss</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6190.htm">EX 5 Fig C10 Mangrove</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6192.htm">Ex 6 Fig C11 RoofGarden</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6194.htm">Ex 7 Fig C12 BorealAndHemiborealForest</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6196.htm">Ex 8 Fig C14 Hagemarklandscape </a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6198.htm">Ex 9 Fig C15 BareFieldsWithWheatTemporalSequence</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6200.htm">Ex 10 Fig C16 Greenhouse</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6202.htm">Ex 11 Fig C17 Broad-leaved Forest</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6204.htm">Ex 12 Fig C18 Urban Fabric</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6206.htm">Ex 13 Fig C19 Agroforestry</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6208.htm">Ex 14 Fig C20 EvergreenForest-Anderson</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6210.htm">Ex 15 Fig C21 Herbaceous with Sparse Tree/Shrub-GlobalMap</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6278.htm">EL_Agroforestry: LC_CultivatedAndManagedVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6279.htm">EL_Agroforestry: LC_CultivatedAndManagedVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6280.htm">EL_Agroforestry: LC_Grazing</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6281.htm">EL_Agroforestry: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6282.htm">EL_Agroforestry: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6283.htm">EL_Agroforestry: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6284.htm">EL_Agroforestry: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6285.htm">EL_Agroforestry: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6286.htm">EL_Agroforestry: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6287.htm">EL_Agroforestry: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6288.htm">EL_Agroforestry: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6289.htm">EL_BareFealdsPlantedWithWheat: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6290.htm">EL_BareFieldsPlantedWithWheat: LC_BareSoil</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6291.htm">EL_BareFieldsPlantedWithWheat: LC_CultivatedAndManagedVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6292.htm">EL_BareFieldsPlantedWithWheat: LC_FloristicAspects</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6293.htm">EL_BareFieldsPlantedWithWheat: LC_Gramineae</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6294.htm">EL_BareFieldsPlantedWithWheat: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6295.htm">EL_BareFieldsPlantedWithWheat: LC_SinglePlantSpecies</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6296.htm">EL_BareFieldsPlantedWithWheat: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6297.htm">EL_BorealAndHemiborealForest: LC_Forbs</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6298.htm">EL_BorealAndHemiborealForest: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6299.htm">EL_BorealAndHemiborealForest: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6300.htm">EL_BorealAndHemiborealForest: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6301.htm">EL_BorealAndHemiborealForest: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6302.htm">EL_BorealAndHemiborealForest: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6303.htm">EL_BorealAndHemiborealForest: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6304.htm">EL_BorealAndHemiborealForest: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6305.htm">EL_BorealAndHemiborealForest: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6306.htm">EL_BorealAndHemiborealForest: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6307.htm">EL_BorealAndHemiborealForest: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6308.htm">EL_BorealAndHemiborealForest: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6309.htm">EL_BorealAndHemiborealForest: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6310.htm">EL_BorealAndHemiborealForest: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6311.htm">EL_BouldersWithMoss: LC_CoarseMineralFragments</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6312.htm">EL_BouldersWithMoss: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6313.htm">EL_BouldersWithMoss: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6314.htm">EL_BouldersWithMoss: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6315.htm">EL_BouldersWithMoss: LC_Moss</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6316.htm">EL_BouldersWithMoss: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6317.htm">EL_BouldersWithMoss: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6318.htm">EL_BouldersWithMoss: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6319.htm">EL_BouldersWithMoss: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6320.htm">EL_BouldersWithMoss: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6321.htm">EL_Broad-leavedForest: LC_BroadLeaf</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6322.htm">EL_Broad-leavedForest: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6323.htm">EL_Broad-leavedForest: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6324.htm">EL_Broad-leavedForest: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6325.htm">EL_Broad-leavedForest: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6326.htm">EL_Broad-leavedForest: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6327.htm">EL_Broad-leavedForest: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6328.htm">EL_Broad-leavedForest: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6329.htm">EL_Broad-leavedForest: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6330.htm">EL_BuildingWithRoofGarden: LC_Building</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6331.htm">EL_BuildingWithRoofGarden: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6332.htm">EL_BuildingWithRoofGarden: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6333.htm">EL_BuildingWithRoofGarden: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6334.htm">EL_BuildingWithRoofGarden: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6335.htm">EL_BuildingWithRoofGarden: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6336.htm">EL_BuildingWithRoofGarden: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6337.htm">EL_BuildingWithRoofGarden: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6338.htm">EL_BuildingWithRoofGarden: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6339.htm">EL_BuildingWithRoofGarden: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6340.htm">EL_DwarfShrubs: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6341.htm">EL_DwarfShrubs: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6342.htm">EL_DwarfShrubs: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6343.htm">EL_DwarfShrubs: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6344.htm">EL_DwarfShrubs: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6345.htm">EL_DwarfShrubs: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6346.htm">EL_DwarfShrubs: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6347.htm">EL_DwarfShrubs: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6348.htm">EL_EvergreenForest: LC_Evergreen</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6349.htm">EL_EvergreenForest: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6350.htm">EL_EvergreenForest: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6351.htm">EL_EvergreenForest: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6352.htm">EL_EvergreenForest: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6353.htm">EL_EvergreenForest: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6354.htm">EL_Greenhouse: LC_Building</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6355.htm">EL_Greenhouse: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6356.htm">EL_Greenhouse: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6357.htm">EL_Greenhouse: LC_Use</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6358.htm">EL_Hagemarklandscape: LC_Grazing</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6359.htm">EL_Hagemarklandscape: LC_Grazing</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6360.htm">EL_Hagemarklandscape: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6361.htm">EL_Hagemarklandscape: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6362.htm">EL_Hagemarklandscape: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6363.htm">EL_Hagemarklandscape: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6364.htm">EL_Hagemarklandscape: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6365.htm">EL_Hagemarklandscape: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6366.htm">EL_Hagemarklandscape: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6367.htm">EL_Hagremarklandscape: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6368.htm">EL_HerbaceousWithSparseTree-Shrub: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6369.htm">EL_HerbaceousWithSparseTree-Shrub: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6370.htm">EL_HerbaceousWithSparseTree-Shrub: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6371.htm">EL_HerbaceousWithSparseTree-Shrub: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6372.htm">EL_HerbaceousWithSparseTree-Shrub: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6373.htm">EL_HerbaceousWithSparseTree-Shrub: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6374.htm">EL_HerbaceousWithSparseTree-Shrub: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6375.htm">EL_HerbaceousWithSparseTree-Shrub: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6376.htm">EL_HerbaceousWithSparseTree-Shrub: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6377.htm">EL_HerbaceousWithSparseTree-Shrub: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6378.htm">EL_HerbaceousWithSparseTree-Shrub: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6379.htm">EL_HerbaceousWithSparseTree-Shrub: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6380.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6381.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6382.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6383.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6384.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6385.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6386.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6387.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6388.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6389.htm">EL_HerbaceousWithSparseTree-Shrub: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6390.htm">EL_Mangrove: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6391.htm">EL_Mangrove: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6392.htm">EL_Mangrove: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6393.htm">EL_Mangrove: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6394.htm">EL_Mangrove: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6395.htm">EL_Mangrove: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6396.htm">EL_Mangrove: LC_WaterBody</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6397.htm">EL_Mangrove: LC_WaterSalinity</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6398.htm">EL_Savannah: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6399.htm">EL_Savannah: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6400.htm">EL_Savannah: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6401.htm">EL_Savannah: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6402.htm">EL_Savannah: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6403.htm">EL_Savannah: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6404.htm">EL_Savannah: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6405.htm">EL_Savannah: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6406.htm">EL_Savannah: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6407.htm">EL_Savannah: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6408.htm">EL_Savannah: LC_Tree</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6409.htm">EL_TigerBush: LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6410.htm">EL_TigerBush: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6411.htm">EL_TigerBush: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6412.htm">EL_TigerBush: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6413.htm">EL_TigerBush: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6414.htm">EL_TigerBush: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6415.htm">EL_TigerBush: LC_Shrub</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6416.htm">EL_TigerBush: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6417.htm">EL_TIgerBush: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6418.htm">EL_UrbanFabric: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6419.htm">EL_UrbanFabric: LC_HorizontalPattern</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6420.htm">EL_UrbanFabric: LC_LandCoverClass</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6421.htm">EL_UrbanFabric: LC_LinearSurface</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6422.htm">EL_UrbanFabric: LC_NaturalOrSeminaturalVegetation</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6423.htm">EL_UrbanFabric: LC_NonLinearSurface</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6424.htm">EL_UrbanFabric: LC_Stratum</a></li>
+<li><img src="../../../../../../images/25.png" alt="Object"/> <a href="EA6425.htm">EL_UrbanFabric: LC_Stratum</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA6193.png" usemap="#EA6193" border="0" />
+
+<MAP NAME="EA6193">
+<area shape="rect" coords="440,526,676,584" href="EA6234.htm" target="_self">
+<area shape="rect" coords="134,468,376,504" href="EA6337.htm" target="_self">
+<area shape="rect" coords="440,452,676,510" href="EA6222.htm" target="_self">
+<area shape="rect" coords="179,520,355,566" href="EA6334.htm" target="_self">
+<area shape="rect" coords="440,378,676,436" href="EA6218.htm" target="_self">
+<area shape="rect" coords="440,243,676,288" href="EA6236.htm" target="_self">
+<area shape="rect" coords="86,72,410,106" href="EA6332.htm" target="_self">
+<area shape="rect" coords="175,174,351,222" href="EA6330.htm" target="_self">
+<area shape="rect" coords="135,354,377,390" href="EA6338.htm" target="_self">
+<area shape="rect" coords="440,304,676,362" href="EA6248.htm" target="_self">
+<area shape="rect" coords="440,169,676,227" href="EA6217.htm" target="_self">
+<area shape="rect" coords="440,108,676,153" href="EA6225.htm" target="_self">
+<area shape="rect" coords="175,288,355,338" href="EA6331.htm" target="_self">
+<area shape="rect" coords="180,406,356,452" href="EA6339.htm" target="_self">
+<area shape="rect" coords="135,238,377,272" href="EA6335.htm" target="_self">
+<area shape="rect" coords="135,122,377,158" href="EA6336.htm" target="_self">
+<area shape="rect" coords="10,10,165,56" href="EA6333.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Ex 6 Fig C11 RoofGarden : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">19/02/2010 7:32:24 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">3/08/2010 12:42:36 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">CDOBrien</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{1C80CBC3-5C90-4844-A328-E6E666999305}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">This example illustrates a more complex &quot;on Top&quot; relationship. It describes a building with a rooftop garden. All of the vegetation layers are &quot;onTop&quot; of the building. &lt;br/&gt;The model shows a class EL_BuildingWithRoofGarden composed of elements that correspond to instances of the metaclasses from LCML. The class EL_BuildingWithRoofGarden has been built up with the first layer representing the abiotic surface element building. A first layer of herbaceous growth is then defined with the &quot;onTop&quot; relation to the abiotic surface layer containing the building. This puts the herbaceous growth form on top of the building. The third layer and fourth layer are of trees. each of these are also on top of the building. For simplicity no attributes have been defined to characterize the elements in this example.&lt;br/&gt;&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

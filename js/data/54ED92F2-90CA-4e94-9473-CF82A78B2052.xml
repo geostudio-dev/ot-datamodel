@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.3.2.5:1", "", "CGI_Utilities package dependencies", "EARoot/EA3/EA2/EA5/EA519.htm", "176.png", "82", "0", "", "Package diagram0","{BBB50417-5614-49f7-BB00-1E3610679793}");
+tocTab[tocTab.length] = new Array("0.3.2.5.1", "1", "«Leaf» PrimitiveTypes", "EARoot/EA3/EA2/EA5/EA1/EA526.htm", "4.png", "", "", "{2FC6C2B7-A5A5-49c3-AB3D-674489720702}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2.5.2", "1", "«Leaf» CGI_Value", "EARoot/EA3/EA2/EA5/EA2/EA560.htm", "4.png", "", "", "{1647D196-5F33-45fa-9D9E-047647BA56A0}", "Package");

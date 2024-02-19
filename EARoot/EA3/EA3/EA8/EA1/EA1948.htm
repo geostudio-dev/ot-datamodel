@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fig 7: Relationships between features</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fig 7: Relationships between features </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA722.htm">ISO TC211</a> / <a href="../EA1898.htm">ISO 19109:2005 Application Schema</a> / <a href="EA1952.htm">General Feature Model</a> / <a href="EA1948.htm">Fig 7: Relationships between features</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1900.htm">All</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1902.htm">Context Diagram: GF_AggregationType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1904.htm">Context Diagram: GF_AssociationRole</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1906.htm">Context Diagram: GF_AssociationType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1908.htm">Context Diagram: GF_AttributeType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1910.htm">Context Diagram: GF_Constraint</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1912.htm">Context Diagram: GF_CycleType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1914.htm">Context Diagram: GF_EventType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1916.htm">Context Diagram: GF_FeatureDomain</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1918.htm">Context Diagram: GF_FeatureType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1920.htm">Context Diagram: GF_InheritanceRelation</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1922.htm">Context Diagram: GF_LocationalAttributeType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1924.htm">Context Diagram: GF_MetaDataAttributeType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1926.htm">Context Diagram: GF_Operation</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1928.htm">Context Diagram: GF_PropertyType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1930.htm">Context Diagram: GF_QualityAttributeType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1932.htm">Context Diagram: GF_SpatialAssociationType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1934.htm">Context Diagram: GF_SpatialAttributeType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1936.htm">Context Diagram: GF_StateType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1938.htm">Context Diagram: GF_TemporalAssociationType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1940.htm">Context Diagram: GF_TemporalAttributeType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1942.htm">Context Diagram: GF_ThematicAttributeType</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1944.htm">Fig 5: Extract </a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1946.htm">Fig 6: Attributes of feature types</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1948.htm">Fig 7: Relationships between features</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1950.htm">Fig 8: Behavior of feature types</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1954.htm">GF_AggregationType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1955.htm">GF_AssociationRole</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1956.htm">GF_AssociationType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1957.htm">GF_AttributeType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1958.htm">GF_Constraint</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1959.htm">GF_CycleType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1960.htm">GF_EventType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1961.htm">GF_FeatureDomain</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1962.htm">GF_FeatureType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1963.htm">GF_InheritanceRelation</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1964.htm">GF_LocationalAttributeType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1965.htm">GF_MetaDataAttributeType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1966.htm">GF_Operation</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1967.htm">GF_PropertyType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1968.htm">GF_QualityAttributeType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1969.htm">GF_SpatialAssociationType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1970.htm">GF_SpatialAttributeType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1971.htm">GF_StateType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1972.htm">GF_TemporalAssociationType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1973.htm">GF_TemporalAttributeType</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1974.htm">GF_ThematicAttributeType</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1949.png" usemap="#EA1949" border="0" />
+
+<MAP NAME="EA1949">
+<area shape="rect" coords="483,17,641,105" href="EA1963.htm" target="_self">
+<area shape="rect" coords="43,10,197,108" href="EA1962.htm" target="_self">
+<area shape="rect" coords="33,197,185,251" href="EA1956.htm" target="_self">
+<area shape="rect" coords="202,370,388,424" href="EA1969.htm" target="_self">
+<area shape="rect" coords="10,370,164,424" href="EA1954.htm" target="_self">
+<area shape="rect" coords="430,370,628,424" href="EA1972.htm" target="_self">
+<area shape="rect" coords="473,262,559,300" href="EA1953.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fig 7: Relationships between features : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:16:58 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">17/12/2010 9:56:02 a. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">friisan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{EA4504AA-98F5-4f84-9F93-C166D17164E2}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

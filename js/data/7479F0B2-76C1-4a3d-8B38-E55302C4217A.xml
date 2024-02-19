@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "Base", "EARoot/EA2/EA44.htm", "175.png", "12", "0", "", "Logical diagram0","{E7A1164B-F545-4d30-BB6A-16CD44306168}");
-tocTab[tocTab.length] = new Array("0.2.1", "1", "«FeatureDataset» cobertura_uso_suelo", "EARoot/EA2/EA1/EA57.htm", "4.png", "", "", "{F5878BE0-C5BC-44d2-A1D7-0CF37B78FF90}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "1", "«FeatureDataset» elevacion", "EARoot/EA2/EA2/EA62.htm", "4.png", "", "", "{96B6FA37-7A8C-44b8-9372-CBB8EC4AA497}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "1", "«FeatureDataset» hidrografia", "EARoot/EA2/EA3/EA66.htm", "4.png", "", "", "{E06B255B-1F90-47f5-93F2-A882A8E5D951}", "Package");
-tocTab[tocTab.length] = new Array("0.2.4", "1", "«FeatureDataset» limites", "EARoot/EA2/EA4/EA72.htm", "4.png", "", "", "{4A8A0C5B-B050-4067-ADFC-0F63612EF32F}", "Package");
-tocTab[tocTab.length] = new Array("0.2.5", "1", "«RasterDataset» orthoimagenes", "EARoot/EA2/EA5/EA83.htm", "4.png", "", "", "{B46CDE1E-2704-4c8d-9209-B2408BC2FA55}", "Package");
-tocTab[tocTab.length] = new Array("0.2.6", "1", "«RasterDataset» superficie", "EARoot/EA2/EA6/EA87.htm", "4.png", "", "", "{EA485667-8050-4524-A5A5-02F9969DC1E9}", "Package");
-tocTab[tocTab.length] = new Array("0.2.7", "1", "«FeatureDataset» transporte", "EARoot/EA2/EA7/EA91.htm", "4.png", "", "", "{0FB451E8-0F54-452c-BE2B-BDC9D236CBA5}", "Package");
-tocTab[tocTab.length] = new Array("0.2.8", "1", "«FeatureDataset» vivienda_ciudad_territorio", "EARoot/EA2/EA8/EA98.htm", "4.png", "", "", "{902B86BE-0679-41f0-AC4E-404C979EF684}", "Package");

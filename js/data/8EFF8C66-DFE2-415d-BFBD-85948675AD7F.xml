@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.4:1", "", "sistema_hidrico", "EARoot/EA1/EA4/EA37.htm", "175.png", "14", "0", "", "Logical diagram0","{2FD753AE-6849-431b-A5B2-508956CDB773}");
-tocTab[tocTab.length] = new Array("0.1.4:2", "", "«Polygon» areas_riego", "EARoot/EA1/EA4/EA40.htm", "5.png", "E125", "0", "", "Class0","{61E4FC32-99E9-4a32-B522-E204F955B5E0}");
-tocTab[tocTab.length] = new Array("0.1.4:3", "", "«Polygon» cuencas", "EARoot/EA1/EA4/EA41.htm", "5.png", "E126", "0", "", "Class0","{6B85A737-535D-41f3-9365-679DAACD75A9}");
-tocTab[tocTab.length] = new Array("0.1.4:4", "", "«Polygon» microcuencas", "EARoot/EA1/EA4/EA42.htm", "5.png", "E128", "0", "", "Class0","{4E5D7242-114B-46eb-874D-949943B6ED0F}");
-tocTab[tocTab.length] = new Array("0.1.4:5", "", "«Polygon» subcuencas", "EARoot/EA1/EA4/EA43.htm", "5.png", "E127", "0", "", "Class0","{713F9C7C-92EC-4f83-BA54-1A6B46272CBF}");

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.3.3.15.1:1", "", "Figure A.1 - Metadata Entity Set Extension", "EARoot/EA3/EA3/EA15/EA1/EA3148.htm", "175.png", "912", "0", "", "Logical diagram0","{E759C629-0D92-4ac0-B053-2BD06F2AF4C4}");
+tocTab[tocTab.length] = new Array("0.3.3.15.1:2", "", "MI_Metadata", "EARoot/EA3/EA3/EA15/EA1/EA3151.htm", "5.png", "E1077", "0", "", "Class0","{27A7CEEE-CA46-495a-BC39-61493C1487C6}");

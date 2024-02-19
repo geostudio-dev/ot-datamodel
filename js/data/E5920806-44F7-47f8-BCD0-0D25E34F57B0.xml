@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.3.3.13.12:1", "", "Context Diagram: MD_DatatypeCode", "EARoot/EA3/EA3/EA13/EA12/EA2934.htm", "175.png", "849", "0", "", "Logical diagram0","{7A504813-58A0-471f-9B0B-6DD24C99A353}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:2", "", "Context Diagram: MD_ExtendedElementInformation", "EARoot/EA3/EA3/EA13/EA12/EA2936.htm", "175.png", "846", "0", "", "Logical diagram0","{BF1233CC-37F2-42dc-B456-C0C08980F7F9}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:3", "", "Context Diagram: MD_MetadataExtensionInformation", "EARoot/EA3/EA3/EA13/EA12/EA2938.htm", "175.png", "847", "0", "", "Logical diagram0","{0C5CDB8E-5C51-4a61-8C2B-DB0FA6CE0C16}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:4", "", "Context Diagram: MD_ObligationCode", "EARoot/EA3/EA3/EA13/EA12/EA2940.htm", "175.png", "848", "0", "", "Logical diagram0","{3E908D70-B123-452f-BE2C-5D54DD363859}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:5", "", "Fig A.13 : Metadata extension information", "EARoot/EA3/EA3/EA13/EA12/EA2942.htm", "175.png", "844", "0", "", "Logical diagram0","{1270BF50-A363-4864-B369-1E34B0C587CF}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:6", "", "Main", "EARoot/EA3/EA3/EA13/EA12/EA2944.htm", "175.png", "845", "0", "", "Logical diagram0","{2DB78032-A4FA-4ef6-A306-0714F198D26C}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:7", "", "«CodeList» MD_DatatypeCode", "EARoot/EA3/EA3/EA13/EA12/EA2948.htm", "5.png", "E1007", "0", "", "Class0","{DF4FDFB8-9A6D-4d94-9932-2B9D9D507ED7}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:8", "", "MD_ExtendedElementInformation", "EARoot/EA3/EA3/EA13/EA12/EA2949.htm", "5.png", "E1008", "0", "", "Class0","{432007FB-D614-4aa8-A50A-9B232BA04CAE}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:9", "", "MD_MetadataExtensionInformation", "EARoot/EA3/EA3/EA13/EA12/EA2950.htm", "5.png", "E1009", "0", "", "Class0","{48DC700D-C287-41e4-8391-42B34E2263C6}");
+tocTab[tocTab.length] = new Array("0.3.3.13.12:10", "", "«enumeration» MD_ObligationCode", "EARoot/EA3/EA3/EA13/EA12/EA2951.htm", "247.png", "E1010", "0", "", "Class0","{F44020C0-982A-4872-820F-62E2D3021E89}");

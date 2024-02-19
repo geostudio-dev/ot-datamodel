@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.3.32.1.3:1", "", "Context Diagram: CT_UnitOfMeasure", "EARoot/EA3/EA3/EA32/EA1/EA3/EA6516.htm", "175.png", "1925", "0", "", "Logical diagram0","{0B54D40C-121C-4528-B057-D00D4316568C}");
+tocTab[tocTab.length] = new Array("0.3.3.32.1.3:2", "", "Context Diagram: CT_UomCatalogue", "EARoot/EA3/EA3/EA32/EA1/EA3/EA6518.htm", "175.png", "1926", "0", "", "Logical diagram0","{4EFD3968-8EFD-4afa-B8AC-469139A53F6A}");
+tocTab[tocTab.length] = new Array("0.3.3.32.1.3:3", "", "Fig11 - UoM Catalogue", "EARoot/EA3/EA3/EA32/EA1/EA3/EA6520.htm", "175.png", "1924", "0", "", "Logical diagram0","{9B28210F-5F4A-4a43-883B-7D90BAB78C75}");
+tocTab[tocTab.length] = new Array("0.3.3.32.1.3:4", "", "CT_UnitOfMeasure", "EARoot/EA3/EA3/EA32/EA1/EA3/EA6523.htm", "5.png", "E2294", "0", "", "Class0","{F21A2518-6BE4-49ec-8B6E-91FDED974650}");
+tocTab[tocTab.length] = new Array("0.3.3.32.1.3:5", "", "CT_UomCatalogue", "EARoot/EA3/EA3/EA32/EA1/EA3/EA6524.htm", "5.png", "E2295", "0", "", "Class0","{BFC3E4E3-EFCF-4bf2-9ACB-59BDE7137C4C}");

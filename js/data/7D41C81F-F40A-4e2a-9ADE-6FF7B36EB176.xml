@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.3.2.3.2:1", "", "Context diagram: GeochronologicBoundary", "EARoot/EA3/EA2/EA3/EA2/EA472.htm", "175.png", "72", "0", "", "Logical diagram0","{BBDC976C-ACF2-4fd3-8A31-6E5F96A1FB71}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:2", "", "Context diagram: GeochronologicEra", "EARoot/EA3/EA2/EA3/EA2/EA474.htm", "175.png", "70", "0", "", "Logical diagram0","{4D887BA0-D0EA-4088-A39F-AA7ED3A446DD}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:3", "", "Context Diagram : GeologicTimescale", "EARoot/EA3/EA2/EA3/EA2/EA476.htm", "175.png", "73", "0", "", "Class diagram0","{CF449CCB-5D58-41b2-A6BB-F5CA6827F7C5}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:4", "", "Context Diagram : NumericEraBoundary", "EARoot/EA3/EA2/EA3/EA2/EA478.htm", "175.png", "74", "0", "", "Class diagram0","{28287115-EB3D-4ae4-A5D9-9494E037B1D8}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:5", "", "Context Diagram : StandardGlobalNumericalAge", "EARoot/EA3/EA2/EA3/EA2/EA480.htm", "175.png", "75", "0", "", "Class diagram0","{7E7D445F-C9C1-4c43-946C-F7E3D78074AB}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:6", "", "Summary diagram: Timescale", "EARoot/EA3/EA2/EA3/EA2/EA482.htm", "175.png", "71", "0", "", "Logical diagram0","{5E477506-6355-4cf5-B324-E6557B3A6CD8}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:7", "", "«Type» GeochronologicBoundary", "EARoot/EA3/EA2/EA3/EA2/EA488.htm", "5.png", "E178", "0", "", "Class0","{0EF85580-62A1-43c2-ABFE-F277792D587A}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:8", "", "«Type» GeochronologicEra", "EARoot/EA3/EA2/EA3/EA2/EA489.htm", "5.png", "E179", "0", "", "Class0","{2B5C5F7E-55A7-40cc-B7AB-84F61F64989C}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:9", "", "«Type» GeologicTimescale", "EARoot/EA3/EA2/EA3/EA2/EA490.htm", "5.png", "E180", "0", "", "Class0","{F7BD9984-4DBD-48ea-9A0F-61BB13EA6A49}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:10", "", "«Type» NumericEraBoundary", "EARoot/EA3/EA2/EA3/EA2/EA491.htm", "5.png", "E181", "0", "", "Class0","{AC4B5E57-A7D5-4290-9127-14C17EE63113}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:11", "", "«Type» StandardGlobalNumericalAge", "EARoot/EA3/EA2/EA3/EA2/EA492.htm", "5.png", "E182", "0", "", "Class0","{3D60AFFD-C396-4c8c-888A-627AC1C5B197}");
+tocTab[tocTab.length] = new Array("0.3.2.3.2:12", "", "«CodeList» GeochronologicEraRank", "EARoot/EA3/EA2/EA3/EA2/EA493.htm", "5.png", "E183", "0", "", "Class0","{6E0A9E8E-B9F1-4990-AE62-E3A499510868}");

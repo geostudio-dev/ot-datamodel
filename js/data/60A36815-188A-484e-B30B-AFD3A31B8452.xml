@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.2:1", "", "areas_protegidas", "EARoot/EA1/EA2/EA25.htm", "175.png", "13", "0", "", "Logical diagram0","{607BF098-A70E-40aa-9610-C2D8178D9CFC}");
-tocTab[tocTab.length] = new Array("0.1.2:2", "", "«Subtype» manglares", "EARoot/EA1/EA2/EA28.htm", "5.png", "E200", "0", "", "Class0","{52D69E51-A88E-4da0-BB18-B1FFEAEBA80F}");
-tocTab[tocTab.length] = new Array("0.1.2:3", "", "«Polygon» amortiguacion", "EARoot/EA1/EA2/EA29.htm", "5.png", "E50", "0", "", "Class0","{381B0E8E-B4F5-40fb-8D54-E5E33C4971E7}");
-tocTab[tocTab.length] = new Array("0.1.2:4", "", "«Polygon» manglares", "EARoot/EA1/EA2/EA30.htm", "5.png", "E199", "0", "", "Class0","{831389B8-3D2C-4fca-A1A7-7462E3BF5646}");
-tocTab[tocTab.length] = new Array("0.1.2:5", "", "«Polygon» sinap", "EARoot/EA1/EA2/EA31.htm", "5.png", "E49", "0", "", "Class0","{D2EF2E25-80D6-4ed4-A5FA-49AAF8496F42}");

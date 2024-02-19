@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fig A.10 : Content information</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fig A.10 : Content information </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA158.htm">Foundation Schemas</a> / <a href="../../EA722.htm">ISO TC211</a> / <a href="../EA2558.htm">ISO 19115:2006 Metadata (Corrigendum)</a> / <a href="EA2884.htm">Content information</a> / <a href="EA2882.htm">Fig A.10 : Content information</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2864.htm">Context Diagram: MD_Band</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2866.htm">Context Diagram: MD_ContentInformation</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2868.htm">Context Diagram: MD_CoverageContentTypeCode</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2870.htm">Context Diagram: MD_CoverageDescription</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2872.htm">Context Diagram: MD_FeatureCatalogueDescription</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2874.htm">Context Diagram: MD_ImageDescription</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2876.htm">Context Diagram: MD_ImagingConditionCode</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2878.htm">Context Diagram: MD_RangeDimension</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2880.htm">FeatureCatalogContext</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA2882.htm">Fig A.10 : Content information</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2886.htm">MD_Band</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2887.htm">MD_ContentInformation</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2888.htm">MD_CoverageContentTypeCode</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2889.htm">MD_CoverageDescription</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2890.htm">MD_FeatureCatalogueDescription</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2891.htm">MD_ImageDescription</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2892.htm">MD_ImagingConditionCode</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA2893.htm">MD_RangeDimension</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA2883.png" usemap="#EA2883" border="0" />
+
+<MAP NAME="EA2883">
+<area shape="rect" coords="383,217,633,317" href="EA2890.htm" target="_self">
+<area shape="rect" coords="100,10,268,65" href="../EA2/EA2614.htm" target="_self">
+<area shape="rect" coords="116,89,252,131" href="EA2887.htm" target="_self">
+<area shape="rect" coords="222,577,400,675" href="EA2888.htm" target="_self">
+<area shape="rect" coords="437,557,593,746" href="EA2892.htm" target="_self">
+<area shape="rect" coords="27,466,195,612" href="EA2886.htm" target="_self">
+<area shape="rect" coords="12,696,362,728" href="EA2885.htm" target="_self">
+<area shape="rect" coords="10,229,282,291" href="EA2889.htm" target="_self">
+<area shape="rect" coords="12,358,246,416" href="EA2893.htm" target="_self">
+<area shape="rect" coords="315,342,637,536" href="EA2891.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fig A.10 : Content information : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/04/2008 12:16:58 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">31/03/2010 2:25:33 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">friisan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{482EC79E-C62E-4c97-BE54-1279652CE12F}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.3.37.1.7:1", "", "Context diagram: CVT_DiscreteTimeInstantCoverage", "EARoot/EA3/EA3/EA37/EA1/EA7/EA7079.htm", "175.png", "2081", "0", "", "Logical diagram0","{FEE529FC-B9C5-4396-A052-1A6958FDB651}");
+tocTab[tocTab.length] = new Array("0.3.3.37.1.7:2", "", "Context diagram: CVT_TimeInstantValuePair", "EARoot/EA3/EA3/EA37/EA1/EA7/EA7081.htm", "175.png", "2082", "0", "", "Logical diagram0","{C7060333-15ED-4f7a-A720-B161FB433821}");
+tocTab[tocTab.length] = new Array("0.3.3.37.1.7:3", "", "Figure C.2: CVT Temporal Coverage", "EARoot/EA3/EA3/EA37/EA1/EA7/EA7083.htm", "175.png", "2080", "0", "", "Logical diagram0","{8AFF42F5-97A0-4153-9A49-2E94F7586FEB}");
+tocTab[tocTab.length] = new Array("0.3.3.37.1.7:4", "", "CVT_DiscreteTimeInstantCoverage", "EARoot/EA3/EA3/EA37/EA1/EA7/EA7086.htm", "5.png", "E2501", "0", "", "Class0","{7A214CBE-35EF-445c-AE37-BA54C2AB2294}");
+tocTab[tocTab.length] = new Array("0.3.3.37.1.7:5", "", "«DataType» CVT_TimeInstantValuePair", "EARoot/EA3/EA3/EA37/EA1/EA7/EA7087.htm", "5.png", "E2502", "0", "", "Class0","{33074DB0-FF8F-4dd7-8594-93A3728CDA3D}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.1.2:1", "", "mot", "EARoot/EA2/EA1/EA2/EA94.htm", "175.png", "2180", "0", "", "Logical diagram0","{9AE4ED57-E8A1-42b0-8870-89E1D885BAD9}");
+tocTab[tocTab.length] = new Array("0.2.1.2:2", "", "«FeatureType» clasificacion_suelo", "EARoot/EA2/EA1/EA2/EA97.htm", "5.png", "E2810", "0", "", "Class0","{D2D49E19-F323-4757-ABC2-78F0CBF0A607}");
+tocTab[tocTab.length] = new Array("0.2.1.2:3", "", "«FeatureType» lineamientos", "EARoot/EA2/EA1/EA2/EA98.htm", "5.png", "E2808", "0", "", "Class0","{4D93E87F-E576-43f2-89E4-3E1E71341B04}");
+tocTab[tocTab.length] = new Array("0.2.1.2:4", "", "«FeatureType» modelo_ciudad", "EARoot/EA2/EA1/EA2/EA99.htm", "5.png", "E2809", "0", "", "Class0","{412EC977-D59D-4baf-ADCD-546F7A8387F0}");

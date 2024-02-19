@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.4.1:1", "", "inundacion", "EARoot/EA4/EA1/EA124.htm", "175.png", "30", "0", "", "Logical diagram0","{9A85FC8F-EA34-4968-AE34-469090FBB75B}");
-tocTab[tocTab.length] = new Array("0.4.1:2", "", "«Polygon» zonas_inundadas", "EARoot/EA4/EA1/EA127.htm", "5.png", "E167", "0", "", "Class0","{0536B8EA-6D60-46dc-949E-D1716F668A0C}");
-tocTab[tocTab.length] = new Array("0.4.1:3", "", "«Polygon» zonificacion_ame_inunda", "EARoot/EA4/EA1/EA128.htm", "5.png", "E172", "0", "", "Class0","{7ECB6F4B-8289-41e4-A309-8BCD81DD1E1D}");

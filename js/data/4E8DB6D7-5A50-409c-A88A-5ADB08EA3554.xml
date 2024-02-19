@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.3.2.4:1", "", "Borehole package dependencies", "EARoot/EA3/EA2/EA4/EA494.htm", "176.png", "80", "0", "", "Package diagram0","{714D6752-216C-4211-91AA-15F4D1A1D653}");
+tocTab[tocTab.length] = new Array("0.3.2.4:2", "", "Context Diagram : Borehole", "EARoot/EA3/EA2/EA4/EA496.htm", "175.png", "79", "0", "", "Logical diagram0","{83E60291-32A7-45be-A742-E2CF040C72D5}");
+tocTab[tocTab.length] = new Array("0.3.2.4:3", "", "Context diagram: BoreholeCollar", "EARoot/EA3/EA2/EA4/EA498.htm", "175.png", "76", "0", "", "Logical diagram0","{D00E5898-BBF7-430f-A8EF-69FDA5847EB7}");
+tocTab[tocTab.length] = new Array("0.3.2.4:4", "", "Context Diagram : BoreholeDetails", "EARoot/EA3/EA2/EA4/EA500.htm", "175.png", "81", "0", "", "Logical diagram0","{28C8AD44-A51E-493c-9A80-39454611451A}");
+tocTab[tocTab.length] = new Array("0.3.2.4:5", "", "Context diagram: MappedInterval", "EARoot/EA3/EA2/EA4/EA502.htm", "175.png", "78", "0", "", "Logical diagram0","{ABCECD0A-1058-4c43-ADF7-B376FE1225B3}");
+tocTab[tocTab.length] = new Array("0.3.2.4:6", "", "Summary diagram: Boreholes", "EARoot/EA3/EA2/EA4/EA504.htm", "175.png", "77", "0", "", "Logical diagram0","{2EB0FF08-7D72-464d-9276-08201E80FEB9}");
+tocTab[tocTab.length] = new Array("0.3.2.4:7", "", "«FeatureType» Borehole", "EARoot/EA3/EA2/EA4/EA512.htm", "5.png", "E189", "0", "", "Class0","{AB497592-395E-40ab-A3DF-A84BB2956DDE}");
+tocTab[tocTab.length] = new Array("0.3.2.4:8", "", "«FeatureType» BoreholeCollar", "EARoot/EA3/EA2/EA4/EA513.htm", "5.png", "E190", "0", "", "Class0","{418D37A5-963B-4352-B3E9-64245DB34FE6}");
+tocTab[tocTab.length] = new Array("0.3.2.4:9", "", "«FeatureType» MappedInterval", "EARoot/EA3/EA2/EA4/EA514.htm", "5.png", "E191", "0", "", "Class0","{154B84A8-898F-4cbd-8C41-C625E4FEA9BD}");
+tocTab[tocTab.length] = new Array("0.3.2.4:10", "", "«DataType» BoreholeDetails", "EARoot/EA3/EA2/EA4/EA515.htm", "5.png", "E192", "0", "", "Class0","{7C9748F3-F0AE-43c9-8856-56F7D7BAD953}");
+tocTab[tocTab.length] = new Array("0.3.2.4:11", "", "«CodeList» BoreholeDrillingMethodCode", "EARoot/EA3/EA2/EA4/EA516.htm", "5.png", "E193", "0", "", "Class0","{441DDD51-A3FC-4edb-94BD-4454E470DFC0}");
+tocTab[tocTab.length] = new Array("0.3.2.4:12", "", "«CodeList» BoreholeInclinationCode", "EARoot/EA3/EA2/EA4/EA517.htm", "5.png", "E194", "0", "", "Class0","{10B89023-2BFA-4d81-8677-19014879D983}");
+tocTab[tocTab.length] = new Array("0.3.2.4:13", "", "«CodeList» BoreholeStartPointCode", "EARoot/EA3/EA2/EA4/EA518.htm", "5.png", "E195", "0", "", "Class0","{843354DF-3B63-4a44-925E-82B049D4FC03}");

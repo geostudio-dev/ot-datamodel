@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:1", "", "Context Diagram: LBS_License", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4270.htm", "175.png", "1294", "0", "", "Logical diagram0","{14D3C08A-BE36-4645-8AC6-D6E6D57A2483}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:2", "", "Context Diagram: LBS_Resource", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4272.htm", "175.png", "1293", "0", "", "Logical diagram0","{D0EC6AFD-7F75-4be0-B67E-A965C9798216}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:3", "", "Context Diagram: LBS_Right", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4274.htm", "175.png", "1295", "0", "", "Logical diagram0","{8E80A866-5229-4d7d-823E-B3873EDAC627}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:4", "", "Context Diagram: LBS_RightsCondidtion", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4276.htm", "175.png", "1296", "0", "", "Logical diagram0","{EF0991BC-4A8C-442c-99C2-23252F413F74}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:5", "", "Fig 32: Main", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4278.htm", "175.png", "1292", "0", "", "Logical diagram0","{78941D0C-3767-434f-90CF-E04C84588CD0}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:6", "", "«type» LBS_License", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4281.htm", "5.png", "E1388", "0", "", "Class0","{25DA6652-2A03-43a9-9862-5DBC0FC9C221}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:7", "", "«type» LBS_Resource", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4282.htm", "5.png", "E1389", "0", "", "Class0","{0881C23E-3EB6-45ba-ACD4-E6A96134574F}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:8", "", "«type» LBS_Right", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4283.htm", "5.png", "E1390", "0", "", "Class0","{18F36EA8-B571-4cbb-B464-E93ECDE4FFC3}");
+tocTab[tocTab.length] = new Array("0.3.3.24.2.2:9", "", "«type» LBS_RightsCondition", "EARoot/EA3/EA3/EA24/EA2/EA2/EA4284.htm", "5.png", "E1391", "0", "", "Class0","{99B101F4-7D63-4e28-ABD3-636E06EF558E}");

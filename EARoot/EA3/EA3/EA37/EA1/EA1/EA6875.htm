@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Figure 2: Observation Core</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Figure 2: Observation Core </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.htm">Model</a> / <a href="../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../EA722.htm">ISO TC211</a> / <a href="../../EA6863.htm">ISO 19156 Observations and Measurements</a> / <a href="../EA6865.htm">ISO 19156:2011 Observations and Measurements</a> / <a href="EA6881.htm">Observation schema</a> / <a href="EA6875.htm">Figure 2: Observation Core</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA1/EA6901.htm">observation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA2/EA6908.htm">measurement</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA3/EA6912.htm">categoryObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA4/EA6916.htm">countObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA5/EA6920.htm">truthObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA6/EA6924.htm">temporalObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA7/EA6928.htm">geometryObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA8/EA6932.htm">complexObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA9/EA6936.htm">coverageObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA10/EA6940.htm">pointCoverageObservation</a></li>
+<li><img src="../../../../../../images/4.png" alt="Package"/> <a href="./EA11/EA6946.htm">timeSeriesObservation</a></li>
+<li><img src="../../../../../../images/176.png" alt="Diagram"/> <a href="EA6873.htm">Figure 1: OM package dependencies</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6875.htm">Figure 2: Observation Core</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6877.htm">Figure 6: Specialized Observations</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA6879.htm">Figure 7: Coverage Observation</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA6876.png" usemap="#EA6876" border="0" />
+
+<MAP NAME="EA6876">
+<area shape="rect" coords="73,11,223,80" href="../../../EA8/EA1/EA1962.htm" target="_self">
+<area shape="rect" coords="63,324,215,403" href="../../../EA8/EA1/EA1967.htm" target="_self">
+<area shape="rect" coords="479,450,608,503" href="./EA1/EA6903.htm" target="_self">
+<area shape="rect" coords="85,435,210,505" href="./EA1/EA6902.htm" target="_self">
+<area shape="rect" coords="308,454,398,506" href="../../../EA7/EA1/EA2/EA3/EA1750.htm" target="_self">
+<area shape="rect" coords="526,11,616,63" href="../../../EA13/EA2/EA2614.htm" target="_self">
+<area shape="rect" coords="129,123,219,172" href="../EA6/EA7078.htm" target="_self">
+<area shape="rect" coords="334,10,431,65" href="./EA1/EA6905.htm" target="_self">
+<area shape="rect" coords="328,162,596,378" href="./EA1/EA6904.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Figure 2: Observation Core : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/10/2005 2:46:29 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">31/05/2011 5:36:29 p. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Simon Cox</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{CA7AFCC7-56FF-4b47-8AFB-7D0AFBBE3DC2}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&lt;br/&gt;&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

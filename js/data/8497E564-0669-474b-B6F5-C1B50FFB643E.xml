@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.4.2.14:1", "", "Measurement (TVP) Timeseries", "EARoot/EA3/EA4/EA2/EA14/EA7465.htm", "175.png", "2147", "0", "", "Logical diagram0","{091EEBFD-BCF6-4e81-91AF-4A456DFF9AC3}");
+tocTab[tocTab.length] = new Array("0.3.4.2.14:2", "", "«DataType» MeasurementPointMetadata", "EARoot/EA3/EA4/EA2/EA14/EA7468.htm", "5.png", "E2720", "0", "", "Class0","{99BC26ED-C52E-4a2e-8AFC-1BA080BE172C}");
+tocTab[tocTab.length] = new Array("0.3.4.2.14:3", "", "«DataType» MeasurementTimeseriesMetadata", "EARoot/EA3/EA4/EA2/EA14/EA7469.htm", "5.png", "E2721", "0", "", "Class0","{9AC33DFE-BBE3-46fb-AB20-ADE339C01A43}");
+tocTab[tocTab.length] = new Array("0.3.4.2.14:4", "", "«Type» MeasurementTimeseriesTVP", "EARoot/EA3/EA4/EA2/EA14/EA7470.htm", "5.png", "E2722", "0", "", "Class0","{22F918F2-0F9E-4976-A129-49A67772A4A9}");
+tocTab[tocTab.length] = new Array("0.3.4.2.14:5", "", "«Type» MeasureTimeValuePair", "EARoot/EA3/EA4/EA2/EA14/EA7471.htm", "5.png", "E2723", "0", "", "Class0","{E2F786D9-C151-4cf4-9706-F36284C57E4F}");

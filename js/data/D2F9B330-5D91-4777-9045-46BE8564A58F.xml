@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.6.2:1", "", "sistema_equip", "EARoot/EA6/EA2/EA188.htm", "175.png", "27", "0", "", "Logical diagram0","{EC437C36-1E8B-4048-B201-88CB3C4269B6}");
-tocTab[tocTab.length] = new Array("0.6.2:2", "", "«Polygon» equipamientos", "EARoot/EA6/EA2/EA191.htm", "5.png", "E135", "0", "", "Class0","{38DFA2AE-C606-4c10-A959-E9C3B7A7FEC1}");
-tocTab[tocTab.length] = new Array("0.6.2:3", "", "«Polygon» nodos", "EARoot/EA6/EA2/EA192.htm", "5.png", "E136", "0", "", "Class0","{37ADF296-F1DB-45da-8E20-29ECFB1E6F2D}");

@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fig 07 LCML_WoodyGrowthForms</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Fig 07 LCML_WoodyGrowthForms </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.htm">Model</a> / <a href="../../../../EA158.htm">Foundation Schemas</a> / <a href="../../../EA722.htm">ISO TC211</a> / <a href="../../EA5834.htm">ISO 19144 Classification</a> / <a href="../EA5878.htm">ISO 19144-2 LCML</a> / <a href="EA5928.htm">LC_Vegetation</a> / <a href="EA5922.htm">Fig 07 LCML_WoodyGrowthForms</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5918.htm">Fig 05 LCML_VegetationElements</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5920.htm">Fig 06 LCML_GrowthForms</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5922.htm">Fig 07 LCML_WoodyGrowthForms</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5924.htm">Fig 08 LCML_HerbaceousGrowthForms</a></li>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA5926.htm">Fig 09 LCML_LichenAndMosses</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5932.htm">LC_Algae</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5933.htm">LC_AlgaeStatus</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5934.htm">LC_Annual</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5935.htm">LC_Aphillious</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5936.htm">LC_Biennial</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5937.htm">LC_BroadLeaf</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5938.htm">LC_BroadLeafShape</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5939.htm">LC_Deciduous</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5940.htm">LC_Evergreen</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5941.htm">LC_Forbs</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5942.htm">LC_ForbsLeafType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5943.htm">LC_ForbsStatus</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5944.htm">LC_Gramineae</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5945.htm">LC_GrowthForm</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5946.htm">LC_HerbaceousGrowthForm</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5947.htm">LC_HerbaceousLeafPhenology</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5948.htm">LC_Lichen</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5949.htm">LC_LichenAndMoss</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5950.htm">LC_Moss</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5951.htm">LC_NeedleLeaf</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5952.htm">LC_Perennial</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5953.htm">LC_Shrub</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5954.htm">LC_Tree</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5955.htm">LC_VegetationElement</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5956.htm">LC_WoodyGrowthForm</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5957.htm">LC_WoodyGrowthLeafPhenology</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5958.htm">LC_WoodyGrowthLeafType</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5959.htm">LC_WoodyLeafPhenology</a></li>
+<li><img src="../../../../../../images/5.png" alt="Class"/> <a href="EA5960.htm">LC_WoodyLeafType</a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA5929.htm"></a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA5930.htm"></a></li>
+<li><img src="../../../../../../images/202.png" alt="Constraint"/> <a href="EA5931.htm"></a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA5923.png" usemap="#EA5923" border="0" />
+
+<MAP NAME="EA5923">
+<area shape="rect" coords="523,412,749,484" href="EA5939.htm" target="_self">
+<area shape="rect" coords="418,412,516,471" href="EA5940.htm" target="_self">
+<area shape="rect" coords="313,412,411,471" href="EA5935.htm" target="_self">
+<area shape="rect" coords="208,412,306,471" href="EA5951.htm" target="_self">
+<area shape="rect" coords="10,488,201,537" href="EA5938.htm" target="_self">
+<area shape="rect" coords="10,412,201,471" href="EA5937.htm" target="_self">
+<area shape="rect" coords="582,112,752,242" href="EA5929.htm" target="_self">
+<area shape="rect" coords="492,26,752,77" href="EA5957.htm" target="_self">
+<area shape="rect" coords="387,279,650,343" href="EA5959.htm" target="_self">
+<area shape="rect" coords="10,112,180,242" href="EA5930.htm" target="_self">
+<area shape="rect" coords="10,29,270,80" href="EA5958.htm" target="_self">
+<area shape="rect" coords="99,279,362,343" href="EA5960.htm" target="_self">
+<area shape="rect" coords="393,136,495,174" href="EA5953.htm" target="_self">
+<area shape="rect" coords="255,136,357,172" href="EA5954.htm" target="_self">
+<area shape="rect" coords="291,10,464,61" href="EA5956.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Fig 07 LCML_WoodyGrowthForms : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">22/07/2009 1:45:34 p. m.</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">15/08/2011 11:08:11 a. m.</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">CDOBrien</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{7FB72C6E-BDE6-42b2-8D53-6234C8F685A1}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">The LC_WoodyGrowthForms metaobject is a subtype of LC_GrowthForm and has two subtypes LC_Tree and LC_Shrub and two components LC_WoodyLeafType and LC_WoodyLeafPhenology. The relationship &lt;i&gt;leafType&lt;/i&gt; is to LC_WoodyLeafType and the relationship &lt;i&gt;leafPhenology&lt;/i&gt; is to LC_WoofyLeafPhenology. &lt;br/&gt;LC_WoodyGrowthLeafType is an association class on the component relationship between the class LC_WoodyLeafType&#160;&#160;and LC_WoodyGrowthForm. LC_WoodyGrowthLeafPhenology is an association class on the component relationship between the class LC_WoodyLeafPhenology and LC_WoodyGrowthForm.&lt;br/&gt;This metaobject, when instantiated, allows the generation of a general land cover feature class in an LCCS for all woody growth form vegetation covered surfaces. &lt;br/&gt;&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

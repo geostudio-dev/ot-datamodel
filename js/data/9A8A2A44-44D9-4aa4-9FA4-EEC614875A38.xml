@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.3.3.28.10:1", "", "Context Diagram: LinearRing", "EARoot/EA3/EA3/EA28/EA10/EA5549.htm", "175.png", "1739", "0", "", "Logical diagram0","{EAF24308-302A-449a-843A-A0B10E462A06}");
+tocTab[tocTab.length] = new Array("0.3.3.28.10:2", "", "Context Diagram: Polygon", "EARoot/EA3/EA3/EA28/EA10/EA5551.htm", "175.png", "1741", "0", "", "Logical diagram0","{C2918B37-CEAA-4bac-B736-CF95F445B7B8}");
+tocTab[tocTab.length] = new Array("0.3.3.28.10:3", "", "Figure D.47 ? A GM_Surface with a single GM_Polygon patch", "EARoot/EA3/EA3/EA28/EA10/EA5553.htm", "175.png", "1740", "0", "", "Logical diagram0","{82FA263E-CB6E-4368-8266-F6D9A571C49B}");
+tocTab[tocTab.length] = new Array("0.3.3.28.10:4", "", "«type» LinearRing", "EARoot/EA3/EA3/EA28/EA10/EA5558.htm", "5.png", "E1729", "0", "", "Class0","{41F7D8EC-4347-4522-9B3A-D0FE52DE23A8}");
+tocTab[tocTab.length] = new Array("0.3.3.28.10:5", "", "«type» Polygon", "EARoot/EA3/EA3/EA28/EA10/EA5559.htm", "5.png", "E1730", "0", "", "Class0","{55BD7616-07D0-40d6-8528-C244C3991319}");
