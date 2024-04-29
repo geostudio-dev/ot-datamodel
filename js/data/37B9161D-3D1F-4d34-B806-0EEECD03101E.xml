@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.28.11:1", "", "Context Diagram: MultiGeometry", "EARoot/EA3/EA3/EA28/EA11/EA5560.htm", "175.png", "1742", "0", "", "Logical diagram0","{977A60F2-9AC6-4de5-8E12-F202FB928FB4}");
-tocTab[tocTab.length] = new Array("0.3.3.28.11:2", "", "Figure D.49 ? Additional geomeric aggregates", "EARoot/EA3/EA3/EA28/EA11/EA5562.htm", "175.png", "1743", "0", "", "Logical diagram0","{0362FCDA-4171-4e89-AFF0-6BE5E2AC4F8B}");
-tocTab[tocTab.length] = new Array("0.3.3.28.11:3", "", "«type» MultiGeometry", "EARoot/EA3/EA3/EA28/EA11/EA5565.htm", "5.png", "E1731", "0", "", "Class0","{772B6CA1-698E-40cb-A8A6-80823B4831F2}");

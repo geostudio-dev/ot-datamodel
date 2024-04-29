@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.5:1", "", "Context diagram: SF_SamplingSurface", "EARoot/EA3/EA3/EA37/EA1/EA2/EA5/EA6999.htm", "175.png", "2066", "0", "", "Logical diagram0","{4B2BC684-0229-489a-B2D9-AAA73DD0E30B}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.5:2", "", "Package dependencies", "EARoot/EA3/EA3/EA37/EA1/EA2/EA5/EA7001.htm", "176.png", "2067", "0", "", "Package diagram0","{EC4A892E-607F-4a8e-A1E3-3B1C713B5E32}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.5:3", "", "«FeatureType» SF_SamplingSurface", "EARoot/EA3/EA3/EA37/EA1/EA2/EA5/EA7004.htm", "5.png", "E2456", "0", "", "Class0","{26B4780C-165A-4314-8B0E-25DD37BA2E5C}");

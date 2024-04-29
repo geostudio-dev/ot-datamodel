@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "ordenamiento", "EARoot/EA2/EA78.htm", "175.png", "2167", "0", "", "Logical diagram0","{721C2F51-BD2E-4969-9A17-5E128410A155}");
-tocTab[tocTab.length] = new Array("0.2.1", "1", "«ApplicationSchema» componente_general", "EARoot/EA2/EA1/EA86.htm", "4.png", "", "", "{02C1468C-EB50-4c9b-83B2-8C24D79D4D76}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "1", "«ApplicationSchema» componente_urbano", "EARoot/EA2/EA2/EA102.htm", "4.png", "", "", "{788CD1F0-36F9-40d9-9B37-E75AF369B510}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "1", "«ApplicationSchema» norma_urbana", "EARoot/EA2/EA3/EA147.htm", "4.png", "", "", "{B5F5EAAC-FD87-4555-82CC-A38720A8BCD9}", "Package");

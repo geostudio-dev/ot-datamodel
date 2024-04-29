@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.18:1", "", "Context Diagram: Package Clients of Coverages", "EARoot/EA3/EA3/EA18/EA3504.htm", "175.png", "1034", "0", "", "Logical diagram0","{2C6C8B7A-2A46-43b4-8FB0-E416B3A0B87C}");
-tocTab[tocTab.length] = new Array("0.3.3.18:2", "", "Context Diagram: Package Suppliers of Coverages", "EARoot/EA3/EA3/EA18/EA3506.htm", "175.png", "1033", "0", "", "Logical diagram0","{D57809CE-E2D4-4d1c-9C53-3FD750307C71}");
-tocTab[tocTab.length] = new Array("0.3.3.18:3", "", "Main", "EARoot/EA3/EA3/EA18/EA3508.htm", "175.png", "1032", "0", "", "Logical diagram0","{6568A01E-E35D-48a3-8BAD-792841BE0BE3}");
-tocTab[tocTab.length] = new Array("0.3.3.18.1", "1", "Coverages", "EARoot/EA3/EA3/EA18/EA1/EA3542.htm", "4.png", "", "", "{3AFF35CF-CB3E-4737-B2C1-DD77D3B3F717}", "Package");

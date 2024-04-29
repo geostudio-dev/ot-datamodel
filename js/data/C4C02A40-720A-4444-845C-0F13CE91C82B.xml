@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.35.1:1", "", "«Feature» Road", "EARoot/EA3/EA3/EA35/EA1/EA6660.htm", "5.png", "E2338", "0", "", "Class0","{7C5AA8E7-0C71-4b82-895D-D2958298510F}");
-tocTab[tocTab.length] = new Array("0.3.3.35.1:2", "", "Road2", "EARoot/EA3/EA3/EA35/EA1/EA6661.htm", "5.png", "E2339", "0", "", "Class0","{DB98CD0A-6A1C-485e-BCA3-F37E61DB7E51}");
-tocTab[tocTab.length] = new Array("0.3.3.35.1:3", "", "«DataType» SpeedLimit", "EARoot/EA3/EA3/EA35/EA1/EA6662.htm", "5.png", "E2340", "0", "", "Class0","{1B398B31-C0FA-447b-A794-9B27984ACE1B}");
-tocTab[tocTab.length] = new Array("0.3.3.35.1:4", "", "SpeedLimit2", "EARoot/EA3/EA3/EA35/EA1/EA6663.htm", "5.png", "E2341", "0", "", "Class0","{255942D5-5064-454a-A6E5-C34ACB5CE3CC}");
-tocTab[tocTab.length] = new Array("0.3.3.35.1:5", "", "«Feature» WildlifeFence", "EARoot/EA3/EA3/EA35/EA1/EA6664.htm", "5.png", "E2342", "0", "", "Class0","{76B4B23D-D9BF-4dec-94F7-DBF62F57EF18}");

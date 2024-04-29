@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.35.7:1", "", "Figure 41: Linear Referencing Offset Vector classes", "EARoot/EA3/EA3/EA35/EA7/EA6768.htm", "175.png", "2006", "0", "", "Logical diagram0","{C1CF4E91-6389-4ebb-9F45-6B0679F4EFCE}");
-tocTab[tocTab.length] = new Array("0.3.3.35.7:2", "", "Figure 42: Context Diagram: LROV_VectorOffsetDistanceExpression", "EARoot/EA3/EA3/EA35/EA7/EA6770.htm", "175.png", "2007", "0", "", "Logical diagram0","{488ADC38-CBBC-4fb1-A384-7F9839DDFBC3}");
-tocTab[tocTab.length] = new Array("0.3.3.35.7:3", "", "Figure 43: Context Diagram: LROV_VectorOffsetExpression", "EARoot/EA3/EA3/EA35/EA7/EA6772.htm", "175.png", "2008", "0", "", "Logical diagram0","{F4E1D01D-F6E6-4503-997A-25B5E606E0CF}");
-tocTab[tocTab.length] = new Array("0.3.3.35.7:4", "", "«type» LROV_VectorOffsetDistanceExpression", "EARoot/EA3/EA3/EA35/EA7/EA6775.htm", "5.png", "E2369", "0", "", "Class0","{3FB58F07-A7AA-4965-8149-B38E77B5EC0D}");
-tocTab[tocTab.length] = new Array("0.3.3.35.7:5", "", "«type» LROV_VectorOffsetExpression", "EARoot/EA3/EA3/EA35/EA7/EA6776.htm", "5.png", "E2370", "0", "", "Class0","{E2987BFC-9E04-482a-ACE2-8E5FC754470C}");

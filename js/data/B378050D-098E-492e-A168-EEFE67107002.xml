@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.2.6:1", "", "Fossil package dependencies", "EARoot/EA3/EA2/EA6/EA591.htm", "176.png", "99", "0", "", "Package diagram0","{25E307E1-B3EC-4c78-B118-0503E5AB1207}");
-tocTab[tocTab.length] = new Array("0.3.2.6:2", "", "Summary diagram: Fossil", "EARoot/EA3/EA2/EA6/EA593.htm", "175.png", "98", "0", "", "Logical diagram0","{60D1716D-D950-4e92-8AB3-B4605129F220}");
-tocTab[tocTab.length] = new Array("0.3.2.6:3", "", "«Type» Organism", "EARoot/EA3/EA2/EA6/EA600.htm", "5.png", "E237", "0", "", "Class0","{0DD014D3-0719-436b-A73A-75AAA42A6C96}");

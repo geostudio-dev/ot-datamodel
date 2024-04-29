@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:1", "", "Context Diagram: MC_CoordinateReferenceSystem", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4923.htm", "175.png", "1526", "0", "", "Logical diagram0","{BEDACD03-8AD6-447b-B2B3-91F0AB569A6D}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:2", "", "Context Diagram: MC_CoordinateSystem", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4925.htm", "175.png", "1525", "0", "", "Logical diagram0","{2B3494CB-D228-4ef7-B104-CC73BEE48E76}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:3", "", "Context Diagram: MC_MeasurePosition", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4927.htm", "175.png", "1524", "0", "", "Logical diagram0","{7B061FF5-BDCB-4d0a-B2C4-E65C0E0284ED}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:4", "", "Measured Coordinate Systems", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4929.htm", "175.png", "1523", "0", "", "Logical diagram0","{48100EF8-384A-4d6c-95F2-875CF3123148}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:5", "", "MeasurePosition", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4931.htm", "175.png", "1522", "0", "", "Logical diagram0","{1AB9F332-3CD9-42f8-9F7F-C894D3D64BDC}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:6", "", "MC_CoordinateReferenceSystem", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4934.htm", "5.png", "E1555", "0", "", "Class0","{5D6DD12C-F001-46f1-A007-152E688EB254}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:7", "", "MC_CoordinateSystem", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4935.htm", "5.png", "E1556", "0", "", "Class0","{AF0E6EBF-A523-43c7-95DE-85491D2FCA8A}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.4:8", "", "MC_MeasurePosition", "EARoot/EA3/EA3/EA25/EA5/EA4/EA4936.htm", "5.png", "E1557", "0", "", "Class0","{95C7BDDD-1F6E-47e3-BF88-D2F1A4D6B7F4}");

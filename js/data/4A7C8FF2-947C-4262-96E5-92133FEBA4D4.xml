@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.25.3.3:1", "", "Context Diagram: NT_Link", "EARoot/EA3/EA3/EA25/EA3/EA3/EA4752.htm", "175.png", "1463", "0", "", "Logical diagram0","{F4672D2F-8D30-4225-9AB0-8F6EEBBB4F41}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.3:2", "", "Context Diagram: NT_RouteSegmentCategory", "EARoot/EA3/EA3/EA25/EA3/EA3/EA4754.htm", "175.png", "1464", "0", "", "Logical diagram0","{DACBEBC4-CEA9-499a-B313-5A405B7FBA4E}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.3:3", "", "Link", "EARoot/EA3/EA3/EA25/EA3/EA3/EA4756.htm", "175.png", "1461", "0", "", "Logical diagram0","{191469B2-51E3-4dba-B74A-9E3A6366BD98}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.3:4", "", "Main", "EARoot/EA3/EA3/EA25/EA3/EA3/EA4758.htm", "175.png", "1462", "0", "", "Logical diagram0","{AD9072ED-498A-4481-A423-0167E3BFD374}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.3:5", "", "«type» NT_Link", "EARoot/EA3/EA3/EA25/EA3/EA3/EA4761.htm", "5.png", "E1516", "0", "", "Class0","{E2903795-7C83-4508-B102-0093D500EAF6}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.3:6", "", "«CodeList» NT_RouteSegmentCategory", "EARoot/EA3/EA3/EA25/EA3/EA3/EA4762.htm", "5.png", "E1517", "0", "", "Class0","{F108E1C6-E00F-4eb7-96C2-97CC118F2F22}");

@@ -1,2 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.1:1", "", "ISO19130", "EARoot/EA3/EA3/EA1/EA761.htm", "176.png", "125", "0", "", "Package diagram0","{9375FE34-F292-49e3-8C2F-6E11196E079E}");
-tocTab[tocTab.length] = new Array("0.3.3.1.1", "1", "Sensor Data", "EARoot/EA3/EA3/EA1/EA1/EA795.htm", "4.png", "", "", "{B760AA12-7B60-4d7f-A216-8FF43D744C39}", "Package");

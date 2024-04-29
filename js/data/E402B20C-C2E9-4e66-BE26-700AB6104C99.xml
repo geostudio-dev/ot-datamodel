@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.1", "1", "EarthResourceML", "EARoot/EA3/EA1/EA163.htm", "4.png", "", "", "{5FB60E0C-9C8C-427a-B4A6-1B83F11A0FA0}", "Package");
-tocTab[tocTab.length] = new Array("0.3.2", "1", "GeoSciML", "EARoot/EA3/EA2/EA203.htm", "4.png", "", "", "{487FD2A2-B26B-4ffe-8369-FC3247775AFD}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3", "1", "ISO TC211", "EARoot/EA3/EA3/EA722.htm", "4.png", "", "", "{3F184823-F542-4aa5-B594-C1989CC433F7}", "Package");
-tocTab[tocTab.length] = new Array("0.3.4", "1", "OGC", "EARoot/EA3/EA4/EA7234.htm", "4.png", "", "", "{69CD8AA2-029D-494a-9D52-E20885CB3032}", "Package");

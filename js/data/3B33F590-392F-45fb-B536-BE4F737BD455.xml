@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.29:1", "", "Context Diagram: Package Clients of Geometry", "EARoot/EA3/EA3/EA29/EA5728.htm", "175.png", "1798", "0", "", "Logical diagram0","{68FAD118-F23C-4cd7-9D59-8C41C74F7E5D}");
-tocTab[tocTab.length] = new Array("0.3.3.29:2", "", "Context Diagram: Package Suppliers of Geometry", "EARoot/EA3/EA3/EA29/EA5730.htm", "175.png", "1797", "0", "", "Logical diagram0","{42727B63-F089-48e9-9391-7BB03D5B054A}");
-tocTab[tocTab.length] = new Array("0.3.3.29:3", "", "Main", "EARoot/EA3/EA3/EA29/EA5732.htm", "175.png", "1796", "0", "", "Logical diagram0","{D086445D-AF32-4876-A8D3-828660322768}");
-tocTab[tocTab.length] = new Array("0.3.3.29.1", "1", "Geometry", "EARoot/EA3/EA3/EA29/EA1/EA5748.htm", "4.png", "", "", "{7D778ECC-283D-4ef6-9C50-DFE89ED68DF0}", "Package");

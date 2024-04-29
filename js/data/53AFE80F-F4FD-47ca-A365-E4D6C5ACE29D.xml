@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:1", "", "Context diagram: Location", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7011.htm", "175.png", "2072", "0", "", "Logical diagram0","{2F9DF9F5-7C7F-4166-8C7F-C9E925D27643}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:2", "", "Context diagram: PreparationStep", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7013.htm", "175.png", "2070", "0", "", "Logical diagram0","{47E7E35C-7DAE-452b-98B3-356009BF9B76}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:3", "", "Context diagram: SF_Process", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7015.htm", "175.png", "2073", "0", "", "Logical diagram0","{BD5CDFAA-C745-4f86-ABE7-6E0F9A5B9A83}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:4", "", "Context diagram: SF_Specimen", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7017.htm", "175.png", "2071", "0", "", "Logical diagram0","{DC63B445-51F1-437a-A6EF-DA75F789CE16}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:5", "", "«Union» Location", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7020.htm", "5.png", "E2458", "0", "", "Class0","{4743C6C4-3776-4fd2-AE5F-CA40C2A2E757}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:6", "", "PreparationStep", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7021.htm", "5.png", "E2459", "0", "", "Class0","{C2603A90-1824-49b6-BF1E-FE6AE4911D29}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:7", "", "«FeatureType» SF_Process", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7022.htm", "5.png", "E2460", "0", "", "Class0","{6E309805-4958-4092-93C5-09E38BFEF1C6}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.7:8", "", "«FeatureType» SF_Specimen", "EARoot/EA3/EA3/EA37/EA1/EA2/EA7/EA7023.htm", "5.png", "E2461", "0", "", "Class0","{3F73BD54-8F97-4a22-916F-AFA17B399605}");

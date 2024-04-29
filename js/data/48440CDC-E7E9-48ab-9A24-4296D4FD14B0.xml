@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.2.2.4:1", "", "sistema_ocupacion", "EARoot/EA2/EA2/EA4/EA124.htm", "175.png", "2194", "0", "", "Logical diagram0","{E3F9A2A9-D8FA-44cb-B7FF-882A9926E7EC}");
-tocTab[tocTab.length] = new Array("0.2.2.4:2", "", "«FeatureType» centralidades", "EARoot/EA2/EA2/EA4/EA127.htm", "5.png", "E2825", "0", "", "Class0","{C0BB3E59-20E4-480a-911C-4B83AD8766AD}");
-tocTab[tocTab.length] = new Array("0.2.2.4:3", "", "«FeatureType» clasificacion_suelo", "EARoot/EA2/EA2/EA4/EA128.htm", "5.png", "E2826", "0", "", "Class0","{D982AC63-F81E-4ee7-9F63-3BDD9C7F9741}");
-tocTab[tocTab.length] = new Array("0.2.2.4:4", "", "«FeatureType» instrumentos_planificacion", "EARoot/EA2/EA2/EA4/EA129.htm", "5.png", "E2829", "0", "", "Class0","{36B008D8-0B0D-4863-8576-9D441AE9FBE9}");
-tocTab[tocTab.length] = new Array("0.2.2.4:5", "", "«FeatureType» tratamientos", "EARoot/EA2/EA2/EA4/EA130.htm", "5.png", "E2782", "0", "", "Class0","{EF4063D1-9575-4b71-8D01-FCCDC47CA3F5}");
-tocTab[tocTab.length] = new Array("0.2.2.4:6", "", "«FeatureType» usos", "EARoot/EA2/EA2/EA4/EA131.htm", "5.png", "E2783", "0", "", "Class0","{60F99C11-5245-4127-B0D5-F851FA5F8FFF}");
-tocTab[tocTab.length] = new Array("0.2.2.4:7", "", "«FeatureType» zonificacion", "EARoot/EA2/EA2/EA4/EA132.htm", "5.png", "E2828", "0", "", "Class0","{9CDF1C82-8B38-4291-AEAE-83AEA2528407}");

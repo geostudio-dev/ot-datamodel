@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.25.5.3:1", "", "Context Diagram: LT_LocationTransformationService", "EARoot/EA3/EA3/EA25/EA5/EA3/EA4915.htm", "175.png", "1521", "0", "", "Logical diagram0","{B4DDD95F-527D-4017-96FC-BC05B86940CD}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.3:2", "", "Main", "EARoot/EA3/EA3/EA25/EA5/EA3/EA4917.htm", "175.png", "1519", "0", "", "Logical diagram0","{C5AA8E59-C4FE-41f8-8A4C-158CB3FF0153}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.3:3", "", "MainDenpendancy", "EARoot/EA3/EA3/EA25/EA5/EA3/EA4919.htm", "175.png", "1520", "0", "", "Logical diagram0","{88086D50-F78F-43e6-8EEF-AE3ECFDEC8AD}");
-tocTab[tocTab.length] = new Array("0.3.3.25.5.3:4", "", "«type» LT_LocationTransformationService", "EARoot/EA3/EA3/EA25/EA5/EA3/EA4922.htm", "5.png", "E1554", "0", "", "Class0","{146E306C-88BA-4dfe-89D1-441C36E9D3C8}");

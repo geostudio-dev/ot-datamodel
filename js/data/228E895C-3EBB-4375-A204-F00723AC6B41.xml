@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.4.1.5:1", "", "Record Components", "EARoot/EA3/EA4/EA1/EA5/EA7288.htm", "175.png", "2110", "0", "", "Logical diagram0","{445A9C8E-E665-47ea-A369-EBD9124063E2}");
-tocTab[tocTab.length] = new Array("0.3.4.1.5:2", "", "Record Components (alone)", "EARoot/EA3/EA4/EA1/EA5/EA7290.htm", "175.png", "2111", "0", "", "Logical diagram0","{F46664FD-9577-44dd-9923-3FE5D8FE78AB}");
-tocTab[tocTab.length] = new Array("0.3.4.1.5:3", "", "«Type» DataRecord", "EARoot/EA3/EA4/EA1/EA5/EA7293.htm", "5.png", "E2635", "0", "", "Class0","{8525E4BE-294C-4acd-A513-D52C82A98933}");
-tocTab[tocTab.length] = new Array("0.3.4.1.5:4", "", "«Type» Vector", "EARoot/EA3/EA4/EA1/EA5/EA7294.htm", "5.png", "E2636", "0", "", "Class0","{E2AB6B4B-A9A0-44fc-91E0-4216DA4FC888}");

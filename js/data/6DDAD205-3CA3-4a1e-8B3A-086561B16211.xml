@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.2.1.1:1", "", "Context diagram: GeologicFeature", "EARoot/EA3/EA2/EA1/EA1/EA228.htm", "175.png", "12", "0", "", "Logical diagram0","{D9D0592A-F148-4b06-9BD9-5D3299677EF2}");
-tocTab[tocTab.length] = new Array("0.3.2.1.1:2", "", "Context diagram: GeologicFeatureRelation", "EARoot/EA3/EA2/EA1/EA1/EA230.htm", "175.png", "14", "0", "", "Logical diagram0","{6B184285-1A68-4eca-B2D8-54226A87E967}");
-tocTab[tocTab.length] = new Array("0.3.2.1.1:3", "", "Context diagram: MappedFeature", "EARoot/EA3/EA2/EA1/EA1/EA232.htm", "175.png", "15", "0", "", "Logical diagram0","{15BAE203-F734-46e9-85ED-C8AA0F4193E4}");
-tocTab[tocTab.length] = new Array("0.3.2.1.1:4", "", "Summary diagram: Geologic Feature", "EARoot/EA3/EA2/EA1/EA1/EA234.htm", "175.png", "13", "0", "", "Logical diagram0","{3449F174-B399-486f-A82F-048A4CD8396E}");
-tocTab[tocTab.length] = new Array("0.3.2.1.1:5", "", "«FeatureType» GeologicFeature", "EARoot/EA3/EA2/EA1/EA1/EA253.htm", "5.png", "E73", "0", "", "Class0","{439DDFEB-FADE-44d6-99F8-8D633C676371}");
-tocTab[tocTab.length] = new Array("0.3.2.1.1:6", "", "«FeatureType» GeologicFeatureRelation", "EARoot/EA3/EA2/EA1/EA1/EA254.htm", "5.png", "E74", "0", "", "Class0","{BEEFA183-40BF-444c-907E-9B4508054590}");
-tocTab[tocTab.length] = new Array("0.3.2.1.1:7", "", "«FeatureType» MappedFeature", "EARoot/EA3/EA2/EA1/EA1/EA255.htm", "5.png", "E75", "0", "", "Class0","{7AFAE578-CB54-4d49-BD8D-0354AB1A571E}");

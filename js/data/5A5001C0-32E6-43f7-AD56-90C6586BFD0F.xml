@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.1:1", "", "Context diagram: SF_SamplingFeature", "EARoot/EA3/EA3/EA37/EA1/EA2/EA1/EA6969.htm", "175.png", "2058", "0", "", "Logical diagram0","{2CE22749-EF37-4f1c-BFDB-70351E6B7B8E}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.1:2", "", "Package dependencies", "EARoot/EA3/EA3/EA37/EA1/EA2/EA1/EA6971.htm", "176.png", "2059", "0", "", "Package diagram0","{157C564A-CA5A-4e4c-9C20-C3219B9F0657}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.1:3", "", "Overview: sampling", "EARoot/EA3/EA3/EA37/EA1/EA2/EA1/EA6973.htm", "175.png", "2056", "0", "", "Logical diagram0","{06F1CA6C-6C28-4804-89D3-FDEF2EC5839C}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.1:4", "", "Context diagram: SF_SamplingFeatureCollection", "EARoot/EA3/EA3/EA37/EA1/EA2/EA1/EA6975.htm", "175.png", "2057", "0", "", "Logical diagram0","{6936FC62-28D8-4c4e-9719-603EAF651BC2}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.1:5", "", "SamplingFeatureComplex", "EARoot/EA3/EA3/EA37/EA1/EA2/EA1/EA6978.htm", "5.png", "E2450", "0", "", "Class0","{E345BA1A-2C76-4eb7-AFD6-5195375AC9A6}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.1:6", "", "«FeatureType» SF_SamplingFeature", "EARoot/EA3/EA3/EA37/EA1/EA2/EA1/EA6979.htm", "5.png", "E2451", "0", "", "Class0","{A8DAB89C-421E-471b-B2A9-D59FD8B4AC38}");
-tocTab[tocTab.length] = new Array("0.3.3.37.1.2.1:7", "", "«FeatureType» SF_SamplingFeatureCollection", "EARoot/EA3/EA3/EA37/EA1/EA2/EA1/EA6980.htm", "5.png", "E2452", "0", "", "Class0","{0409EA97-7908-4239-A898-72F5EE23D69B}");

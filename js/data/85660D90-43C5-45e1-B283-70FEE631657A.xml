@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.24.2.1:1", "", "Fig 15: Main", "EARoot/EA3/EA3/EA24/EA2/EA1/EA4258.htm", "175.png", "1288", "0", "", "Logical diagram0","{77FFF84F-3A95-4544-8D12-1EE17366327C}");
-tocTab[tocTab.length] = new Array("0.3.3.24.2.1:2", "", "Fig 16: Context Diagram: LBS_Tracking", "EARoot/EA3/EA3/EA24/EA2/EA1/EA4260.htm", "175.png", "1289", "0", "", "Logical diagram0","{518870A6-9A64-4531-880B-1B2A6E962B21}");
-tocTab[tocTab.length] = new Array("0.3.3.24.2.1:3", "", "Fig 17: Context Diagram: LBS_Routing", "EARoot/EA3/EA3/EA24/EA2/EA1/EA4262.htm", "175.png", "1290", "0", "", "Logical diagram0","{F22DCADE-F12A-4b58-BA0E-E22A4ECD31A4}");
-tocTab[tocTab.length] = new Array("0.3.3.24.2.1:4", "", "Fig 18: Context Diagram: LBS_Navigation", "EARoot/EA3/EA3/EA24/EA2/EA1/EA4264.htm", "175.png", "1291", "0", "", "Logical diagram0","{F27973F8-EDAE-4438-A1C1-FDE990B4771D}");
-tocTab[tocTab.length] = new Array("0.3.3.24.2.1:5", "", "«type» LBS_Navigation", "EARoot/EA3/EA3/EA24/EA2/EA1/EA4267.htm", "5.png", "E1385", "0", "", "Class0","{3AA724D8-BEB4-4122-90F6-B5D903C3A1DF}");
-tocTab[tocTab.length] = new Array("0.3.3.24.2.1:6", "", "«type» LBS_Routing", "EARoot/EA3/EA3/EA24/EA2/EA1/EA4268.htm", "5.png", "E1386", "0", "", "Class0","{C325E3D5-F351-47dd-9C69-5216B425FB0F}");
-tocTab[tocTab.length] = new Array("0.3.3.24.2.1:7", "", "«type» LBS_Tracking", "EARoot/EA3/EA3/EA24/EA2/EA1/EA4269.htm", "5.png", "E1387", "0", "", "Class0","{C95A1FCC-3926-47a9-AD5A-D7A36540183C}");

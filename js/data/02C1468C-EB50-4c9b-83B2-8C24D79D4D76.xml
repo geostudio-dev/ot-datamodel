@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.2.1:1", "", "componente_general", "EARoot/EA2/EA1/EA84.htm", "175.png", "2179", "0", "", "Logical diagram0","{6D7CE92F-A68D-4860-89AC-2BBB64DC47F7}");
-tocTab[tocTab.length] = new Array("0.2.1.1", "1", "«Leaf» escenarios", "EARoot/EA2/EA1/EA1/EA91.htm", "4.png", "", "", "{4DFC33B0-8682-4d80-997E-C25B2BAD6185}", "Package");
-tocTab[tocTab.length] = new Array("0.2.1.2", "1", "«Leaf» mot", "EARoot/EA2/EA1/EA2/EA96.htm", "4.png", "", "", "{464AFE5B-C3EB-416a-9F6D-F3400CA46AFB}", "Package");

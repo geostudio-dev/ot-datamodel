@@ -1,7 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.32.1.1:1", "", "Context Diagram: CT_Codelist", "EARoot/EA3/EA3/EA32/EA1/EA1/EA6471.htm", "175.png", "1911", "0", "", "Logical diagram0","{05F46F13-F115-4e43-8118-D57F72AFC5F9}");
-tocTab[tocTab.length] = new Array("0.3.3.32.1.1:2", "", "Context Diagram: CT_CodelistCatalogue", "EARoot/EA3/EA3/EA32/EA1/EA1/EA6473.htm", "175.png", "1912", "0", "", "Logical diagram0","{4237020E-B36A-44b5-8028-4C21ABB0AC1E}");
-tocTab[tocTab.length] = new Array("0.3.3.32.1.1:3", "", "Context Diagram: CT_CodelistValue", "EARoot/EA3/EA3/EA32/EA1/EA1/EA6475.htm", "175.png", "1910", "0", "", "Logical diagram0","{5CBED9E6-4361-4b24-A1DF-C7B8FAA8D546}");
-tocTab[tocTab.length] = new Array("0.3.3.32.1.1:4", "", "Fig13 - CodeList Catalogue", "EARoot/EA3/EA3/EA32/EA1/EA1/EA6477.htm", "175.png", "1909", "0", "", "Logical diagram0","{2B069E50-5196-4a45-A249-7C8A43EF1CF9}");
-tocTab[tocTab.length] = new Array("0.3.3.32.1.1:5", "", "CT_Codelist", "EARoot/EA3/EA3/EA32/EA1/EA1/EA6480.htm", "5.png", "E2281", "0", "", "Class0","{A69DB4BD-53EA-4fc3-B024-233A30C86528}");
-tocTab[tocTab.length] = new Array("0.3.3.32.1.1:6", "", "CT_CodelistCatalogue", "EARoot/EA3/EA3/EA32/EA1/EA1/EA6481.htm", "5.png", "E2282", "0", "", "Class0","{322CAE44-EDD6-4983-85E5-B534C541BDE6}");
-tocTab[tocTab.length] = new Array("0.3.3.32.1.1:7", "", "CT_CodelistValue", "EARoot/EA3/EA3/EA32/EA1/EA1/EA6482.htm", "5.png", "E2283", "0", "", "Class0","{DCC2710E-AFEA-49c5-92C0-1E82C7C174E0}");

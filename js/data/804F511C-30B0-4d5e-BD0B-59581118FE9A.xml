@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.28.16:1", "", "Context Diagram: TopoCurve", "EARoot/EA3/EA3/EA28/EA16/EA5613.htm", "175.png", "1759", "0", "", "Logical diagram0","{ED621EFE-2C2D-468e-B3B4-757855D48F9A}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:2", "", "Context Diagram: TopoPoint", "EARoot/EA3/EA3/EA28/EA16/EA5615.htm", "175.png", "1763", "0", "", "Logical diagram0","{077E5956-4562-4323-94A6-1CF187F19550}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:3", "", "Context Diagram: TopoSurface", "EARoot/EA3/EA3/EA28/EA16/EA5617.htm", "175.png", "1760", "0", "", "Logical diagram0","{9462AFEF-6AE7-4ab3-8A9A-E1E438DD0D9D}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:4", "", "Context Diagram: TopoVolume", "EARoot/EA3/EA3/EA28/EA16/EA5619.htm", "175.png", "1761", "0", "", "Logical diagram0","{162E9282-38B5-472a-B4BF-7FCFF66C7EA9}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:5", "", "Figure D.55 ? Topological expressions", "EARoot/EA3/EA3/EA28/EA16/EA5621.htm", "175.png", "1762", "0", "", "Logical diagram0","{7130EC57-CB9F-4b96-9ACF-833DCDB19E10}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:6", "", "TopoCurve", "EARoot/EA3/EA3/EA28/EA16/EA5628.htm", "5.png", "E1749", "0", "", "Class0","{F0B0801C-9277-46ef-842C-C1D7974445CC}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:7", "", "TopoPoint", "EARoot/EA3/EA3/EA28/EA16/EA5629.htm", "5.png", "E1750", "0", "", "Class0","{1E29E6DA-8B43-4127-9E56-DEBC8A6BF586}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:8", "", "TopoSurface", "EARoot/EA3/EA3/EA28/EA16/EA5630.htm", "5.png", "E1751", "0", "", "Class0","{04307753-E240-4ad7-A49B-A8D300A098BB}");
-tocTab[tocTab.length] = new Array("0.3.3.28.16:9", "", "TopoVolume", "EARoot/EA3/EA3/EA28/EA16/EA5631.htm", "5.png", "E1752", "0", "", "Class0","{902AD629-164A-47c2-B93F-E502F730293C}");

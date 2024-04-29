@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.17.2:1", "", "Context Diagram: PF_PortrayalService", "EARoot/EA3/EA3/EA17/EA2/EA3479.htm", "175.png", "1026", "0", "", "Logical diagram0","{F335A7CE-BD87-4543-B122-1B5DBBF43F22}");
-tocTab[tocTab.length] = new Array("0.3.3.17.2:2", "", "Figure6", "EARoot/EA3/EA3/EA17/EA2/EA3481.htm", "175.png", "1025", "0", "", "Logical diagram0","{CA5B8C50-F070-42a4-8478-076AB8BBC486}");
-tocTab[tocTab.length] = new Array("0.3.3.17.2:3", "", "PortrayalOld", "EARoot/EA3/EA3/EA17/EA2/EA3483.htm", "175.png", "1024", "0", "", "Logical diagram0","{57F8F3D3-4C93-46d6-AD64-C6F78455954F}");
-tocTab[tocTab.length] = new Array("0.3.3.17.2:4", "", "PF_PortrayalService", "EARoot/EA3/EA3/EA17/EA2/EA3486.htm", "5.png", "E1172", "0", "", "Class0","{E4D17679-B786-4939-B309-FADE8DBA0C24}");

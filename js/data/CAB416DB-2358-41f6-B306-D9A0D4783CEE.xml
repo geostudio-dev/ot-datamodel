@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.4:1", "", "Context Diagram: Package Clients of GPL", "EARoot/EA3/EA3/EA4/EA860.htm", "175.png", "146", "0", "", "Logical diagram0","{82D3D963-0689-48f1-A139-1046BC5B8CA8}");
-tocTab[tocTab.length] = new Array("0.3.3.4:2", "", "Context Diagram: Package Suppliers of GPL", "EARoot/EA3/EA3/EA4/EA862.htm", "175.png", "145", "0", "", "Logical diagram0","{E5C3A80B-B492-4ab7-9E96-4FD28CCE1B3A}");
-tocTab[tocTab.length] = new Array("0.3.3.4:3", "", "Main", "EARoot/EA3/EA3/EA4/EA864.htm", "175.png", "144", "0", "", "Logical diagram0","{8F803749-2A29-4095-A4CC-9E883AA2F950}");
-tocTab[tocTab.length] = new Array("0.3.3.4.1", "1", "«Leaf» GPL", "EARoot/EA3/EA3/EA4/EA1/EA870.htm", "4.png", "", "", "{916FD92B-A77E-4e8b-B5EC-A3B079AB2DE4}", "Package");

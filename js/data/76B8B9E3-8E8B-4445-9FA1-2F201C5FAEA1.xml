@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.10:1", "", "Context Diagram: Package Clients of Feature Cataloging", "EARoot/EA3/EA3/EA10/EA2124.htm", "175.png", "572", "0", "", "Logical diagram0","{E2D085D0-F69C-4c59-8FED-598911BCCC20}");
-tocTab[tocTab.length] = new Array("0.3.3.10:2", "", "Context Diagram: Package Suppliers of Feature Cataloging", "EARoot/EA3/EA3/EA10/EA2126.htm", "175.png", "571", "0", "", "Logical diagram0","{18015142-1D89-448f-ABA7-95505F9660AA}");
-tocTab[tocTab.length] = new Array("0.3.3.10:3", "", "Main", "EARoot/EA3/EA3/EA10/EA2128.htm", "175.png", "570", "0", "", "Logical diagram0","{40292DF7-E521-4aa7-82BA-3970B452F674}");
-tocTab[tocTab.length] = new Array("0.3.3.10.1", "1", "«Leaf» Methodology for feature cataloguing", "EARoot/EA3/EA3/EA10/EA1/EA2184.htm", "4.png", "", "", "{486E1F94-64A9-4508-9676-77EE55A95603}", "Package");

@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.23.11:1", "", "Context Diagram: DPS_ReferenceSystemInformation", "EARoot/EA3/EA3/EA23/EA11/EA4154.htm", "175.png", "1254", "0", "", "Logical diagram0","{64A1C9F6-5016-42e3-90B5-591DA623BFA3}");
-tocTab[tocTab.length] = new Array("0.3.3.23.11:2", "", "Fig E.3 - Specification Reference System", "EARoot/EA3/EA3/EA23/EA11/EA4156.htm", "175.png", "1253", "0", "", "Logical diagram0","{073CABE1-1653-41ff-9841-EC92A95FF803}");
-tocTab[tocTab.length] = new Array("0.3.3.23.11:3", "", "DPS_ReferenceSystemInformation", "EARoot/EA3/EA3/EA23/EA11/EA4159.htm", "5.png", "E1356", "0", "", "Class0","{0666328C-985A-4ce3-A3AC-F84EFBC8717F}");

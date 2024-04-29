@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.23.12:1", "", "Context Diagram: DPS_ScopeInformation", "EARoot/EA3/EA3/EA23/EA12/EA4160.htm", "175.png", "1256", "0", "", "Logical diagram0","{F61F1AF6-C23C-45a5-BCBF-9C6AF3B28ED1}");
-tocTab[tocTab.length] = new Array("0.3.3.23.12:2", "", "Fig D.1New - Specification Scope", "EARoot/EA3/EA3/EA23/EA12/EA4162.htm", "175.png", "1255", "0", "", "Logical diagram0","{578922A2-542E-4c04-BDC8-2455893F602C}");
-tocTab[tocTab.length] = new Array("0.3.3.23.12:3", "", "DPS_Metadata", "EARoot/EA3/EA3/EA23/EA12/EA4167.htm", "5.png", "E1359", "0", "", "Class0","{333C591B-D3A3-459e-8547-81F48ED2A702}");
-tocTab[tocTab.length] = new Array("0.3.3.23.12:4", "", "DPS_ScopeInformation", "EARoot/EA3/EA3/EA23/EA12/EA4168.htm", "5.png", "E1360", "0", "", "Class0","{A2DDC8CC-D9DB-4ce9-98B5-ED86D4EA032B}");

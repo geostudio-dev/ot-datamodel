@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.2.3.1:1", "", "Context Diagram : GlobalStratotypePoint", "EARoot/EA3/EA2/EA3/EA1/EA456.htm", "175.png", "68", "0", "", "Class diagram0","{8C5FDD1B-3CEF-4945-8596-F62CFA5907F1}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:2", "", "Context Diagram : GlobalStratotypeSection", "EARoot/EA3/EA2/EA3/EA1/EA458.htm", "175.png", "69", "0", "", "Class diagram0","{8313BE72-9031-4fb7-9B12-F8F7A3527C94}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:3", "", "Context diagram: StratigraphicPoint", "EARoot/EA3/EA2/EA3/EA1/EA460.htm", "175.png", "65", "0", "", "Logical diagram0","{111D7C85-5980-4cc6-8C9B-F0C58FD91319}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:4", "", "Context diagram: StratigraphicSection", "EARoot/EA3/EA2/EA3/EA1/EA462.htm", "175.png", "66", "0", "", "Logical diagram0","{1EEE7151-70CD-4a49-9C4F-AF8B38F5F06A}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:5", "", "Summary diagram: GSSP", "EARoot/EA3/EA2/EA3/EA1/EA464.htm", "175.png", "67", "0", "", "Logical diagram0","{9B2BD76A-9DEF-4d4f-94D4-0D048549F065}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:6", "", "«FeatureType» GlobalStratotypePoint", "EARoot/EA3/EA2/EA3/EA1/EA468.htm", "5.png", "E171", "0", "", "Class0","{36F6D87D-82BC-402a-9118-DEED9E3921DA}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:7", "", "«FeatureType» GlobalStratotypeSection", "EARoot/EA3/EA2/EA3/EA1/EA469.htm", "5.png", "E172", "0", "", "Class0","{2E620998-82F8-4f41-B4F4-5D24CDF8EFB5}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:8", "", "«FeatureType» StratigraphicPoint", "EARoot/EA3/EA2/EA3/EA1/EA470.htm", "5.png", "E173", "0", "", "Class0","{68830502-90C4-4be3-9E33-5BB8B71EB4B8}");
-tocTab[tocTab.length] = new Array("0.3.2.3.1:9", "", "«FeatureType» StratigraphicSection", "EARoot/EA3/EA2/EA3/EA1/EA471.htm", "5.png", "E174", "0", "", "Class0","{860EEF46-D3AF-489d-8FA6-0A9D5DBB09AF}");

@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.12.2:1", "", "Context Diagram: SI_LocationType", "EARoot/EA3/EA3/EA12/EA2/EA2477.htm", "175.png", "689", "0", "", "Logical diagram0","{E499BA18-E32D-48ed-B987-309C1EB48EDC}");
-tocTab[tocTab.length] = new Array("0.3.3.12.2:2", "", "Context Diagram: SI_SpatialReferenceSystemUsingGeographicIdentifiers", "EARoot/EA3/EA3/EA12/EA2/EA2479.htm", "175.png", "688", "0", "", "Logical diagram0","{2B2A7E0A-6207-44de-A5CB-2F21292F095A}");
-tocTab[tocTab.length] = new Array("0.3.3.12.2:3", "", "Main", "EARoot/EA3/EA3/EA12/EA2/EA2481.htm", "175.png", "687", "0", "", "Logical diagram0","{DAE31345-7DAB-4226-B00C-41DF8438767C}");
-tocTab[tocTab.length] = new Array("0.3.3.12.2:4", "", "SI_LocationType", "EARoot/EA3/EA3/EA12/EA2/EA2484.htm", "5.png", "E876", "0", "", "Class0","{20B70BE9-D9BB-4501-B623-55D6D72E499E}");
-tocTab[tocTab.length] = new Array("0.3.3.12.2:5", "", "SI_SpatialReferenceSystemUsingGeographicIdentifiers", "EARoot/EA3/EA3/EA12/EA2/EA2485.htm", "5.png", "E877", "0", "", "Class0","{29E46FEB-A64D-4777-8DD5-AD3A475ADB3B}");

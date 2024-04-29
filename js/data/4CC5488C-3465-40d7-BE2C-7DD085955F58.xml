@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.2.7.2:1", "", "Context Diagram : GeochronologicInterpretation", "EARoot/EA3/EA2/EA7/EA2/EA651.htm", "175.png", "110", "0", "", "Class diagram0","{13C0AA4A-5CDB-4e0c-A419-1AD591D4E63B}");
-tocTab[tocTab.length] = new Array("0.3.2.7.2:2", "", "Summary diagram: Geochronology", "EARoot/EA3/EA2/EA7/EA2/EA653.htm", "175.png", "109", "0", "", "Logical diagram0","{8AE9F3C0-C518-4943-B060-2421AB887180}");
-tocTab[tocTab.length] = new Array("0.3.2.7.2:3", "", "«FeatureType» GeochronologicInterpretation", "EARoot/EA3/EA2/EA7/EA2/EA663.htm", "5.png", "E277", "0", "", "Class0","{9BBE8D29-A9E3-4440-92E2-03C66AEE4309}");
-tocTab[tocTab.length] = new Array("0.3.2.7.2:4", "", "«CodeList» IsotopicEventType", "EARoot/EA3/EA2/EA7/EA2/EA664.htm", "5.png", "E278", "0", "", "Class0","{41F5CDAC-0427-470c-8A6C-F0B615BF5117}");
-tocTab[tocTab.length] = new Array("0.3.2.7.2:5", "", "«CodeList» IsotopicSystemName", "EARoot/EA3/EA2/EA7/EA2/EA665.htm", "5.png", "E279", "0", "", "Class0","{B8FCE1EC-3C2A-4125-8A77-135CB1410AFF}");
-tocTab[tocTab.length] = new Array("0.3.2.7.2:6", "", "«CodeList» StatisticalMethodTerm", "EARoot/EA3/EA2/EA7/EA2/EA668.htm", "5.png", "E280", "0", "", "Class0","{8ADE778B-9008-486e-B22D-5234AB68B10B}");

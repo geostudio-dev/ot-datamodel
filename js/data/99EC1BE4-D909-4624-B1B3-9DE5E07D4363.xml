@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.6:1", "", "Context Diagram: Package Clients of  Geometry", "EARoot/EA3/EA3/EA6/EA1003.htm", "175.png", "189", "0", "", "Logical diagram0","{705D7285-C168-41f8-9803-72895B23F3BA}");
-tocTab[tocTab.length] = new Array("0.3.3.6:2", "", "Context Diagram: Package Clients of Topology", "EARoot/EA3/EA3/EA6/EA1005.htm", "175.png", "187", "0", "", "Logical diagram0","{290ADFEA-90F8-448d-9D9D-120792BF95AD}");
-tocTab[tocTab.length] = new Array("0.3.3.6:3", "", "Context Diagram: Package Suppliers of  Geometry", "EARoot/EA3/EA3/EA6/EA1007.htm", "175.png", "188", "0", "", "Logical diagram0","{B9D264F8-99AD-4a75-A250-0AA2BE7E90C0}");
-tocTab[tocTab.length] = new Array("0.3.3.6:4", "", "Context Diagram: Package Suppliers of Topology", "EARoot/EA3/EA3/EA6/EA1009.htm", "175.png", "186", "0", "", "Logical diagram0","{7C4CDB7E-41CC-4f7c-B566-7B8FAECC3BA7}");
-tocTab[tocTab.length] = new Array("0.3.3.6:5", "", "Fig 03: Geometry and Topology Packages", "EARoot/EA3/EA3/EA6/EA1011.htm", "175.png", "185", "0", "", "Logical diagram0","{6CBEBB4D-CD38-485c-B962-44C33E22BC77}");
-tocTab[tocTab.length] = new Array("0.3.3.6:6", "", "Main", "EARoot/EA3/EA3/EA6/EA1013.htm", "175.png", "184", "0", "", "Logical diagram0","{DF8F1039-310B-4fc7-BD62-26656519F0D2}");
-tocTab[tocTab.length] = new Array("0.3.3.6.1", "1", "«normative»  Geometry", "EARoot/EA3/EA3/EA6/EA1/EA1042.htm", "4.png", "", "", "{8C887ADC-B0E6-4680-8DC7-47A7863EC050}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3.6.2", "1", "«normative» Topology", "EARoot/EA3/EA3/EA6/EA2/EA1397.htm", "4.png", "", "", "{E6CC7487-42B3-4a5d-85C6-4C74C14D4346}", "Package");

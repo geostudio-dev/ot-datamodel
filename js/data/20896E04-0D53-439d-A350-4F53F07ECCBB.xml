@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.25.3.5:1", "", "Context Diagram: NT_LinkPosition", "EARoot/EA3/EA3/EA25/EA3/EA5/EA4777.htm", "175.png", "1472", "0", "", "Logical diagram0","{DDD6E904-B158-4410-AE05-42B7769C8BC8}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.5:2", "", "Context Diagram: NT_NetworkPosition", "EARoot/EA3/EA3/EA25/EA3/EA5/EA4779.htm", "175.png", "1473", "0", "", "Logical diagram0","{97A21F67-6DE2-4c3c-AB6F-BD1CE274BECD}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.5:3", "", "Main", "EARoot/EA3/EA3/EA25/EA3/EA5/EA4781.htm", "175.png", "1471", "0", "", "Logical diagram0","{719CCF12-71C1-4116-9288-F6E71C4AA65D}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.5:4", "", "Network Position", "EARoot/EA3/EA3/EA25/EA3/EA5/EA4783.htm", "175.png", "1470", "0", "", "Logical diagram0","{0F4186D9-1DEE-4ca3-9B89-C3697FBC681B}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.5:5", "", "NT_LinkPosition", "EARoot/EA3/EA3/EA25/EA3/EA5/EA4786.htm", "5.png", "E1521", "0", "", "Class0","{19233D4E-EB8F-4b0e-AA46-95E3ED643AA0}");
-tocTab[tocTab.length] = new Array("0.3.3.25.3.5:6", "", "«Union» NT_NetworkPosition", "EARoot/EA3/EA3/EA25/EA3/EA5/EA4787.htm", "5.png", "E1522", "0", "", "Class0","{CB4D202E-B61D-413b-A1AE-1AA5986A6963}");

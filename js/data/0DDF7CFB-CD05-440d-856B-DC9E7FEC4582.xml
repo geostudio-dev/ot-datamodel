@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.31:1", "", "Context Diagram: Package Clients of ISO 19144-1 Classification Systems", "EARoot/EA3/EA3/EA31/EA5826.htm", "175.png", "1831", "0", "", "Logical diagram0","{FA17DA80-60AE-4121-9F3F-B81F43DF37A5}");
-tocTab[tocTab.length] = new Array("0.3.3.31:2", "", "Context Diagram: Package Clients of ISO 19144-2 LCCS", "EARoot/EA3/EA3/EA31/EA5828.htm", "175.png", "1833", "0", "", "Logical diagram0","{7ED158DC-CDE3-4058-B7CF-BBF2941892C4}");
-tocTab[tocTab.length] = new Array("0.3.3.31:3", "", "Context Diagram: Package Suppliers of ISO 19144-1 Classification Systems", "EARoot/EA3/EA3/EA31/EA5830.htm", "175.png", "1830", "0", "", "Logical diagram0","{408AFE01-7A02-4ee3-99EC-F86850213487}");
-tocTab[tocTab.length] = new Array("0.3.3.31:4", "", "Context Diagram: Package Suppliers of ISO 19144-2 LCCS", "EARoot/EA3/EA3/EA31/EA5832.htm", "175.png", "1832", "0", "", "Logical diagram0","{95E4CF79-5727-4007-89C1-18D31CD7B1A5}");
-tocTab[tocTab.length] = new Array("0.3.3.31.1", "1", "ISO 19144-1 Classification Systems", "EARoot/EA3/EA3/EA31/EA1/EA5857.htm", "4.png", "", "", "{411D3862-2D69-438a-A5C0-764DDCE5D500}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3.31.2", "1", "ISO 19144-2 LCML", "EARoot/EA3/EA3/EA31/EA2/EA5878.htm", "4.png", "", "", "{ECBF2823-B498-41ba-9CD3-49FF438A1FDD}", "Package");

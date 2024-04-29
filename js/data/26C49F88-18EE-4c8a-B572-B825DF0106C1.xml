@@ -1,2 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.4.2.8:1", "", "Interleaved Category Timeseries Observation", "EARoot/EA3/EA4/EA2/EA8/EA7406.htm", "175.png", "2136", "0", "", "Logical diagram0","{D533C05C-904E-4bf8-B5E0-2E5419690AED}");
-tocTab[tocTab.length] = new Array("0.3.4.2.8:2", "", "«FeatureType» CategoricalTimeseriesTVPObservation", "EARoot/EA3/EA4/EA2/EA8/EA7409.htm", "5.png", "E2690", "0", "", "Class0","{C943EC02-DF7A-423b-8D6B-01ED51DA4FC0}");

@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.8:1", "", "All ", "EARoot/EA3/EA3/EA8/EA1890.htm", "175.png", "485", "0", "", "Logical diagram0","{282BE2C7-6289-42cd-BB52-8DB879A8536D}");
-tocTab[tocTab.length] = new Array("0.3.3.8:2", "", "Context Diagram: Package Clients of General Feature Model", "EARoot/EA3/EA3/EA8/EA1892.htm", "175.png", "487", "0", "", "Logical diagram0","{D59F4653-BE6B-4bad-80C0-F69AE84D6E23}");
-tocTab[tocTab.length] = new Array("0.3.3.8:3", "", "Context Diagram: Package Suppliers of General Feature Model", "EARoot/EA3/EA3/EA8/EA1894.htm", "175.png", "486", "0", "", "Logical diagram0","{2470DD77-A5CC-42e4-8AD9-698DC4FC7D8E}");
-tocTab[tocTab.length] = new Array("0.3.3.8:4", "", "Main", "EARoot/EA3/EA3/EA8/EA1896.htm", "175.png", "484", "0", "", "Logical diagram0","{5F69EB43-7221-44a5-BAB5-CD691E65798A}");
-tocTab[tocTab.length] = new Array("0.3.3.8.1", "1", "«Leaf» General Feature Model", "EARoot/EA3/EA3/EA8/EA1/EA1952.htm", "4.png", "", "", "{5ADC4BBF-E5B9-42e0-B021-87A98A3AF7D9}", "Package");

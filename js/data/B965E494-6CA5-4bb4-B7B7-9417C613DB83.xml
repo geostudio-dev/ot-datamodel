@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.22:1", "", "Context Diagram: Package Clients of IGCD Framework", "EARoot/EA3/EA3/EA22/EA3965.htm", "175.png", "1196", "0", "", "Logical diagram0","{A69B313B-F6DB-4af1-A336-3D482CA31F30}");
-tocTab[tocTab.length] = new Array("0.3.3.22:2", "", "Context Diagram: Package Suppliers of IGCD Framework", "EARoot/EA3/EA3/EA22/EA3967.htm", "175.png", "1195", "0", "", "Logical diagram0","{245BCF85-9130-469b-A03D-7991844AD707}");
-tocTab[tocTab.length] = new Array("0.3.3.22.1", "1", "IGCD Framework", "EARoot/EA3/EA3/EA22/EA1/EA3985.htm", "4.png", "", "", "{EBC299D8-841C-47f0-A3EF-C7448029F708}", "Package");

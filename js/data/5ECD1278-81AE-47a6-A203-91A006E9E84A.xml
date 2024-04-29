@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.4.2.3:1", "", "Context diagram: TimeseriesObservation", "EARoot/EA3/EA4/EA2/EA3/EA7379.htm", "175.png", "2129", "0", "", "Logical diagram0","{25E9E452-2D89-4d50-B10B-29A4539D7329}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:2", "", "Observation metadata", "EARoot/EA3/EA4/EA2/EA3/EA7381.htm", "175.png", "2130", "0", "", "Logical diagram0","{534D9603-68AD-437e-908D-312772A51C41}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:3", "", "TimeseriesObservation specialisations", "EARoot/EA3/EA4/EA2/EA3/EA7383.htm", "175.png", "2131", "0", "", "Logical diagram0","{2B169777-831B-4b20-84CF-1B2D8AFE341A}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:4", "", "«Type» ObservationMetadata", "EARoot/EA3/EA4/EA2/EA3/EA7386.htm", "5.png", "E2682", "0", "", "Class0","{0E976AE4-1415-456a-B64C-9C8C41E7F273}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:5", "", "«CodeList» SampledMediumCode", "EARoot/EA3/EA4/EA2/EA3/EA7387.htm", "5.png", "E2683", "0", "", "Class0","{8BACADEA-10E4-49c7-814F-6D89C7B65816}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:6", "", "«CodeList» StatusCode", "EARoot/EA3/EA4/EA2/EA3/EA7388.htm", "5.png", "E2684", "0", "", "Class0","{D2E31E13-FC72-477a-BD45-83451E535F6A}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:7", "", "«FeatureType» TimeseriesDomainRangeObservation", "EARoot/EA3/EA4/EA2/EA3/EA7389.htm", "5.png", "E2685", "0", "", "Class0","{EC655C8F-CD1D-456f-BEAE-DA5445325B2C}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:8", "", "«FeatureType» TimeseriesObservation", "EARoot/EA3/EA4/EA2/EA3/EA7390.htm", "5.png", "E2686", "0", "", "Class0","{E64DDD50-E204-42cc-BBF3-0B900B1E8C04}");
-tocTab[tocTab.length] = new Array("0.3.4.2.3:9", "", "«FeatureType» TimeseriesTVPObservation", "EARoot/EA3/EA4/EA2/EA3/EA7391.htm", "5.png", "E2687", "0", "", "Class0","{DFC7823B-31FE-48ee-B0AD-2DFA056978CA}");

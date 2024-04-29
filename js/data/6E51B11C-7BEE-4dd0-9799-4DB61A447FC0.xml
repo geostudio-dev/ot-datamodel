@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.2.1.7:1", "", "Context diagram: GSML", "EARoot/EA3/EA2/EA1/EA7/EA423.htm", "175.png", "57", "0", "", "Logical diagram0","{DD01365B-6621-4b05-91F9-6DACE5F225E2}");
-tocTab[tocTab.length] = new Array("0.3.2.1.7:2", "", "«FeatureType» GSML", "EARoot/EA3/EA2/EA1/EA7/EA428.htm", "5.png", "E158", "0", "", "Class0","{4CC77F3E-2742-432c-9322-0226BD304446}");
-tocTab[tocTab.length] = new Array("0.3.2.1.7:3", "", "«Union» GSMLitem", "EARoot/EA3/EA2/EA1/EA7/EA429.htm", "5.png", "E159", "0", "", "Class0","{C94B5B02-DCCB-41b0-A827-30046850D633}");

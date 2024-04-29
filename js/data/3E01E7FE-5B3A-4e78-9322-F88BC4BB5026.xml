@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.7.1.3.3:1", "", "Context Diagram: Multiplicity", "EARoot/EA3/EA3/EA7/EA1/EA3/EA3/EA1820.htm", "175.png", "462", "0", "", "Logical diagram0","{861E1654-4577-47a0-92D4-128BF93EEB20}");
-tocTab[tocTab.length] = new Array("0.3.3.7.1.3.3:2", "", "Context Diagram: MultiplicityRange", "EARoot/EA3/EA3/EA7/EA1/EA3/EA3/EA1822.htm", "175.png", "461", "0", "", "Logical diagram0","{E04CE1AB-A45B-4796-859C-2B3FF75E2DC4}");
-tocTab[tocTab.length] = new Array("0.3.3.7.1.3.3:3", "", "Multiplicty", "EARoot/EA3/EA3/EA7/EA1/EA3/EA3/EA1824.htm", "175.png", "463", "0", "", "Logical diagram0","{3D882ABD-D4E9-4244-BB25-344CBE4B348B}");
-tocTab[tocTab.length] = new Array("0.3.3.7.1.3.3:4", "", "«type» Multiplicity", "EARoot/EA3/EA3/EA7/EA1/EA3/EA3/EA1827.htm", "5.png", "E692", "0", "", "Class0","{D270799A-3F45-42e4-9B8A-47C03FB5ABD8}");
-tocTab[tocTab.length] = new Array("0.3.3.7.1.3.3:5", "", "«type» MultiplicityRange", "EARoot/EA3/EA3/EA7/EA1/EA3/EA3/EA1828.htm", "5.png", "E693", "0", "", "Class0","{22323C39-0F37-4358-ABDB-65CF23D6C766}");

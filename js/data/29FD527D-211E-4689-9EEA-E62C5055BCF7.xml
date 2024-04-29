@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.15.3:1", "", "Context Diagram: MI_Georectified", "EARoot/EA3/EA3/EA15/EA3/EA3196.htm", "175.png", "930", "0", "", "Logical diagram0","{B793CAAE-80F4-45ac-B4F8-55FEF13C7B33}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:2", "", "Context Diagram: MI_Georeferencable", "EARoot/EA3/EA3/EA15/EA3/EA3198.htm", "175.png", "929", "0", "", "Logical diagram0","{9CC9A2A9-7DF8-4e62-8329-690E555C7CEF}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:3", "", "Fig A.5 - Spatial representation extensions", "EARoot/EA3/EA3/EA15/EA3/EA3200.htm", "175.png", "928", "0", "", "Logical diagram0","{26B2623F-4B30-4f74-B719-A92082593A8A}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:4", "", "Fig A.6 — Quality of Ground Control Points", "EARoot/EA3/EA3/EA15/EA3/EA3202.htm", "177.png", "931", "0", "", "Object diagram0","{4578D0D6-05E5-44ee-8AC2-6F09F471CDE1}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:5", "", "MI_GCP", "EARoot/EA3/EA3/EA15/EA3/EA3205.htm", "5.png", "E1091", "0", "", "Class0","{44D527C3-2344-449e-84A6-166971DC1DCA}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:6", "", "MI_GCPCollection", "EARoot/EA3/EA3/EA15/EA3/EA3206.htm", "5.png", "E1092", "0", "", "Class0","{AC7E199E-496B-4df5-98C6-16587CE01509}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:7", "", "MI_GeolocationInformation", "EARoot/EA3/EA3/EA15/EA3/EA3207.htm", "5.png", "E1093", "0", "", "Class0","{B1EB7EF6-FA20-4542-B973-05CAD9BD1B04}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:8", "", "MI_Georectified", "EARoot/EA3/EA3/EA15/EA3/EA3208.htm", "5.png", "E1094", "0", "", "Class0","{B5639514-D6BC-49c1-8D15-AD5D01A6BD4C}");
-tocTab[tocTab.length] = new Array("0.3.3.15.3:9", "", "MI_Georeferenceable", "EARoot/EA3/EA3/EA15/EA3/EA3209.htm", "5.png", "E1095", "0", "", "Class0","{FBB2496F-3374-45aa-BEDA-AC41F098411B}");

@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.23.5:1", "", "Context Diagram: DPS_DataCaptureInformation", "EARoot/EA3/EA3/EA23/EA5/EA4111.htm", "175.png", "1240", "0", "", "Logical diagram0","{670D61C6-C3B6-4d6f-8E5E-AA81C5CBCDF2}");
-tocTab[tocTab.length] = new Array("0.3.3.23.5:2", "", "Fig E.5 - Specification Data Capture", "EARoot/EA3/EA3/EA23/EA5/EA4113.htm", "175.png", "1239", "0", "", "Logical diagram0","{279F0F0D-E8C3-4207-88FB-E3D4B7466F35}");
-tocTab[tocTab.length] = new Array("0.3.3.23.5:3", "", "DPS_DataCaptureInformation", "EARoot/EA3/EA3/EA23/EA5/EA4116.htm", "5.png", "E1347", "0", "", "Class0","{6A69F62D-7B56-486b-8196-7CA7198AF9F3}");

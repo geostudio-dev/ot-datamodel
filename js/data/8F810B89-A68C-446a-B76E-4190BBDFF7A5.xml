@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.1.1:1", "", "Package dependencies", "EARoot/EA3/EA1/EA1/EA165.htm", "176.png", "3", "0", "", "Package diagram0","{1CB5A535-CE03-44e8-AB1B-E9E2171667EB}");
-tocTab[tocTab.length] = new Array("0.3.1.1.1", "1", "«Leaf» Mine", "EARoot/EA3/EA1/EA1/EA1/EA172.htm", "4.png", "", "", "{4F0EEF9A-13FD-490d-A4EF-DEE6F779CC64}", "Package");
-tocTab[tocTab.length] = new Array("0.3.1.1.2", "1", "«Leaf» MineralOccurrence", "EARoot/EA3/EA1/EA1/EA2/EA188.htm", "4.png", "", "", "{5C8105B1-F11B-4a56-9752-1972DDEE748B}", "Package");

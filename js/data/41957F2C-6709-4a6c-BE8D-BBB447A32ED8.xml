@@ -1,8 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1:1", "", "carto_base", "EARoot/EA1/EA1.htm", "175.png", "1", "0", "", "Logical diagram0","{948E51BE-4CB6-44e3-8468-5B534055393F}");
-tocTab[tocTab.length] = new Array("0.1.1", "1", "«ApplicationSchema» asentamientos_edificios", "EARoot/EA1/EA1/EA13.htm", "4.png", "", "", "{DA55E8F1-E3EF-47a1-9DDE-641E6C8347E5}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "«ApplicationSchema» cobertura-uso-suelo", "EARoot/EA1/EA2/EA20.htm", "4.png", "", "", "{BF4B6C90-88A1-43f3-A546-D3D8ED8386E7}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3", "1", "«ApplicationSchema» geodesia", "EARoot/EA1/EA3/EA23.htm", "4.png", "", "", "{8D6CD057-E8DE-41c8-A6F6-D6FC0AEFBFB6}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4", "1", "«ApplicationSchema» hidrografia", "EARoot/EA1/EA4/EA27.htm", "4.png", "", "", "{9B21C0B8-4881-4ea4-A993-59CAC47BEB5B}", "Package");
-tocTab[tocTab.length] = new Array("0.1.5", "1", "«ApplicationSchema» limites", "EARoot/EA1/EA5/EA30.htm", "4.png", "", "", "{0E05FDA7-D279-4483-A774-C0FC4F1C745E}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6", "1", "«ApplicationSchema» relieve-suelo", "EARoot/EA1/EA6/EA42.htm", "4.png", "", "", "{7F946591-D160-4caa-A2C0-4B290590AE58}", "Package");
-tocTab[tocTab.length] = new Array("0.1.7", "1", "«ApplicationSchema» transporte", "EARoot/EA1/EA7/EA57.htm", "4.png", "", "", "{AC1CD2EA-48E4-4b4b-BC03-87728D07E411}", "Package");

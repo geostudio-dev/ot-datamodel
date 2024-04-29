@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.28.3:1", "", "Context Diagram: CS_AxisDirection", "EARoot/EA3/EA3/EA28/EA3/EA5482.htm", "175.png", "1719", "0", "", "Logical diagram0","{5FC97086-2FAD-440d-8D7D-9168C98B9EF3}");
-tocTab[tocTab.length] = new Array("0.3.3.28.3:2", "", "Context Diagram: TimeCS", "EARoot/EA3/EA3/EA28/EA3/EA5484.htm", "175.png", "1718", "0", "", "Logical diagram0","{98AFECE1-A3D2-4aa1-AC7E-4724A1854ECF}");
-tocTab[tocTab.length] = new Array("0.3.3.28.3:3", "", "Figure D.51 ? TimeCS", "EARoot/EA3/EA3/EA28/EA3/EA5486.htm", "175.png", "1720", "0", "", "Logical diagram0","{45978653-695C-43d0-B4F2-A4949534A0A5}");
-tocTab[tocTab.length] = new Array("0.3.3.28.3:4", "", "Figure D.52 ? Association between TemporalCRS and TimeCS", "EARoot/EA3/EA3/EA28/EA3/EA5488.htm", "175.png", "1717", "0", "", "Logical diagram0","{6DCD0527-7E23-4f27-940D-8EEFF5BD8119}");
-tocTab[tocTab.length] = new Array("0.3.3.28.3:5", "", "«CodeList» CS_AxisDirection", "EARoot/EA3/EA3/EA28/EA3/EA5491.htm", "5.png", "E1711", "0", "", "Class0","{EF3EAFA6-CB65-4e4c-8D9E-87E0AD334D1F}");
-tocTab[tocTab.length] = new Array("0.3.3.28.3:6", "", "«type» TimeCS", "EARoot/EA3/EA3/EA28/EA3/EA5492.htm", "5.png", "E1712", "0", "", "Class0","{6D584789-C4F5-4b4f-991B-94C2AC921C50}");

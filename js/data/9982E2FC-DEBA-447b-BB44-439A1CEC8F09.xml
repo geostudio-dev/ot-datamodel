@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.12:1", "", "Context Diagram: Package Clients of Gazetteer", "EARoot/EA3/EA3/EA12/EA2450.htm", "175.png", "681", "0", "", "Logical diagram0","{2AC443F4-5C95-4fd6-B5DD-333CB0E58E53}");
-tocTab[tocTab.length] = new Array("0.3.3.12:2", "", "Context Diagram: Package Clients of ReferenceSystem by Identifier", "EARoot/EA3/EA3/EA12/EA2452.htm", "175.png", "683", "0", "", "Logical diagram0","{09862386-BFB5-4037-8CDA-5E9639819885}");
-tocTab[tocTab.length] = new Array("0.3.3.12:3", "", "Context Diagram: Package Suppliers of Gazetteer", "EARoot/EA3/EA3/EA12/EA2454.htm", "175.png", "680", "0", "", "Logical diagram0","{EFD0DC0A-58AE-477c-86CF-33C89D99D098}");
-tocTab[tocTab.length] = new Array("0.3.3.12:4", "", "Context Diagram: Package Suppliers of ReferenceSystem by Identifier", "EARoot/EA3/EA3/EA12/EA2456.htm", "175.png", "682", "0", "", "Logical diagram0","{051FBCC0-A941-4b70-8B47-BFA6255C92B0}");
-tocTab[tocTab.length] = new Array("0.3.3.12:5", "", "Extents", "EARoot/EA3/EA3/EA12/EA2458.htm", "175.png", "679", "0", "", "Logical diagram0","{42AE5C45-7F95-4e44-A4AA-7EA22D211AAF}");
-tocTab[tocTab.length] = new Array("0.3.3.12:6", "", "Gazeteer", "EARoot/EA3/EA3/EA12/EA2460.htm", "175.png", "678", "0", "", "Logical diagram0","{D3FBD6B5-6535-4103-B1CE-68FB02A87994}");
-tocTab[tocTab.length] = new Array("0.3.3.12:7", "", "Main", "EARoot/EA3/EA3/EA12/EA2462.htm", "175.png", "677", "0", "", "Logical diagram0","{F5A939AA-CE1B-4335-835D-4C7C4325B5A6}");
-tocTab[tocTab.length] = new Array("0.3.3.12.1", "1", "«Leaf» Gazetteer", "EARoot/EA3/EA3/EA12/EA1/EA2474.htm", "4.png", "", "", "{C5214D10-B1B5-4963-9751-490B478A0FF3}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3.12.2", "1", "«Leaf» ReferenceSystem by Identifier", "EARoot/EA3/EA3/EA12/EA2/EA2483.htm", "4.png", "", "", "{DBD75A58-40C1-46d4-BE9C-B1912EC0B203}", "Package");

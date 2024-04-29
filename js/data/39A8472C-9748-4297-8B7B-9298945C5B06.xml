@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.14:1", "", "Context Diagram: Package Clients of Positioning Service Model", "EARoot/EA3/EA3/EA14/EA3037.htm", "175.png", "882", "0", "", "Logical diagram0","{6FD4BDD1-702E-406e-AE0A-8E39C0309DB9}");
-tocTab[tocTab.length] = new Array("0.3.3.14:2", "", "Context Diagram: Package Suppliers of Positioning Service Model", "EARoot/EA3/EA3/EA14/EA3039.htm", "175.png", "881", "0", "", "Logical diagram0","{493CF21E-573D-481f-A0F3-98F39E4BCFB2}");
-tocTab[tocTab.length] = new Array("0.3.3.14:3", "", "Fig 4: Package diagram", "EARoot/EA3/EA3/EA14/EA3041.htm", "175.png", "880", "0", "", "Logical diagram0","{6CA3AB4B-8397-4b92-9CF3-CD90AAEC59CC}");
-tocTab[tocTab.length] = new Array("0.3.3.14:4", "", "Main", "EARoot/EA3/EA3/EA14/EA3043.htm", "175.png", "879", "0", "", "Logical diagram0","{DD6DD4E2-14C5-4cd3-B06D-9A4D6CE9E356}");
-tocTab[tocTab.length] = new Array("0.3.3.14.1", "1", "«Leaf» Positioning Service Model", "EARoot/EA3/EA3/EA14/EA1/EA3079.htm", "4.png", "", "", "{0094607A-9561-4254-96EF-4E4E9822A1DE}", "Package");

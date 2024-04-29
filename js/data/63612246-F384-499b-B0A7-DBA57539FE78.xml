@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.3.13.2:1", "", "CD", "EARoot/EA3/EA3/EA13/EA2/EA2606.htm", "175.png", "738", "0", "", "Logical diagram0","{4228BE13-395A-42bc-8139-D166847A1CDE}");
-tocTab[tocTab.length] = new Array("0.3.3.13.2:2", "", "Context Diagram: MD_Metadata", "EARoot/EA3/EA3/EA13/EA2/EA2608.htm", "175.png", "739", "0", "", "Logical diagram0","{DD7364B7-7678-4138-B868-E2F5D9D781DB}");
-tocTab[tocTab.length] = new Array("0.3.3.13.2:3", "", "Fig A.1 : Metadata entity set information", "EARoot/EA3/EA3/EA13/EA2/EA2610.htm", "175.png", "737", "0", "", "Logical diagram0","{FAA666E1-136C-4898-B486-47CC8E04C680}");
-tocTab[tocTab.length] = new Array("0.3.3.13.2:4", "", "MD_Metadata", "EARoot/EA3/EA3/EA13/EA2/EA2614.htm", "5.png", "E903", "0", "", "Class0","{F76B45F4-3A20-4eb6-AF03-76AC1B7C1B85}");

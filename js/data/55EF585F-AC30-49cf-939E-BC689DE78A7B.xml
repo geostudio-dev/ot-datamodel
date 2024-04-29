@@ -1,2 +1,0 @@
-tocTab[tocTab.length] = new Array("0.3.4.2.6:1", "", "Measurement Timeseries Observation - Domain Range", "EARoot/EA3/EA4/EA2/EA6/EA7399.htm", "175.png", "2134", "0", "", "Logical diagram0","{E15893AA-39EA-42e4-A634-BC068F43C0FB}");
-tocTab[tocTab.length] = new Array("0.3.4.2.6:2", "", "«FeatureType» MeasurementTimeseriesDomainRangeObservation", "EARoot/EA3/EA4/EA2/EA6/EA7402.htm", "5.png", "E2689", "0", "", "Class0","{F73ED399-2332-4211-8A8D-FA6D5A2EBC14}");
