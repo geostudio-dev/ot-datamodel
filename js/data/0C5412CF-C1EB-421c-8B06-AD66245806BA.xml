@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0:1", "", "ordenamiento", "EARoot/EA1.htm", "175.png", "2167", "0", "", "Logical diagram0","{721C2F51-BD2E-4969-9A17-5E128410A155}");
+tocTab[tocTab.length] = new Array("0.1", "1", "«ApplicationSchema» calificacion_suelo", "EARoot/EA1/EA12.htm", "4.png", "", "", "{6419284C-EC22-4e9f-8571-E6305D13E72D}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "«ApplicationSchema» clasificacion_suelo", "EARoot/EA2/EA23.htm", "4.png", "", "", "{C994FE68-EA07-497b-9BC5-74EF14000661}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "«ApplicationSchema» limites", "EARoot/EA3/EA30.htm", "4.png", "", "", "{0E05FDA7-D279-4483-A774-C0FC4F1C745E}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "«ApplicationSchema» pautas_urbanisticas", "EARoot/EA4/EA42.htm", "4.png", "", "", "{3FC66690-DD79-4e42-A2B1-3065CA331B3D}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "«ApplicationSchema» vision_territorial", "EARoot/EA5/EA48.htm", "4.png", "", "", "{02C1468C-EB50-4c9b-83B2-8C24D79D4D76}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "«ApplicationSchema» norma_urbana", "EARoot/EA6/EA66.htm", "4.png", "", "", "{730726EE-EE53-42ee-A908-CA94400AC6F8}", "Package");

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.5.2:1", "", "sistema_ambiental", "EARoot/EA5/EA2/EA57.htm", "175.png", "2201", "0", "", "Logical diagram0","{6ED1EB1A-0F7E-4dd1-AFE5-01B0BA29CEF9}");
+tocTab[tocTab.length] = new Array("0.5.2:2", "", "«FeatureType» areas_protegidas", "EARoot/EA5/EA2/EA60.htm", "5.png", "E2918", "0", "", "Class0","{FE8A9F0E-0969-4886-9ED5-BC3E98663DB0}");
+tocTab[tocTab.length] = new Array("0.5.2:3", "", "«FeatureType» sinap", "EARoot/EA5/EA2/EA61.htm", "5.png", "E2917", "0", "", "Class0","{9B7AE0DE-DE34-457c-A1DB-6EE51CD1F1B7}");
+tocTab[tocTab.length] = new Array("0.5.2:4", "", "«Enumeration» tipo_aproteg", "EARoot/EA5/EA2/EA62.htm", "247.png", "E2920", "0", "", "Enumeration0","{B6B89AA7-6A3F-4cb5-962B-35C8AD603C20}");
+tocTab[tocTab.length] = new Array("0.5.2:5", "", "«Enumeration» tipo_sinap", "EARoot/EA5/EA2/EA63.htm", "247.png", "E2919", "0", "", "Enumeration0","{6F14CFBD-91A0-4061-A52B-D895C2C969D4}");

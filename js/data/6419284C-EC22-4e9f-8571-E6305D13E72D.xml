@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.1:1", "", "calificacion_suelo", "EARoot/EA1/EA10.htm", "175.png", "2203", "0", "", "Logical diagram0","{94B90307-FB81-40a3-BF29-F0CC7244E8F9}");
+tocTab[tocTab.length] = new Array("0.1:2", "", "«FeatureType» calificacion_suelo", "EARoot/EA1/EA13.htm", "5.png", "E2927", "0", "", "Class0","{6E195CEC-713B-45be-BFE3-B09F3AF99913}");
+tocTab[tocTab.length] = new Array("0.1:3", "", "«Enumeration» clase_califica", "EARoot/EA1/EA14.htm", "247.png", "E2928", "0", "", "Enumeration0","{BAD9AEA9-9A8A-4f68-A792-2E89B756F91C}");
+tocTab[tocTab.length] = new Array("0.1:4", "", "«FeatureType» regimen_uso_principal", "EARoot/EA1/EA15.htm", "5.png", "E2931", "0", "", "Class0","{13444B48-B78A-4871-A518-7BD8F1FF7F14}");
+tocTab[tocTab.length] = new Array("0.1:5", "", "«FeatureType» regimen_uso_secundario", "EARoot/EA1/EA16.htm", "5.png", "E2932", "0", "", "Class0","{678A0B98-4662-44b9-B1C7-650177A12E70}");
+tocTab[tocTab.length] = new Array("0.1:6", "", "«FeatureType» tipo_uso", "EARoot/EA1/EA17.htm", "5.png", "E2929", "0", "", "Class0","{E65AA656-9A90-4dc7-BB71-32DB8D1646C9}");
+tocTab[tocTab.length] = new Array("0.1:7", "", "«Enumeration» tipo_uso", "EARoot/EA1/EA18.htm", "247.png", "E2930", "0", "", "Enumeration0","{97D86CFC-8E86-4dc6-A157-C28D497DF4BC}");
+tocTab[tocTab.length] = new Array("0.1:8", "", "«Enumeration» uso_complementario", "EARoot/EA1/EA19.htm", "247.png", "E2935", "0", "", "Enumeration0","{D51BE24D-49AE-442e-9F4C-25A960DD5B45}");
+tocTab[tocTab.length] = new Array("0.1:9", "", "«Enumeration» uso_principal", "EARoot/EA1/EA20.htm", "247.png", "E2934", "0", "", "Enumeration0","{D54662A0-A95E-41f5-9A3B-62968F1F6971}");

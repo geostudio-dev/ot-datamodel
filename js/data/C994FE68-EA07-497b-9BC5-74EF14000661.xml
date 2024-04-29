@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "clasificacion_suelo", "EARoot/EA2/EA21.htm", "175.png", "2202", "0", "", "Logical diagram0","{22052429-1B19-47e5-8B4E-65E670F5F9C2}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "«Enumeration» clase_suelo", "EARoot/EA2/EA24.htm", "247.png", "E2923", "0", "", "Enumeration0","{CAE14BDC-05D1-4575-9A32-0D7A7C939FE0}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "«Enumeration» clase_zfo", "EARoot/EA2/EA25.htm", "247.png", "E2925", "0", "", "Enumeration0","{913893F8-1784-4aac-9AC5-CF0B7CF2814B}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "«FeatureType» clasificacion_suelo", "EARoot/EA2/EA26.htm", "5.png", "E2922", "0", "", "Class0","{6753BC4F-A16D-42db-B949-2869C75B3738}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "«FeatureType» zonas_fuera_ord", "EARoot/EA2/EA27.htm", "5.png", "E2924", "0", "", "Class0","{A140FDF0-F50A-46c9-A9AC-24AD6BD9E3E2}");

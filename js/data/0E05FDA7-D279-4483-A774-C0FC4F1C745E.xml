@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "limites", "EARoot/EA3/EA28.htm", "175.png", "2", "0", "", "Logical diagram0","{2E41D7B3-FF75-4204-B1CC-7A180110AA82}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "«FeatureType» barrios_parajes", "EARoot/EA3/EA31.htm", "5.png", "E2757", "0", "", "Class0","{86A9B906-FA2C-42ca-8627-EA43622E77D8}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "«FeatureType» cabecera_municipal", "EARoot/EA3/EA32.htm", "5.png", "E2843", "0", "", "Class0","{BBB2DEDA-229A-419b-92E5-297907F20E34}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "«FeatureType» distrito_municipal", "EARoot/EA3/EA33.htm", "5.png", "E2842", "0", "", "Class0","{A3505F70-AEB7-424e-BB75-9D9870166E1B}");
+tocTab[tocTab.length] = new Array("0.3:5", "", "«FeatureType» distritos", "EARoot/EA3/EA34.htm", "5.png", "E9", "0", "", "Class0","{936C33A8-1ADB-4a3c-8700-ECC81694C15A}");
+tocTab[tocTab.length] = new Array("0.3:6", "", "«FeatureType» municipios", "EARoot/EA3/EA35.htm", "5.png", "E8", "0", "", "Class0","{CE9DE58B-1675-494b-A713-9021ACE6820C}");
+tocTab[tocTab.length] = new Array("0.3:7", "", "«FeatureType» parajes", "EARoot/EA3/EA36.htm", "5.png", "E2844", "0", "", "Class0","{61D6EE1F-0A9F-4c02-9F71-098A85C09664}");
+tocTab[tocTab.length] = new Array("0.3:8", "", "«FeatureType» provincias", "EARoot/EA3/EA37.htm", "5.png", "E7", "0", "", "Class0","{1717D33D-98D8-4dab-BADA-41661BE24999}");
+tocTab[tocTab.length] = new Array("0.3:9", "", "«FeatureType» regiones", "EARoot/EA3/EA38.htm", "5.png", "E3", "0", "", "Class0","{6F6D1752-F019-4fcb-8225-5018129FBD9C}");
+tocTab[tocTab.length] = new Array("0.3:10", "", "«FeatureType» secciones", "EARoot/EA3/EA39.htm", "5.png", "E2756", "0", "", "Class0","{83E30841-9050-4d5e-B438-7C970310B507}");

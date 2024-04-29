@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4:1", "", "pautas_urbanisticas", "EARoot/EA4/EA40.htm", "175.png", "2204", "0", "", "Logical diagram0","{F6BC8218-FADA-44af-A875-1D614345B60E}");
+tocTab[tocTab.length] = new Array("0.4:2", "", "«Enumeration» clase_sector", "EARoot/EA4/EA43.htm", "247.png", "E2937", "0", "", "Enumeration0","{51F65354-9B8F-476a-AECE-C72E36851094}");
+tocTab[tocTab.length] = new Array("0.4:3", "", "«FeatureType» pautas_edificatorias", "EARoot/EA4/EA44.htm", "5.png", "E2938", "0", "", "Class0","{09774B31-BDFF-4eff-94EA-B80753CAAAF4}");
+tocTab[tocTab.length] = new Array("0.4:4", "", "«FeatureType» sectores_urbanisticos", "EARoot/EA4/EA45.htm", "5.png", "E2936", "0", "", "Class0","{8A1F6365-77D2-4093-AAEF-9D5DDFD5479F}");
